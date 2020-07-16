@@ -1,30 +1,33 @@
 # Linux Club 2020
-This has to be a repo for the club for the 2020-2021 year.
-All plans, useful links and presentations have to be here.
+UCU Linux club 20/21 repo with the schedule, useful links and presentations.
 
-I\`ll try to make a plan for half of a year. It is for 12 weeks. Not a lot, but let it be.
-## Club presentation and pre-requirenments.
-presentation link: (LINK HERE)
+I\`ll try to make a schedule for the first semester (12 weeks). Not a lot, but let it be.
+
+## Club presentation and pre-requirements.
+Presentation link: (LINK HERE)
 
 ### Pre-requirements:
 #### Very important:
 - Personal laptop.
 - ArchLinux (LINK HERE) on your PC (not VM) or other Arch-based systems (Can be Manjaro (LINK HERE)), but NOT Debian- or Fedora-based systems.
-- Basic knowledge of English language (the course is for UCU so it is not a problem, I hope).
-- Desire to learn something new and useful, that will help in all life.
+- Basic knowledge of English language (the course is for UCU students so it is not going to be a problem, I hope).
+- Desire to learn something new and useful, that will assist you throughout your career.
 - GitHub account (LINK HERE).
-- During online part: web cams on.
+- Web cams on during online presentations.
+
 #### Can be useful:
-- Watch the film Revolution OS (LINK HERE)
-- Reading about Linux distro in general.
+
+- Watching the Revolution OS movie (LINK HERE)
+- Reading about Linux distros in general.
+
 ## Week 1
-### Intro to Open-source applications, to Git, different distros explanations.
+### Intro to Open-source applications, to Git, different distros descriptions.
 
 ## Week 2
-### Intro to terminal, prompt, Bash/Zsh & Oh-My-Zsh, first 4 lessons about it.
+### Intro to the terminal, prompt, Bash/Zsh & Oh-My-Zsh, first 4 lessons about them.
 
 ## Week 3
-### Continuing Bash/Zsh with while loops, conditions, useful commands and more about Git.
+### Continuing with Bash/Zsh:  while loops, conditions, useful commands and more on Git.
 
 ## Week 4
 ### NeoVim & Tmux & Ranger.
@@ -33,10 +36,10 @@ presentation link: (LINK HERE)
 ### Learning about filesystems and Linux base directories. What is /, /bin /etc /root etc. What are mountpoint and permissions.
 
 ## Week 6
-### Learning about tables, mbr vs gpt, grub, EFI/UEFI, what is what and how to deal with that.
+### Learning about tables, mbr vs gpt, grub, EFI/UEFI, what is what and how to work with them.
 
 ## Week 7
-### Systemd. How to use systemctl, rfkill, what is options in the kernel.
+### Systemd. How to use systemctl, rfkill, what options are in the kernel.
 
 ## Week 8
 ### X.org, Gnome, Wayland, i3, KDE, XFCE, MATE etc.
