@@ -20,11 +20,9 @@ Also, needed to add this to the end of `pacman.conf` file
 ```
 sudo nvim /etc/pacman.conf
 ```
-***
-[archlinuxfr]
-SigServer = Never
-Server = http://repo.archlinux.fr/$arch
-***
+**[archlinuxfr] </br>
+SigServer = Never </br>
+Server = http://repo.archlinux.fr/$arch </br>**
 
 #### For extended Shell
 - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
