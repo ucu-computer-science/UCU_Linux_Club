@@ -1,5 +1,4 @@
 # Useful resources
----
 
 ## [GitHub](https://github.com/)
 Yes, let\`s start from the site, where this course is located, so what is that? Git is an open-source version control system that was started by Linus Torvalds — the same person who created Linux. But Git is a command-line tool and the most popular centre around which all things involving Git revolve is the hub — GitHub.com — where developers store their projects and network with like-minded people.
