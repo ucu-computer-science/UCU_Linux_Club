@@ -15,3 +15,12 @@ It is (maybe) the most popular forum where you also can find a lot of helpful st
 ## [Harbr](https://habr.com/ru/)
 Interesting site with a lot of programming world news on Russian.
 
+## [Vimgenius](http://vimgenius.com/)
+The course that I passed to learn the Vim.
+
+# Unverified
+#### [Linuxjorney](https://linuxjourney.com/)
+I don\`t know, if it is good or bad resource, but it looks good for the very start.
+
+#### [Linux-training](http://linux-training.be/funhtml/)
+It looks not so beautiful, without JS, but it have to be more useful.

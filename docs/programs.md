@@ -53,7 +53,7 @@ Server = http://repo.archlinux.fr/$arch
 
 #### Changing directory
 - cd (present on every linux/unix machine)
-- [z](https://github.com/rupa/z)
+- [z](https://github.com/agkozak/zsh-z)
 
 #### System monitoring
 - top (by default)
