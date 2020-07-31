@@ -32,7 +32,7 @@ Presentation link: (LINK HERE)
 ### Continuing with Bash/Zsh:  while loops, conditions, useful commands and more on Git.
 
 ## Week 4
-### NeoVim & Tmux & Ranger.
+### NeoVim & Tmux & Package managers.
 
 ## Week 5
 ### Learning about filesystems and Linux base directories. What is /, /bin /etc /root etc. What are mount point and permissions.
