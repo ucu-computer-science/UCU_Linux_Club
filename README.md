@@ -1,7 +1,7 @@
 # Linux Club 2020
 UCU Linux club 20/21 repo with the schedule, useful links and presentations.
 
-I\`ll try to make a schedule for the first semester (12 weeks). Not a lot, but let it be. It has to be like a full course.
+I\`ll try to make a schedule for the first semester (12 weeks, not a lot).  This is going to be like a full course.
 
 ### First presentation.
 Presentation link: (LINK HERE)
@@ -11,13 +11,13 @@ Presentation link: (LINK HERE)
 - Personal laptop.
 - [ArchLinux](https://www.archlinux.org/) on your PC (not VM) or other Arch-based systems (Can be [Manjaro](https://manjaro.org/downloads/official/gnome/), but NOT Debian- or Fedora-based systems. The manual for Arch Linux installation is [here](LINK HERE)
 - Basic knowledge of English language (the course is for UCU students so it is not going to be a problem, I hope).
-- Desire to learn something new and useful, that will assist you throughout your career.
-- [GitHub account](https://github.com/).
-- Webcams on during online presentations.
+- Desire to learn something new and useful that will assist you throughout your career.
+- [GitHub account](https://github.com/) - we are going to be using Github Classroom as well.
+- **Webcams on** during online presentations.
 
 #### Can be useful before the course:
 
-- Watching the Revolution OS movie either in [original](https://www.youtube.com/watch?v=4vW62KqKJ5A) (what is better) or in [Russian](https://www.youtube.com/watch?v=n1F_MfLRlX0)
+- Watching the Revolution OS movie: [original version](https://www.youtube.com/watch?v=4vW62KqKJ5A) (which is better) or in [Russian](https://www.youtube.com/watch?v=n1F_MfLRlX0)
 - Reading about Linux distros in general.
 
 # Short schedule (DRAFT)
@@ -67,11 +67,22 @@ Presentation link: (LINK HERE)
 - Fork this repo (INSTRUCTION HERE)
 - Make branch (INSTRACTION HERE)
 - Complete tasks in the corresponding folder.
-- To submit tasks, make a pull request and add one of the mentors as a reviewer (INSTRUCTION HERE)
+
+Each task is going to be completed in Github Classroom, with the link provided in the schedule above. First login requires you to:
+	* To login using your Github account 
+	![](images/classroom1.png)
+	
+	* Set your nickname 
+	(it's better to choose something meaningful for us to distinguish you easier) 
+	![](images/classroom2.png)
+
+And for each task you are going to have to create a repository, 
+complete it (the task described in the README.md and comments) and pass the tests. 
+![](images/classroom3.png)
 
 # Repo structure:
 
-- img - just folder for all images.
+- images - just folder for all images.
 - weeks - here will be tasks and materials to the corresponding weeks.
 - additional - folder with additional tasks and their descriptions. 
 - docs - here you can find a lot of necessary docs or links to interesting articles, resources.
@@ -79,5 +90,6 @@ Presentation link: (LINK HERE)
 # Usage for mentors
 - Fork the repo.
 - Add/fix/delete something.
-- Make a pr.
-Alternatively, you can ask me to make you as a contributor. But then I also recommend to make your branch and do pr\`s as well.
+- Make a PR.
+
+Alternatively, you can ask me to make you as a contributor. But then I also recommend to make your branch and do PR\`s as well.
