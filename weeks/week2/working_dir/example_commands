@@ -1,0 +1,33 @@
+echo $SHELL
+
+pwd
+
+whoami
+
+cd 
+
+cd ~/
+
+cd ./
+
+cd ../
+ 
+cd /home/myralllka/Downloads
+
+cd /
+
+ls 
+
+ls ../
+
+ls ../../
+
+ls /
+
+ls -l
+
+ls -a
+
+ls -la
+
+

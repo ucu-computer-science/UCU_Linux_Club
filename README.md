@@ -21,10 +21,14 @@ Presentation link: (LINK HERE)
 - Reading about Linux distros in general.
 
 # Short schedule (DRAFT)
+## Week 0
+### Club presentation for 1-st grade students. 
+### Presentation [here](https://docs.google.com/presentation/d/1EbZjD7uIL3l39Jzz0QT-iJm46EA35rHrbKP2FhfYaxk/edit?usp=sharing) (only available for `ucu.edu.ua` accounts)
+
 
 ## Week 1
 ### Intro to Open-source applications, to Git, different distros descriptions.
-### Presentation [here]() (only available for `ucu.edu.ua` accounts)
+### Presentation [here](https://docs.google.com/presentation/d/1Nkb3wOmKYSy03kwFEmKTIlg73rc286YW5q-caod5j5k/edit?usp=sharing) (only available for `ucu.edu.ua` accounts)
 
 ## Week 2
 ### Intro to the terminal, prompt, Bash/Zsh & Oh-My-Zsh, first 4 lessons about them.
