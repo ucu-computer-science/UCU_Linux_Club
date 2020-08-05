@@ -24,27 +24,35 @@ Presentation link: (LINK HERE)
 
 ## Week 1
 ### Intro to Open-source applications, to Git, different distros descriptions.
+### Presentation [here]() (only available for `ucu.edu.ua` accounts)
 
 ## Week 2
 ### Intro to the terminal, prompt, Bash/Zsh & Oh-My-Zsh, first 4 lessons about them.
+### Presentation [here](https://docs.google.com/presentation/d/1FFq8y8JiED1F6LDFileied_j3WszPPxdANb-rxlKa8w/edit?usp=sharing) (only available for `ucu.edu.ua` accounts)
 
 ## Week 3
 ### Continuing with Bash/Zsh:  while loops, conditions, useful commands and more on Git.
+### Presentation [here]() (only available for `ucu.edu.ua` accounts)
 
 ## Week 4
 ### NeoVim & Tmux & Package managers.
+### Presentation [here]() (only available for `ucu.edu.ua` accounts)
 
 ## Week 5
 ### Learning about filesystems and Linux base directories. What is /, /bin /etc /root etc. What are mount point and permissions.
 
+### Presentation [here]() (only available for `ucu.edu.ua` accounts)
 ## Week 6
 ### Learning about tables, mbr vs gpt, grub, EFI/UEFI, what is what and how to work with them.
+### Presentation [here]() (only available for `ucu.edu.ua` accounts)
 
 ## Week 7
 ### Systemd. How to use systemctl, rfkill, what options are in the kernel.
+### Presentation [here]() (only available for `ucu.edu.ua` accounts)
 
 ## Week 8
 ### X.org, Gnome, Wayland, **i3**, KDE, XFCE, MATE etc.
+### Presentation [here]() (only available for `ucu.edu.ua` accounts)
 
 ##### Arch Linux installation required here.
 
