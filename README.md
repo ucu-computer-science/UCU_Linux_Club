@@ -27,15 +27,15 @@ Presentation link: (LINK HERE)
 
 
 ## Week 1
-### Intro to Open-source applications, to Git, different distros descriptions.
+### Intro to Open-source applications, different distros descriptions.
 ### Presentation [here](https://docs.google.com/presentation/d/1Nkb3wOmKYSy03kwFEmKTIlg73rc286YW5q-caod5j5k/edit?usp=sharing) (only available for `ucu.edu.ua` accounts)
 
 ## Week 2
-### Intro to the terminal, prompt, Bash/Zsh & Oh-My-Zsh, first 4 lessons about them.
+### Intro to the terminal, prompt, Bash/Zsh & Oh-My-Zsh
 ### Presentation [here](https://docs.google.com/presentation/d/1FFq8y8JiED1F6LDFileied_j3WszPPxdANb-rxlKa8w/edit?usp=sharing) (only available for `ucu.edu.ua` accounts)
 
 ## Week 3
-### Continuing with Bash/Zsh:  while loops, conditions, useful commands and more on Git.
+### Git & Github.
 ### Presentation [here]() (only available for `ucu.edu.ua` accounts)
 
 ## Week 4
