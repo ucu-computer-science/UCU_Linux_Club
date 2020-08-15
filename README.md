@@ -36,7 +36,7 @@ Presentation link: (LINK HERE)
 
 ## Week 3
 ### Git & Github.
-### Presentation [here]() (only available for `ucu.edu.ua` accounts)
+### Presentation [here](https://docs.google.com/presentation/d/1yj23xudPqUavx9zbKJduQhicnYMuJiY3ge0oDYqkhvY/edit?usp=sharing) (only available for `ucu.edu.ua` accounts)
 
 ## Week 4
 ### NeoVim & Tmux & Package managers.
