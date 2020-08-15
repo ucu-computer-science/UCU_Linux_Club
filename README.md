@@ -39,7 +39,7 @@ Presentation link: (LINK HERE)
 ### Presentation [here](https://docs.google.com/presentation/d/1yj23xudPqUavx9zbKJduQhicnYMuJiY3ge0oDYqkhvY/edit?usp=sharing) (only available for `ucu.edu.ua` accounts)
 
 ## Week 4
-### NeoVim & Tmux & Package managers.
+### Vim, Package managers +  Terminal Multiplexer.
 ### Presentation [here]() (only available for `ucu.edu.ua` accounts)
 
 ## Week 5
