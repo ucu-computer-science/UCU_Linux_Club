@@ -16,7 +16,7 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 ```
-Also, needed to add this to the end of `pacman.conf` file
+Also, you need to add this to the end of `pacman.conf` file
 ```
 sudo nvim /etc/pacman.conf
 ```
@@ -24,22 +24,22 @@ sudo nvim /etc/pacman.conf
 SigServer = Never </br>
 Server = http://repo.archlinux.fr/$arch </br>**
 
-#### For extended Shell
+#### For zsh
 - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 
 #### Terminal multiplexor
-- screen (old)
-- [tmux](https://github.com/tmux/tmux/wiki) (new)
+- [tmux](https://github.com/tmux/tmux/wiki)
 
 #### Text editor
-- [neovim](https://neovim.io/) (new)
 - vi (present on every linux/unix based machine)
+- [neovim](https://neovim.io/) (new)
 - nano
 - [micro](https://micro-editor.github.io/)
 
 #### File manager
 - [ranger](https://github.com/ranger/ranger)
 - [mc](https://midnight-commander.org/)
+- [nnn](https://github.com/jarun/nnn)
 
 #### Browser
 - [w3m](http://w3m.sourceforge.net/)
@@ -47,6 +47,7 @@ Server = http://repo.archlinux.fr/$arch </br>**
 #### File listers
 - ls (present on every linux/unix machine)
 - [k](https://github.com/supercrabtree/k)
+- [exa](https://github.com/ogham/exa)
 - colorls (in yay - ruby-colorls)
 
 #### Changing directory
@@ -57,13 +58,15 @@ Server = http://repo.archlinux.fr/$arch </br>**
 - top (by default)
 - [gotop](https://github.com/cjbassi/gotop) (my favorite)
 - [gtop](https://github.com/aksakalli/gtop)
+- [bashtop](https://github.com/aristocratos/bpytop)
 - htop
 
 #### Image viewer
 - [tiv](https://github.com/stefanhaustein/TerminalImageViewer)
 
 #### Python interpreter
-Basic Python interpreter, called CPython (python3 in the terminal), is good enough, but it is not very fast and has no features
+Basic Python interpreter, called CPython (`python3` in the terminal), 
+is good enough, but it is not very fast and does not have a lot of features
 - IPython - have a beautiful interface with autocomplete
 - PyPy - very fast interpreter (about 20-30 times faster)
 
