@@ -1,8 +1,8 @@
 # Linux Club 2020
 UCU Linux club 20/21 repo with the schedule, useful links and presentations.
 
-### First presentation.
-Presentation link: (LINK HERE)
+### First presentation
+### [![](images/week0.png)](https://docs.google.com/presentation/d/1EbZjD7uIL3l39Jzz0QT-iJm46EA35rHrbKP2FhfYaxk/edit?usp=sharing)
 
 ### Pre-requirements:
 #### Very important:
@@ -23,23 +23,22 @@ The manual for Arch Linux installation can be found [THERE IS NO LINK](LINK HERE
 # Short schedule
 **Presentations are only available for `ucu.edu.ua` accounts**
 ## Week 0
-### [![](images/week0.png)](https://docs.google.com/presentation/d/1EbZjD7uIL3l39Jzz0QT-iJm46EA35rHrbKP2FhfYaxk/edit?usp=sharing)
-
+[![](images/week0.png)](https://docs.google.com/presentation/d/1EbZjD7uIL3l39Jzz0QT-iJm46EA35rHrbKP2FhfYaxk/edit?usp=sharing)
 
 ## Week 1
-### [![](images/week1.png)](https://docs.google.com/presentation/d/1Nkb3wOmKYSy03kwFEmKTIlg73rc286YW5q-caod5j5k/edit?usp=sharing)
+[![](images/week1.png)](https://docs.google.com/presentation/d/1Nkb3wOmKYSy03kwFEmKTIlg73rc286YW5q-caod5j5k/edit?usp=sharing)
 
 ## Week 2
-### [![](images/week2.png)](https://docs.google.com/presentation/d/1FFq8y8JiED1F6LDFileied_j3WszPPxdANb-rxlKa8w/edit?usp=sharing)
+[![](images/week2.png)](https://docs.google.com/presentation/d/1FFq8y8JiED1F6LDFileied_j3WszPPxdANb-rxlKa8w/edit?usp=sharing)
 
 ## Week 3
-### [![](images/week3.png)](https://docs.google.com/presentation/d/1yj23xudPqUavx9zbKJduQhicnYMuJiY3ge0oDYqkhvY/edit?usp=sharing)
+[![](images/week3.png)](https://docs.google.com/presentation/d/1yj23xudPqUavx9zbKJduQhicnYMuJiY3ge0oDYqkhvY/edit?usp=sharing)
 
 ## Week 4
-### [![](images/week4.png)]()
+[![](images/week4.png)]()
 
 ## Week 5
-### [![](images/week5.png)](https://docs.google.com/presentation/d/15qRp3w_Nbrq8cfmLrsA_NDBAr9qB3ixAQuPp5Ghfyzg/edit?usp=sharing)
+[![](images/week5.png)](https://docs.google.com/presentation/d/e/2PACX-1vTmkpOZMXZ5LhFshN5sTL15caN5JTDKdf2g7xMSfKtFoGc5sqOjhukygI6xi4whgRrPPbAucvT_VQIv/pub?start=false&loop=false&delayms=3000)
 
 ## Week 6
 ### Learning about tables, mbr vs gpt, grub, EFI/UEFI, what is what and how to work with them.
