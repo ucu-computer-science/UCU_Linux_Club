@@ -1,6 +1,22 @@
 ## Links
 #### Arch Linux installation
-Arch Linux itself is not very simple for beginners, but amazing if you want to know the system better. So I propose you few links where you can read about the Arch Linux installation. The main parts are distro installation and graphics. So the best manual is [on Arch Wiki](https://wiki.archlinux.org/index.php/installation_guide). But a lot of you maybe want to have few distros. Then you can use [this](https://sollus-soft.blogspot.com/2017/01/arch-linux-windows-10-uefi-systemd-boot.html?m=1) manual. Also, if you want simpler man, than on the Arch wiki, you can take [this one](https://sollus-soft.blogspot.com/2017/01/arch-linux-64-uefi-systemd-boot-grub.html?m=1). And the instruction about graphic drivers installation can be found [here](https://ziggi.org/ustanovka-i-nastroyka-arch-linux-xfce-chast-1/). But you don\`t need XFCE, instead you need [GNOME](https://wiki.archlinux.org/index.php/GNOME).
+Arch Linux itself is not very simple for beginners, but amazing 
+if you want to know the system better. Here are a few links where
+you can read more about Arch Linux installation.
+
+The most difficult stuff for the beginner is Arch installation and graphics. 
+The best manual for that is located 
+[on Arch Wiki](https://wiki.archlinux.org/index.php/installation_guide). 
+
+If you want to have several operating systems running alongside each other, you can look at
+[this manual](https://sollus-soft.blogspot.com/2017/01/arch-linux-windows-10-uefi-systemd-boot.html)
+
+Also, if you want a slightly simpler manual than the Arch wiki one, you can read 
+[this one](https://sollus-soft.blogspot.com/2017/01/arch-linux-64-uefi-systemd-boot-grub.html). 
+
+And the instruction about graphic drivers installation can be found 
+[here](https://ziggi.org/ustanovka-i-nastroyka-arch-linux-xfce-chast-1/).
+But you don\`t need XFCE, instead you need [GNOME](https://wiki.archlinux.org/index.php/GNOME).
 
 ## Articles & books
 #### [What is GitHub](https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/)
