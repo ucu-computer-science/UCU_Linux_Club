@@ -1,24 +1,24 @@
 # Linux Club 2020
-UCU Linux club 20/21 repo with the schedule, useful links and presentations.
+Official repository of UCU student-organized Linux Club 20/21 with the schedule, useful links and presentations.
 
 ### Pre-requirements:
-#### Very important:
 - Personal laptop.
 - [ArchLinux](https://www.archlinux.org/) on your PC (not VM) or other Arch-based systems. 
 Can be [Manjaro](https://manjaro.org/downloads/official/gnome/), but NOT Debian- or Fedora-based systems. 
-The manual for Arch Linux installation can be found [THERE IS NO LINK](LINK HERE)
+	- Manual for Arch Linux installation [THERE IS NO LINK](LINK HERE) 
+	- [Manual for Manjaro installation](./docs/manjaro_manual.md)
 - Basic knowledge of English language
 - [GitHub account](https://github.com/) - we are going to be using Github Classroom as well.
 - **Webcams on** during online presentations.
 - Desire to learn something new and useful that will assist you throughout your career.
 
-#### Project structure
+### Project structure
 
 * [Useful resources, links and documentation](./docs)
 * [Week directories with useful resources](./resources)
 
 
-#### Can be useful before the course:
+### Can be useful before the course:
 
 - Watching the Revolution OS movie: [original version](https://www.youtube.com/watch?v=4vW62KqKJ5A) (which is better) or in [Russian](https://www.youtube.com/watch?v=n1F_MfLRlX0)
 - Reading about Linux distros in general [Wiki page on Linux](https://en.wikipedia.org/wiki/Linux), [Wiki page on Linux distributions](https://en.wikipedia.org/wiki/Linux_distribution)
@@ -71,40 +71,39 @@ The manual for Arch Linux installation can be found [THERE IS NO LINK](LINK HERE
 ## Week 12
 ### 
 
-# USAGE for students:
+# Usage for students:
 
 - ![](images/fork.png)  
     Fork this repo
     
 - ```git checkout -b yourbranch```
-    
-    Make a branch
-    
+
+	Make a branch
+
 - Complete tasks in the corresponding folder.
 
+---
+
 Each task is going to be completed in Github Classroom, with the link provided in the schedule above. First login requires you to:
-	* To login using your Github account 
-	![](images/classroom1.png)
 	
+* To login using your Github account 	
+![](images/classroom1.png)
+
+---
+
 * Set your nickname 
 (it's better to choose something meaningful for us to distinguish you easier) 
-	
 ![](images/classroom2.png)
+
+---
 
 And for each task you are going to have to create a repository, 
 complete it (the task described in the README.md and comments) and pass the tests. 
 ![](images/classroom3.png)
-
-# Repo structure:
-
-- images - just folder for all images.
-- weeks - here will be tasks and materials to the corresponding weeks.
-- additional - folder with additional tasks and their descriptions. 
-- docs - here you can find a lot of necessary docs or links to interesting articles, resources.
 
 # Usage for mentors
 - Fork the repo.
 - Add/fix/delete something.
 - Make a PR.
 
-Alternatively, you can ask me to make you as a contributor. But then I also recommend to make your branch and do PR\`s as well.
+Alternatively, you can ask me to make you as a contributor. But then I also recommend to make your branch and do PRs as well.
