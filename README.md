@@ -1,9 +1,6 @@
 # Linux Club 2020
 UCU Linux club 20/21 repo with the schedule, useful links and presentations.
 
-### First presentation
-### [![](images/week0.png)](https://docs.google.com/presentation/d/1EbZjD7uIL3l39Jzz0QT-iJm46EA35rHrbKP2FhfYaxk/edit?usp=sharing)
-
 ### Pre-requirements:
 #### Very important:
 - Personal laptop.
