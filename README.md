@@ -12,6 +12,12 @@ The manual for Arch Linux installation can be found [THERE IS NO LINK](LINK HERE
 - **Webcams on** during online presentations.
 - Desire to learn something new and useful that will assist you throughout your career.
 
+#### Project structure
+
+* [Useful resources, links and documentation](./docs)
+* [Week directories with useful resources](./resources)
+
+
 #### Can be useful before the course:
 
 - Watching the Revolution OS movie: [original version](https://www.youtube.com/watch?v=4vW62KqKJ5A) (which is better) or in [Russian](https://www.youtube.com/watch?v=n1F_MfLRlX0)
