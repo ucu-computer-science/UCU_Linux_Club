@@ -28,14 +28,14 @@
 
 	1. On the partitioning stage, choose `manual partitioning` and create a new GPT partition table, if needed. Afterwards:
 
-		1. Create a `boot/efi` partition (512mib)
+		1. Create a `boot/efi` partition. File system: FAT32, Mount point: /boot/efi, Flags: boot, Size: 512mib
 
-		1. Create a `root` partition (all your main programs are going to be located here, spare at least 20-30gb)
+		1. Create a `root` partition, all your main programs are going to be located here. File system: ext4, Mount point: /, Flags: none, Size: 20-30gb
 
-		1. Create a `swap` partition (the same size as your RAM)
+		1. Create a `swap` partition. File system: linuxswap, Flags: swap, Size: the same size as your RAM
 
-		1. Create a `home` partition (all the rest of the space, for a minimum of 20gb)
+		1. Create a `home` partition. File system: ext4, Mount point: /home, Flags: none, Size: all the rest of the space, for a minimum of 20gb
 
 	1. Choose `next` and proceed with the installation. After it asks to restart, accept and pull the USB drive out once your laptop turns off.
 
-	1. You should be all set!
+	1. You should be all set! Proceed to [programs list](./programs.md), [resources](./resources.md) and [useful links](./useful_links.md) docs.
