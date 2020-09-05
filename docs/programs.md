@@ -16,13 +16,31 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 ```
+
 Also, you need to add this to the end of `pacman.conf` file
+
 ```
 sudo nvim /etc/pacman.conf
 ```
-**[archlinuxfr] </br>
+
+```
+[archlinuxfr] </br>
 SigServer = Never </br>
-Server = http://repo.archlinux.fr/$arch </br>**
+Server = http://repo.archlinux.fr/$arch </br>
+```
+
+##### Install programs using yay
+
+```
+yay <program_name>
+```
+
+#### Install zsh instead of bash and make it default
+
+```
+yay zsh
+chsh -s $(which zsh)
+```
 
 #### For zsh
 - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
@@ -44,7 +62,7 @@ Server = http://repo.archlinux.fr/$arch </br>**
 #### Browser
 - [w3m](http://w3m.sourceforge.net/)
 
-#### File listers
+#### File managers
 - ls (present on every linux/unix machine)
 - [k](https://github.com/supercrabtree/k)
 - [exa](https://github.com/ogham/exa)
@@ -105,6 +123,7 @@ is good enough, but it is not very fast and does not have a lot of features
 
 #### Torrent
 - QBitTorrent
+- Transmission
 
 #### Notepad
 - leafpad
