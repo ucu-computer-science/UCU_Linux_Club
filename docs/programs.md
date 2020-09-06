@@ -49,9 +49,9 @@ chsh -s $(which zsh)
 - [tmux](https://github.com/tmux/tmux/wiki)
 
 #### Text editor
-- vi (present on every linux/unix based machine)
+- vi (present on every linux/unix machine)
 - [neovim](https://neovim.io/) (new)
-- nano
+- nano (present on most linux/unix machines)
 - [micro](https://micro-editor.github.io/)
 
 #### File manager
@@ -62,7 +62,7 @@ chsh -s $(which zsh)
 #### Browser
 - [w3m](http://w3m.sourceforge.net/)
 
-#### File managers
+#### File listers
 - ls (present on every linux/unix machine)
 - [k](https://github.com/supercrabtree/k)
 - [exa](https://github.com/ogham/exa)
@@ -132,6 +132,12 @@ is good enough, but it is not very fast and does not have a lot of features
 
 #### Markdown editor
 - Boostnote
+
+#### Document viewer
+- zathura
+
+#### Screenshot utility
+- flameshot
 
 #### Graphical yay alternative 
 - pamac-aur
