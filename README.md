@@ -5,7 +5,7 @@ Official repository of UCU student-organized Linux Club 20/21 with the schedule,
 - Personal laptop.
 - [ArchLinux](https://www.archlinux.org/) on your PC (not VM) or other Arch-based systems. 
 Can be [Manjaro](https://manjaro.org/downloads/official/gnome/), but NOT Debian- or Fedora-based systems. 
-	- Manual for Arch Linux installation [here](https://github.com/Pavlik1400/Install_arch) 
+	- Manual for Arch Linux installation [here](https://github.com/ucu-cs/UCU_Linux_Club/tree/arch_manual/docs/arch_manual.md) 
 	- [Manual for Manjaro installation](./docs/manjaro_manual.md)
 - Basic knowledge of English language
 - [GitHub account](https://github.com/) - we are going to be using Github Classroom as well.
