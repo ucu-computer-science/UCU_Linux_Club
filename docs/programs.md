@@ -7,7 +7,7 @@
 
 ##### How to install Yay
 
-in the terminal emulator
+In the terminal emulator
 
 ```
 sudo pacman -S git
@@ -44,6 +44,9 @@ chsh -s $(which zsh)
 
 #### For zsh
 - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
+
+#### Terminal emulator
+- [guake](http://guake-project.org/)
 
 #### Terminal multiplexor
 - [tmux](https://github.com/tmux/tmux/wiki)
@@ -101,6 +104,8 @@ is good enough, but it is not very fast and does not have a lot of features
 - [conky](https://github.com/brndnmtthws/conky)
 
 ### Recommended GUI programs
+
+#### [Gnome Extensions](https://extensions.gnome.org/)
 
 #### For photos view
 - PhotoQT

@@ -19,6 +19,11 @@ a lot of manuals and documentation for every application.
 The most popular forum where you can find 
 a lot of helpful stuff and discuss topics with other geeks.
 
+## [Youtube](https://youtube.com/)
+Yes, you can find a lot of basic and intermediate tutorials
+on Linux, Bash and other stuff on Youtube, it's not only for
+casual stupid videos.
+
 ## [Habr](https://habr.com/ru/)
 Interesting site with a lot of programming world news on Russian.
 

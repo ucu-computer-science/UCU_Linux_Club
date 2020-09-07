@@ -20,7 +20,9 @@ But you don\`t need XFCE, instead you need [GNOME](https://wiki.archlinux.org/in
 
 ## Articles & books
 
-### [How to ask correct questions](http://segfault.kiev.ua/smart-questions-ru.html#classic)
+#### [How to find anything on the Internet](https://www.alec.fyi/dorking-how-to-find-anything-on-the-internet.html)
+
+#### [How to ask correct questions](http://segfault.kiev.ua/smart-questions-ru.html#classic)
 
 #### [What is GitHub](https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/)
 
@@ -39,3 +41,11 @@ But you don\`t need XFCE, instead you need [GNOME](https://wiki.archlinux.org/in
 #### [Python re\(gex\)?](https://drive.google.com/file/d/1P7YMIM1X6Qb7m4_ImmDnAoLes9gB_kS8/view)
 
 #### [23 advanced commands for Bash](https://proglib.io/p/bash-23-advanced-commands/)
+
+#### [Git Everyday](https://git-scm.com/docs/giteveryday)
+
+#### [Essays on programming I think about a lot](https://www.benkuhn.net/progessays/)
+
+#### [Why or why do these nutheads use vi](http://www.viemu.com/a-why-vi-vim.html)
+
+#### [Everyone Who Tried to Convince Me to use Vim was Wrong](https://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/)
