@@ -64,15 +64,20 @@ Now let's update pacman: `pacman  -Syy`
 Install base system and packet for future AUR using: `pacstrap /mnt base linux linux-firmware base-devel linux-headers`
 
 Generate fstab: `genfstab -U /mnt >> /mnt/etc/fstab`
-
 Check if it is generated: `nano /mnt/etc/fstab`
-You can take fstab from **configs** dir in this repo, (don't forget to change filesystem UUIDs (you can find them in 'cfdisk'))
-!!**IMPORTANT**!! If you have SSD, than this is extremely important to automatically activate TRIM each time it's needed. This will save lifetime of your SSD. So please, add 'discard' option to mount points in fstab (as you can see in the **configs/fstab**)
+Example fstab(don't forget to change filesystem UUIDs (you can find them in 'cfdisk')): 
+```
+UUID=8d3f44f4-a017-4c76-9e66-dd5068dc5397	/         	ext4      	rw,relatime,discard	0 1
+
+UUID=2f671175-0fe6-472a-a4b0-1da5345f03e1	/home     	ext4      	rw,relatime,discard	0 2
+
+UUID=1892-CB1C      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 2
+```
+!!**IMPORTANT**!! If you have SSD, than this is extremely important to automatically activate TRIM each time it's needed. This will save lifetime of your SSD. So please, add 'discard' option to mount points in fstab (as you can see in the example)
 
 Now let's go in arch: `arch-chroot /mnt `
 
 It is important to download text editor at the beggining: `pacman -S vim`
-Take .vim directory and .vimrc file from **configs** to install cool plugins and color scheme
 
 Adjust locals: `nano /etc/locale.gen` and uncomment
 ```
@@ -95,7 +100,7 @@ DONT FORGET TO SAVE EVERYTHING
 
 Password for root: `passwd` 
 
-Add new user: `useradd -G wheel -s /bin/bash -m YOUR_USERNAME`, and give him sudo permissions: `nvim /etc/sudoers` 
+Add new user: `useradd -G wheel -s /bin/bash -m YOUR_USERNAME`, and give him sudo permissions: `vim /etc/sudoers` 
 and uncomment _"%wheel ALL=(ALL) ALL"_
 
 user's password: `passwd YOUR_USERNAME`
@@ -105,17 +110,28 @@ And more: `pacman -S ntfs-3g mtools fuse2`
 
 Install bootloader: `bootctl install`
 
-Loader config: `vim /boot/loder/loader.conf` and copy
-**configs/loader.conf**
+Loader config: `vim /boot/loder/loader.conf`
+Example loader: 
+```
+default arch
+timeout 2
+editor 0
+```
+(It will wait 2 seconds before running into default choice - arch, editor means you can't change loader parameters during boot(this is for security))
 
 Now it is vital to adjust kernel settings: 
 ```
 pacman -S intel-ucode
 vim /boot/loader/entries/arch.conf
 ```
-Write here :
-copy from **configs/arch.conf**
-
+Write here something like this (maybe you will need to change them in the future):
+```
+title Arch Linux
+linux /vmlinuz-linux
+initrd /intel-ucode.img
+initrd /initramfs-linux.img
+options root="LABEL=ARCH" rw
+```
 Now exit and umount all partition:
 ```
 exit
@@ -130,7 +146,7 @@ Install X: `sudo pacman -S xorg-server xorg-xinit xorg-apps mesa-libgl xterm`
 Install graphic drivers:
 ```
 sudo pacman -S xf86-video-intel
-sudo pacman -S nvidia
+sudo pacman -S nvidia #if you have nvidia GPU
 ```
 
 Now install GNOME itself:
@@ -141,10 +157,8 @@ systemctl enable NetworkManager
 systemctl enable gdm
 ```
 
-Lenovo y530 can't render HDMI output with intel GPU, so if you want to use second monitor, take **configs/xorg.conf** and replace it in /etc/X11/
-It will render the whole gnome session with nvidia. If you want to save battery life, then replace `Screen 0 "nvidia"` with `Screen 0 "intel"` and reboot
-Also download prime-run: `sudo pacman -S prime-run`
-More details [here](https://wiki.archlinux.org/index.php/PRIME#PRIME_render_offload)
+Lenovo y530 (my laptop) can't render HDMI output with intel GPU, so if you want to use second monitor, read [here](https://wiki.archlinux.org/index.php/PRIME#PRIME_render_offload)
+Also download prime-run (for running application with nvidia GPU(if you have nvidia): `sudo pacman -S prime-run`
 
 # System customization and apps installation
 First of all set normal wallpalers, change touchpad sensitivity and other settings in GNOME
@@ -162,7 +176,16 @@ sudo tlp start
 sudo systemctl enable tlp.service
 ```
 
-It's a good idea to create new mirrorlist file for Pacman, if you from Ukraine, you can use mine (**configs/mirrorlist**). replace it in /etc/pacman.d/
+It's a good idea to create new mirrorlist file for Pacman, if you from Ukraine, you can use this: (replace it in /etc/pacman.d/mirrorlist)
+```
+## Ukraine
+Server = http://archlinux.ip-connect.vn.ua/$repo/os/$arch
+Server = https://archlinux.ip-connect.vn.ua/$repo/os/$arch
+Server = http://mirror.mirohost.net/archlinux/$repo/os/$arch
+Server = https://mirror.mirohost.net/archlinux/$repo/os/$arch
+Server = http://mirrors.nix.org.ua/linux/archlinux/$repo/os/$arch
+Server = https://mirrors.nix.org.ua/linux/archlinux/$repo/os/$arch
+```
 
 Terminal: `sudo pacman -S terminator`
 
@@ -178,8 +201,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 ```
-Then copy **configs/.zshrc** to home directory
-
 Browser + telegram: 
 ```
 yay telegram-desktop
@@ -191,8 +212,7 @@ CUSTOMIZATION
 ```
 sps gnome-tweaks
 ```
-Download all extension and setup tweask as you see on screenshots from **screenshots** dir
-Also you can find themes, fonts and icons in **configs** dir (.themes, .icons, .fonts)
+Download all extension and setup tweask as you like
 
 Install VScode: `yay visual-studio-code-insiders`
 
@@ -221,6 +241,6 @@ List of other apps I use:
 6. clion-gui
 7. LibreOffice
 
-Also it's quite useful to configurate your touchpad gestures with [this](https://github.com/bulletmark/libinput-gestures) application
+Also it's quite useful to configurate your touchpad gestures with [this](https://github.com/bulletmark/libinput-gestures) application, if you're using xorg on gnome
 Looks like that's it. Happy archlinux experience!
 
