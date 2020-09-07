@@ -193,7 +193,7 @@ git: `sudo pacman -S git`
 
 yay: `git clone https://aur.archlinux.org/yay.git; cd yay; makepkg -si`
 
-zsh instllation and customization with oh my zsh:
+zsh installation and customization with oh my zsh:
 ```
 cd ~
 sudo pacman -S zsh
