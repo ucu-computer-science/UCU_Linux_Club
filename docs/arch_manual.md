@@ -78,14 +78,15 @@ UUID=1892-CB1C      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,cod
 
 Now let's go in arch: `arch-chroot /mnt `
 
-It is important to download text editor at the beggining: `pacman -S vim`
-super short guide for vim): 
+It is good idea to download adequate text editor at the beggining: `pacman -S vim`
+
+super short guide for vim: 
 - i - go to 'insert' mode (you can type!)
 - Esc - back to 'normal' mode
 - :w - write to file (in normal mode)
 - :q - quite from file (again, in normal mode) (you can combine: ':wq') 
 
-Adjust locals: `nano /etc/locale.gen` and uncomment
+Adjust locals: `vim /etc/locale.gen` and uncomment
 ```
 en_US.UTF-8 UTF-8
 ru_RU.UTF-8 UTF-8
@@ -99,9 +100,9 @@ ln -sf /usr/share/zoneinfo/Europe/Kiev /etc/localtime
 hwclock --systohc
 ```
 
-Adjust name of computer: `nano /etc/hostname` and write there _"userhost - YOUR_USERNAME"_
+Adjust name of computer: `vim /etc/hostname` and write there _"userhost - YOUR_USERNAME"_
 
-Adjust hosts: `nano /ets/hosts` and write there -_"127.0.0.1 pavlik_giley.localdomain YOUR_USERNAME"-_ 
+Adjust hosts: `vim /ets/hosts` and write there -_"127.0.0.1 pavlik_giley.localdomain YOUR_USERNAME"-_ 
 DONT FORGET TO SAVE EVERYTHING
 
 Password for root: `passwd` 
