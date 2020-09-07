@@ -1,16 +1,15 @@
-# Install_arch
-# Archlinux installation
+# Installing Arch
 
-So the main installation of the system I took from [This site](https://sollus-soft.blogspot.com/2017/01/arch-linux-windows-10-uefi-systemd-boot.html)
+*The basis for this tutorial is [this one](https://sollus-soft.blogspot.com/2017/01/arch-linux-windows-10-uefi-systemd-boot.html)*
 
 Firstly check if you're loaded in EFI mode: `efivar -l`
 
-On some computers wifi won't work without turning module on with this  command: `rfkill unblock all`
+On some computers Wifi won't work without turning the module on with this  command: `rfkill unblock all`
 
-Now let's turn on the Wifi. Firstly get name of your interface: `ip link` (it usually starts with 'w' ex: 'wlan0') 
+Now let's turn on Wifi. Firstly get name of your interface: `ip link` (it usually starts with 'w', i.e: 'wlan0') 
 Then activate the interface: `ip link set interface_name up`.
 
-First method: iwctl 
+First method: `iwctl` 
 ```
 iwctl
 station interface_name scan
@@ -18,7 +17,7 @@ station interface_name get-network
 station interface_name connetct network_name
 ```
 
-Second method: iw
+Second method: `iw`
 
 Scan for networks: `iw dev interface_name scan`.
 
@@ -60,9 +59,9 @@ mkswap /dev/sda{swap num}
 swapon /dev/sda{swap num}
 ```
 
-Now let's update a pacman: `pacman  -Syy`
+Now let's update pacman: `pacman  -Syy`
 
-Install base systen and packet for future AUR using: `pacstrap /mnt base linux linux-firmware base-devel linux-headers`
+Install base system and packet for future AUR using: `pacstrap /mnt base linux linux-firmware base-devel linux-headers`
 
 Generate fstab: `genfstab -U /mnt >> /mnt/etc/fstab`
 
@@ -163,7 +162,7 @@ sudo tlp start
 sudo systemctl enable tlp.service
 ```
 
-It's good idea to create new mirrorlist file for Pacman, if you from Ukraine, you can use mine (**configs/mirrorlist**). replace it in /etc/pacman.d/
+It's a good idea to create new mirrorlist file for Pacman, if you from Ukraine, you can use mine (**configs/mirrorlist**). replace it in /etc/pacman.d/
 
 Terminal: `sudo pacman -S terminator`
 
@@ -222,6 +221,6 @@ List of other apps I use:
 6. clion-gui
 7. LibreOffice
 
-Also quite useful to cofig your touchpad gestures with [this](https://github.com/bulletmark/libinput-gestures) application
-Looks, like that's it. Happy archlinux experience
+Also it's quite useful to configurate your touchpad gestures with [this](https://github.com/bulletmark/libinput-gestures) application
+Looks like that's it. Happy archlinux experience!
 
