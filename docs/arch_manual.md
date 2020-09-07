@@ -65,6 +65,7 @@ Install base system and packet for future AUR using: `pacstrap /mnt base linux l
 
 Generate fstab: `genfstab -U /mnt >> /mnt/etc/fstab`
 Check if it is generated: `nano /mnt/etc/fstab`
+
 Example fstab(don't forget to change filesystem UUIDs (you can find them in 'cfdisk')): 
 ```
 UUID=8d3f44f4-a017-4c76-9e66-dd5068dc5397	/         	ext4      	rw,relatime,discard	0 1
@@ -78,6 +79,11 @@ UUID=1892-CB1C      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,cod
 Now let's go in arch: `arch-chroot /mnt `
 
 It is important to download text editor at the beggining: `pacman -S vim`
+super short guide for vim): 
+- i - go to 'insert' mode (you can type!)
+- Esc - back to 'normal' mode
+- :w - write to file (in normal mode)
+- :q - quite from file (again, in normal mode) (you can combine: ':wq') 
 
 Adjust locals: `nano /etc/locale.gen` and uncomment
 ```
@@ -111,13 +117,14 @@ And more: `pacman -S ntfs-3g mtools fuse2`
 Install bootloader: `bootctl install`
 
 Loader config: `vim /boot/loder/loader.conf`
+
 Example loader: 
 ```
 default arch
 timeout 2
 editor 0
 ```
-(It will wait 2 seconds before running into default choice - arch, editor means you can't change loader parameters during boot(this is for security))
+(It will wait 2 seconds before running into default choice - arch, editor 0 means you can't change loader parameters during boot(this is for security))
 
 Now it is vital to adjust kernel settings: 
 ```
@@ -242,5 +249,6 @@ List of other apps I use:
 7. LibreOffice
 
 Also it's quite useful to configurate your touchpad gestures with [this](https://github.com/bulletmark/libinput-gestures) application, if you're using xorg on gnome
+
 Looks like that's it. Happy archlinux experience!
 
