@@ -20,13 +20,17 @@
 
 1. Free up some space (can skip this step if you have an empty drive)
 
-1. Install the operating system
+1. Create a new partition with all the free space (if you want to have a dual-boot)
+
+	1. Shrink your Windows partition with the native 'Partition' app
+
+1. Install the operating system on the new partition
 
 	1. Turn your laptop off and insert the USB drive, enter BIOS mode (by repeatedly tapping `esc` or `f1-f5` keys) and boot from the USB drive.
 
 	1. Press `enter` and wait for the system to load, open the install manager, select all the settings you require.
 
-	1. On the partitioning stage, choose `manual partitioning` and create a new GPT partition table, if needed. Afterwards:
+	1. On the partitioning stage, choose `manual partitioning` and create a new GPT partition table, if needed. Afterwards, split the free space into:
 
 		1. Create a `boot/efi` partition. File system: FAT32, Mount point: /boot/efi, Flags: boot, Size: 512mib
 
