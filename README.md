@@ -14,7 +14,7 @@ Can be [Manjaro](https://manjaro.org/downloads/official/gnome/), but NOT Debian-
 - Desire to learn something new and useful that will assist you throughout your career.
 #### For Mac users
 If you are going to visit the club all time, the best is to install Arch/Manjaro native. If not:
-- Package manager [brew](https://brew.sh) /br
+- Package manager [brew](https://brew.sh) </br>
 ... coming soon
 
 ### Project structure
