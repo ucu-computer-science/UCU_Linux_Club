@@ -41,5 +41,11 @@
 		1. Create a `home` partition. File system: ext4, Mount point: /home, Flags: none, Size: all the rest of the space, for a minimum of 20gb
 
 	1. Choose `next` and proceed with the installation. After it asks to restart, accept and pull the USB drive out once your laptop turns off.
+	
+	2. Install 
+	
+	```shell
+	sudo pacman -S fakeroot binutils patch
+	```
 
-	1. You should be all set! Proceed to [programs list](./programs.md), [resources](./resources.md) and [useful links](./useful_links.md) docs.
+	2. You should be all set! Proceed to [programs list](./programs.md), [resources](./resources.md) and [useful links](./useful_links.md) docs.
