@@ -42,10 +42,10 @@
 
 	1. Choose `next` and proceed with the installation. After it asks to restart, accept and pull the USB drive out once your laptop turns off.
 	
-	2. Install 
+	1. Install necessary packages for AUR usage
 	
 	```shell
 	sudo pacman -S fakeroot binutils patch
 	```
 
-	2. You should be all set! Proceed to [programs list](./programs.md), [resources](./resources.md) and [useful links](./useful_links.md) docs.
+	1. You should be all set! Proceed to [programs list](./programs.md), [resources](./resources.md) and [useful links](./useful_links.md) docs.
