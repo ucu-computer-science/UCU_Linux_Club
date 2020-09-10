@@ -25,7 +25,7 @@ sudo nvim /etc/pacman.conf
 
 ```
 [archlinuxfr] </br>
-SigServer = Never </br>
+SigLevel = Never </br>
 Server = http://repo.archlinux.fr/$arch </br>
 ```
 
