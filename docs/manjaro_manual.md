@@ -47,5 +47,10 @@
 	```shell
 	sudo pacman -S fakeroot binutils patch
 	```
+	
+	1. Update the system
+	```
+	sudo pacman -Syu	
+	```
 
 	1. You should be all set! Proceed to [programs list](./programs.md), [resources](./resources.md) and [useful links](./useful_links.md) docs.
