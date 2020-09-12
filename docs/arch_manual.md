@@ -13,8 +13,8 @@ First method: `iwctl`
 ```
 iwctl
 station interface_name scan
-station interface_name get-network
-station interface_name connetct network_name
+station interface_name get-networks
+station interface_name connect network_name
 ```
 
 Second method: `iw`
