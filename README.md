@@ -49,66 +49,31 @@ If you are going to visit the club all time, the best is to install Arch/Manjaro
 [![](images/week5.png)](https://docs.google.com/presentation/d/e/2PACX-1vTmkpOZMXZ5LhFshN5sTL15caN5JTDKdf2g7xMSfKtFoGc5sqOjhukygI6xi4whgRrPPbAucvT_VQIv/pub?start=false&loop=false&delayms=3000)
 
 ## Week 6
+### Linux FHS (Filesystem Hierarchy Standard)
+
+## Week 7
 ### Learning about tables, mbr vs gpt, grub, EFI/UEFI, what is what and how to work with them.
 ### Presentation [here]()
 
-## Week 7
+## Week 8
 ### Systemd. How to use systemctl, rfkill, what options are in the kernel.
 ### Presentation [here]()
 
-## Week 8
+## Week 9
 ### X.org, Gnome, Wayland, **i3**, KDE, XFCE, MATE etc.
 ### Presentation [here]()
 
-##### Arch Linux installation required here.
+## Week 10
+### Arch Linux installation required here.
 
 ##### As far as it is impossible to make full ofline course this semester, we won\`t learn STM and C programming, instead we will start intro to Rust language.
 
-## Week 9
-### Intro to the Rust programming language.
-
-## Week 10
-### 
-
 ## Week 11
-### 
 
 ## Week 12
-### 
 
-# Usage for students:
+# Usage for students
+### in progress
 
-- ![](images/fork.png)  
-    Fork this repo
-    
-- ```git checkout -b yourbranch```
-
-	Make a branch
-
-- Complete tasks in the corresponding folder.
-
----
-
-Each task is going to be completed in Github Classroom, with the link provided in the schedule above. First login requires you to:
-	
-* To login using your Github account 	
-![](images/classroom1.png)
-
----
-
-* Set your nickname 
-(it's better to choose something meaningful for us to distinguish you easier) 
-![](images/classroom2.png)
-
----
-
-And for each task you are going to have to create a repository, 
-complete it (the task described in the README.md and comments) and pass the tests. 
-![](images/classroom3.png)
-
-# Usage for mentors
-- Fork the repo.
-- Add/fix/delete something.
-- Make a PR.
-
-Alternatively, you can ask me to make you as a contributor. But then I also recommend to make your branch and do PRs as well.
+# Usage for contributors
+### in progress
