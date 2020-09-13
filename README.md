@@ -13,9 +13,11 @@ Can be [Manjaro](https://manjaro.org/downloads/official/gnome/), but NOT Debian-
 - **Webcams on** during online presentations.
 - Desire to learn something new and useful that will assist you throughout your career.
 #### For Mac users
-If you are going to visit the club all time, the best is to install Arch/Manjaro native. If not:
-- Package manager [brew](https://brew.sh) </br>
-... coming soon
+
+If you are going to visit the club regularly, the best is to install Arch/Manjaro natively. If you can't, you are going to need:
+
+- [brew](https://brew.sh) package manager</br>
+... More coming soon
 
 ### Project structure
 
@@ -31,10 +33,10 @@ If you are going to visit the club all time, the best is to install Arch/Manjaro
 # Short schedule
 **Presentations are only available for `ucu.edu.ua` accounts**
 ## Week 0
-[![](images/week0.png)](https://docs.google.com/presentation/d/1EbZjD7uIL3l39Jzz0QT-iJm46EA35rHrbKP2FhfYaxk/edit?usp=sharing)
+[![](images/week0.png)](https://docs.google.com/presentation/d/e/2PACX-1vRi-Y4N9ZtOIzydZR6EQ8IoFAq4C1a9_eNwvvzEPdSfE0svzASplVUCbaciWGgk1558iEzWSCSbDmPX/pub?start=false&loop=false&delayms=3000)
 
 ## Week 1
-[![](images/week1.png)](https://docs.google.com/presentation/d/1Nkb3wOmKYSy03kwFEmKTIlg73rc286YW5q-caod5j5k/edit?usp=sharing)
+[![](images/week1.png)](https://docs.google.com/presentation/d/e/2PACX-1vS6kqNkHhNC_wJHbxYyyQ5jEJpwHrJpLXyvGB-qbL283JTaMu5u0vgQqhqzHlXmrkcAbzTLXZ-ssrXR/pub?start=false&loop=false&delayms=3000)
 
 ## Week 2
 [![](images/week2.png)](https://docs.google.com/presentation/d/1FFq8y8JiED1F6LDFileied_j3WszPPxdANb-rxlKa8w/edit?usp=sharing)
@@ -43,7 +45,7 @@ If you are going to visit the club all time, the best is to install Arch/Manjaro
 [![](images/week3.png)](https://docs.google.com/presentation/d/1yj23xudPqUavx9zbKJduQhicnYMuJiY3ge0oDYqkhvY/edit?usp=sharing)
 
 ## Week 4
-[![](images/week4.png)]()
+[![](images/week4.png)](https://docs.google.com/presentation/d/1CHs4B4sGxVsoWGKwG7D0-uOcpjQoOu3PBUbiCAjTBG4/edit?usp=sharing)
 
 ## Week 5
 [![](images/week5.png)](https://docs.google.com/presentation/d/e/2PACX-1vTmkpOZMXZ5LhFshN5sTL15caN5JTDKdf2g7xMSfKtFoGc5sqOjhukygI6xi4whgRrPPbAucvT_VQIv/pub?start=false&loop=false&delayms=3000)
