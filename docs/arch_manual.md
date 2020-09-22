@@ -6,13 +6,13 @@
 First of all, install arch ISO on your USB stick. [Here](https://www.archlinux.org/download/) you can find an official image. 
 
 I recomend using [RUFUS](https://rufus.ie/) for proper image installation. Choose everything as you see on this photo: 
-![](./images/rufus.PNG)
+![](../images/rufus.PNG)
 
 **Important!** all files from USB-stick will be deleted
 
 Now go to the BIOS (press F2 or F8 or smth else on you laptop during booting), and choose `UEFI mode` and change boot order (make your USB first prior). result should be something like that:
 
-![](./images/bios.jpg)
+![](../images/bios.jpg)
 
 Save changes and exit
 
