@@ -6,18 +6,19 @@
 First of all, install arch ISO on your USB stick. [Here](https://www.archlinux.org/download/) you can find an official image. 
 
 I recomend using [RUFUS](https://rufus.ie/) for proper image installation. Choose everything as you see on this photo: 
-![](../images/rufus.PNG)
+![](../images/arch_manual/rufus.PNG)
 
 **Important!** all files from USB-stick will be deleted
 
 Now go to the BIOS (press F2 or F8 or smth else on you laptop during booting), and choose `UEFI mode` and change boot order (make your USB first prior). result should be something like that:
 
-![](../images/bios.jpg)
+![](../images/arch_manual/bios.jpg)
 
 Save changes and exit
 
 ## main part of installation
-Firstly check if you're loaded in EFI mode: `efivar -l`
+Firstly check if you're loaded in EFI mode: `efivar -l`. The output should be like this: 
+![](../images/arch_manual/efivar.png)
 
 On some computers Wifi won't work without turning the module on with this  command: `rfkill unblock all`
 
@@ -46,12 +47,19 @@ Time synchronization: `timedatectl set-ntp true`
 
 Now let's look at your previous boot records: `efibootmgr` and delete previous linux or some other stuff: `efibootmgr -b X -B`, where 'X' is number of stuff's boot
 
+Here is how it should look like
+![](../images/arch_manual/efibootmgr.png)
+
 Now disk management: `cfdisk`. Here I delete everything from previous system and 
 - choose  root directory (about 50GB, linux filesystem) 
 - boot partition (1GB, EFI filesystem) (Actually it's better to install bootloader on the Windows EFI partition, if you want to see choise of system during loading). 
-- Don't touch (or create if it's your first installation) home directory (40GB, linux filesystem). 
+- Create (or do nothing if you already have) home directory (40GB, linux filesystem). 
 - Create swap partition (4-8GB, Linux swap)
-Don't forget to "write" after making new partition. 
+Don't forget to "write" after making new partition. And don't delete Windows partitions if you want dual boot.
+
+Here, how it looks on my laptop:
+![](../images/arch_manual/cfdisk.png)
+As you can see I have 64GB root (/dev/sda11), 33GB home (/dev/sda10) 20GB swap (/dev/sda5), and my boot is /dev/sda3. Remeber, that on your laptop/PC, there will be other partition numbers.
 
 Now format partition and mount them. Root:
 ```
