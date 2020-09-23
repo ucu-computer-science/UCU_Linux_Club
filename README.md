@@ -24,7 +24,6 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 * [Useful resources, links and documentation](./docs)
 * [Week directories with useful resources](./resources)
 
-
 ### Can be useful before the course:
 
 - Watching the Revolution OS movie: [original version](https://www.youtube.com/watch?v=4vW62KqKJ5A) (which is better) or in [Russian](https://www.youtube.com/watch?v=n1F_MfLRlX0)
@@ -51,24 +50,20 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 [![](images/week5.png)](https://docs.google.com/presentation/d/e/2PACX-1vTmkpOZMXZ5LhFshN5sTL15caN5JTDKdf2g7xMSfKtFoGc5sqOjhukygI6xi4whgRrPPbAucvT_VQIv/pub?start=false&loop=false&delayms=3000)
 
 ## Week 6
-### Linux FHS (Filesystem Hierarchy Standard)
+[![](images/week6.png)](https://docs.google.com/presentation/d/e/2PACX-1vTgosA-hz5Zz2GZvTzLu9xhSC06Vsj0QHmv9efVPArnFbXzwek-FeV5WWIfmqD6dKu8juRF4D_6ZPiD/pub?start=false&loop=false&delayms=3000)
 
 ## Week 7
-### Learning about tables, mbr vs gpt, grub, EFI/UEFI, what is what and how to work with them.
-### Presentation [here]()
+[![](images/week7.png)](https://docs.google.com/presentation/d/e/2PACX-1vQGTWVyWNQR_dT8cVmzuadkSgM5W-OF5WPQ66lQBp4EVcnE-eghFT5HI5FXAPq7X9vblcMcoFD58OKJ/pub?start=false&loop=false&delayms=3000)
 
 ## Week 8
-### Systemd. How to use systemctl, rfkill, what options are in the kernel.
-### Presentation [here]()
+[![](images/week8.png)]()
 
 ## Week 9
-### X.org, Gnome, Wayland, **i3**, KDE, XFCE, MATE etc.
-### Presentation [here]()
+[![](images/week9.png)]()
 
 ## Week 10
 ### Arch Linux installation required here.
-
-##### As far as it is impossible to make full ofline course this semester, we won\`t learn STM and C programming, instead we will start intro to Rust language.
+[![](images/week10.png)]()
 
 ## Week 11
 
