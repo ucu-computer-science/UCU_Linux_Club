@@ -33,13 +33,9 @@ station interface_name get-networks
 station interface_name connect network_name
 ```
 
-Second method: `iw`
+Example of turning on wifi:
 
-Scan for networks: `iw dev interface_name scan`.
-
-You're probably interested in 'SSID' - name of network, and 'signal' - quality ('-100' - '0'). 
-
-And finally connect to network: `iw dev interface_name connect "your_essid" key 0:your_key`
+![](../images/arch_manual/iwctl.jpg)
 
 Check if internet works with `ping google.com` (should appear messages with '64 bytes' at the beginning, press CTRL+C to finish check)
 
