@@ -75,4 +75,9 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 ### in progress
 
 # Usage for contributors
-### in progress
+```
+# Fork the project
+# Create a new branch
+# ~ Make your changes ~
+# Open a pull request
+```
