@@ -51,7 +51,8 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 [![](images/week5.png)](https://docs.google.com/presentation/d/e/2PACX-1vTmkpOZMXZ5LhFshN5sTL15caN5JTDKdf2g7xMSfKtFoGc5sqOjhukygI6xi4whgRrPPbAucvT_VQIv/pub?start=false&loop=false&delayms=3000)
 
 ## Week 6
-[![](images/week6.png)](https://docs.google.com/presentation/d/e/2PACX-1vTgosA-hz5Zz2GZvTzLu9xhSC06Vsj0QHmv9efVPArnFbXzwek-FeV5WWIfmqD6dKu8juRF4D_6ZPiD/pub?start=false&loop=false&delayms=3000)
+[![](images/week6-1.png)](https://docs.google.com/presentation/d/e/2PACX-1vTgosA-hz5Zz2GZvTzLu9xhSC06Vsj0QHmv9efVPArnFbXzwek-FeV5WWIfmqD6dKu8juRF4D_6ZPiD/pub?start=false&loop=false&delayms=3000)
+[![](images/week6-2.png)](https://docs.google.com/presentation/d/e/2PACX-1vQFodXityFvFlMzroauuDcOOqz1vXOv9vBdn6fRGXaDsAb0_R4XkhsanCkG0g6gVDiGN4_1_dgmkwwm/pub?start=false&loop=false&delayms=3000)
 
 ## Week 7
 [![](images/week7-1.png)](https://docs.google.com/presentation/d/e/2PACX-1vQGTWVyWNQR_dT8cVmzuadkSgM5W-OF5WPQ66lQBp4EVcnE-eghFT5HI5FXAPq7X9vblcMcoFD58OKJ/pub?start=false&loop=false&delayms=3000)
