@@ -7,7 +7,7 @@ If you want to make your contribution in such useful project, you can make it in
 ## What help we need?
 - suggestions for next semester & future in general
 - better presentations format
-- translation all materials to English
+- translation of all materials to English
 - interesting tasks for lessons
 - interesting and **useful** hometasks
 
