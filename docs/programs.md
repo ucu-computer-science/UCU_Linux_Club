@@ -62,7 +62,7 @@ chsh -s $(which zsh)
 - [mc](https://midnight-commander.org/)
 - [nnn](https://github.com/jarun/nnn)
 
-#### Video redactors
+#### Video editors
 - [GStreamer](https://gstreamer.freedesktop.org/)
 - [ffmpeg](https://ffmpeg.org/)
 
