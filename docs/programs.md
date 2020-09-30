@@ -1,6 +1,6 @@
 ## Everything is available in AUR (using `yay`)
 
-### Text programs for the terminal
+### CLI programs for the terminal
 
 #### AUR package manager
 - [yay](https://github.com/Jguer/yay)
@@ -61,6 +61,10 @@ chsh -s $(which zsh)
 - [ranger](https://github.com/ranger/ranger)
 - [mc](https://midnight-commander.org/)
 - [nnn](https://github.com/jarun/nnn)
+
+#### Video redactors
+- [GStreamer](https://gstreamer.freedesktop.org/)
+- [ffmpeg](https://ffmpeg.org/)
 
 #### Browser
 - [w3m](http://w3m.sourceforge.net/)
