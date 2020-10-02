@@ -64,16 +64,17 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 ## Week 9
 [![](images/week9.png)]()
 
-## Week 10
-### Arch Linux installation required here.
-[![](images/week10.png)]()
-
-## Week 11
-
-## Week 12
+## Week 10-12
+![](images/week10.png)
+[![](images/week11.png)]()
 
 # Usage for students
-### in progress
+```
+# Fork this repository
+# Watch the lecture
+# Change/add homework files for the respective topic in weeks/ directory
+# Send the link to us for grading :)
+```
 
 # Usage for contributors
 ```
