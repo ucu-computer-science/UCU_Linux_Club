@@ -10,6 +10,7 @@ Can be [Manjaro](https://manjaro.org/downloads/official/gnome/), but NOT Debian-
 - GNOM3 + Gnome shell or i3, **BUT** not (KDE, XFCE, MATE, Sway etc).
 - Basic knowledge of English language
 - [GitHub account](https://github.com/) - we are going to be using Github Classroom as well.
+- USB flash drive 8Gb+
 - **Webcams on** during online presentations.
 - Desire to learn something new and useful that will assist you throughout your career.
 #### For Mac users
