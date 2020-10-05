@@ -1,3 +1,5 @@
+*There are more examples and details in the presentations, this is just a short and quick reminder*
+
 ### Anchors
 
 * `^` - Start of string
@@ -12,6 +14,12 @@
 * `?<=` - Lookbehind assertion
 * `?!=` - Negative lookbehind
 
+Examples
+* `ucu(?=rules)` matches `ucurules`
+* `ucu(?=rules)` doesn’t match `ucu`
+* `(?<=linux)club` matches `linuxclub`
+* `(?<=linux)club` doesn’t match `roboclub`
+
 ### Groups and Ranges
 
 * `.` - Any character except newline
@@ -23,6 +31,10 @@
 * `[A-Q]` - The same, but for uppercase letters
 * `[2-7]` - The same, but for digits
 * `\x` - Allows to reuse group number `x`
+
+Examples
+* `[A-D]` matches A, B, C or D
+* `(abc)\1` matches `abcabc`
 
 ### Character classes
 
@@ -50,3 +62,5 @@
 * `$n` - nth group
 * `$1` - will capture first group - `abc` in `(abc)(xyz)`
 
+Examples:
+* If we have a string `ucu doesnt rule` and replace the match `(ucu) doesnt (rule)` with the `$1 $2s` pattern, the result will be: `ucu rules`
