@@ -73,14 +73,7 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 ```
 # Fork this repository
 # Watch the lecture
-# Change/add homework files for the respective topic in weeks/ directory
-# Send the link to us for grading :)
-```
-
-# Usage for contributors
-```
-# Fork the project
-# Create a new branch
-# ~ Make your changes ~
-# Open a pull request
+# Create your personal directory in 'homework'
+# Copy the files from the respective directory in 'weeks' into your personal directory in 'homework'
+# Submit a pull request :)
 ```
