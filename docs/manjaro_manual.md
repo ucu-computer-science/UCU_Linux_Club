@@ -12,7 +12,7 @@
 	1. Linux
 		1. CLI using `dd`
 			1. Check the list of your drives using `lsblk` before inserting your USB and after, remember its name.
-			1. Run `sudo dd bs=4M if=<iso_file> of=<device_name> conv=fdatasync`. dd is a utility that allows to copy and move files, with `if` representing input file, and `of` - output file. `bs` represents the number of bytes to write at a time, and `conv` allows for safe finished file transfer.
+			1. Run `sudo dd bs=4M if=<iso_file> of=<device_name> conv=fdatasync status="progress"`. dd is a utility that allows to copy and move files, with `if` representing input file, and `of` - output file. `bs` represents the number of bytes to write at a time, and `conv` allows for safe finished file transfer.
 		1. Using `etcher`
 			1. Choose the file to burn, choose the drive and let it do its job.
 	1. MacOS
@@ -48,7 +48,7 @@
 	sudo pacman -S fakeroot binutils patch
 	```
 	
-	1. Update the system
+	1. Update the system (we recommend you do that at least once a week)
 	```
 	sudo pacman -Syu	
 	```

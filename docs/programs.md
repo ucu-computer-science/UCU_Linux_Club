@@ -1,6 +1,5 @@
-## Everything is available in AUR (using `yay`)
+**Almost every program you'll ever need is available in AUR (using `yay`)**
 
-### CLI programs for the terminal
 
 #### AUR package manager
 - [yay](https://github.com/Jguer/yay)
@@ -32,7 +31,7 @@ Server = http://repo.archlinux.fr/$arch </br>
 ##### Install programs using yay
 
 ```
-yay <program_name>
+yay 'program_name'
 ```
 
 #### Install zsh instead of bash and make it default
@@ -42,6 +41,7 @@ yay zsh
 chsh -s $(which zsh)
 ```
 
+### CLI programs for the terminal
 #### For zsh
 - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 
