@@ -35,6 +35,9 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 ## Week 0
 [![](images/week0.png)](https://docs.google.com/presentation/d/e/2PACX-1vRi-Y4N9ZtOIzydZR6EQ8IoFAq4C1a9_eNwvvzEPdSfE0svzASplVUCbaciWGgk1558iEzWSCSbDmPX/pub?start=false&loop=false&delayms=3000)
 
+## Richard Stallman talk
+[![](images/stallman.png)](https://docs.google.com/presentation/d/e/2PACX-1vS_t6q2SvHNjQdfg-aleD8wlKWIvOljyJLepamwOEP35TVX07moEDn9Qpjbe-WQ2bU05phubQfiBFi6/pub?start=false&loop=false&delayms=3000)
+
 ## Week 1
 [![](images/week1.png)](https://docs.google.com/presentation/d/e/2PACX-1vS6kqNkHhNC_wJHbxYyyQ5jEJpwHrJpLXyvGB-qbL283JTaMu5u0vgQqhqzHlXmrkcAbzTLXZ-ssrXR/pub?start=false&loop=false&delayms=3000)
 
