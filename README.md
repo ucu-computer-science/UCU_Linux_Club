@@ -13,8 +13,8 @@ Can be [Manjaro](https://manjaro.org/downloads/official/gnome/), but NOT Debian-
 - USB flash drive 8Gb+
 - **Webcams on** during online presentations.
 - Desire to learn something new and useful that will assist you throughout your career.
-#### For Mac users
 
+#### For Mac users
 If you are going to visit the club regularly, the best is to install Arch/Manjaro natively. If you can't, you are going to need:
 
 - [brew](https://brew.sh) package manager</br>
@@ -22,8 +22,8 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 
 ### Project structure
 
-* [Useful resources, links and documentation](./docs)
-* [Week directories with useful resources](./resources)
+* [Useful resources, links and documentation](./docs/)
+* [Week directories with useful resources](./weeks/)
 
 ### Can be useful before the course:
 
