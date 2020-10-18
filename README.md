@@ -31,7 +31,6 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 - Reading about Linux distros in general [Wiki page on Linux](https://en.wikipedia.org/wiki/Linux), [Wiki page on Linux distributions](https://en.wikipedia.org/wiki/Linux_distribution)
 
 # Short schedule
-**Presentations are only available for `ucu.edu.ua` accounts**
 ## Week 0
 [![](images/week0.png)](https://docs.google.com/presentation/d/e/2PACX-1vRi-Y4N9ZtOIzydZR6EQ8IoFAq4C1a9_eNwvvzEPdSfE0svzASplVUCbaciWGgk1558iEzWSCSbDmPX/pub?start=false&loop=false&delayms=3000)
 
@@ -73,6 +72,7 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 [![](images/week11.png)]()
 
 # Usage for students
+[![](images/homework.png)](https://youtu.be/SrPrFjpCGvc)
 ```
 # Fork this repository
 # Watch the lecture
