@@ -1,3 +1,4 @@
+# More in the cheatsheet: https://ss64.com/bash/
 # Just prints the contents of the following command
 echo $SHELL
 
