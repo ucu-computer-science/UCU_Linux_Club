@@ -1,0 +1,5 @@
+# usage: ./get_ip
+#
+#!/bin/bash/env bash
+
+ip a | grep 'inet '
