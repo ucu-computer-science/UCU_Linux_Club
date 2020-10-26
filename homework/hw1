@@ -1,0 +1,5 @@
+#! /usr/bin/python
+#this code returns your ip adress 
+#expected output for this compter: appstream-glib -> 127.0.1.1
+import os
+os.system('hostname -i')

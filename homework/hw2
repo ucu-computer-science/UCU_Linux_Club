@@ -1,0 +1,24 @@
+#!/usr/bin/python
+#this code returns all words from all programs this computer has which contain such parts as 'cs', 'apps' or 'ba' in its name divided by - >
+#expected output:  appstream-glib -> archlinux-appstream-data -> baobab -> bash -> bashrc-manjaro
+
+import os
+os.system('echo $(pacman -Q) > allprog.txt')
+
+read_file = open('allprog.txt', 'r')
+
+line_for_read = read_file.read()
+# line_for_read.close()
+
+split_line = line_for_read.split(' ')
+
+split_line_1 = []
+for elem in range(0, len(split_line)):
+    if elem % 2 == 0:
+        split_line_1.append(split_line[elem])
+
+words_list = []
+for  words in split_line_1:
+    if 'cs' in words or 'apps' in words or 'ba' in words:
+        words_list.append(words)
+print(' -> '.join(map(str, words_list)))
