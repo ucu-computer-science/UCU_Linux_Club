@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+#print your ip adress
+ip route list | grep default

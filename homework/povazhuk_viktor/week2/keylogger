@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+dir=$1
+#echo "dir = $dir"
+while :
+do
+	read -p '>>> ' command
+#	if [ "$com" == "exit" ]
+#	then
+#		break
+#	fi
+	$command
+	timestamp=$(date "+[%Y:%m:%d|%T]")
+	echo "$timestamp $command" >> $dir
+done
