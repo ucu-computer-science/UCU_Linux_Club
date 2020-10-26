@@ -1,0 +1,5 @@
+# usage: ./get_matching_programs
+
+#!/usr/bin/env bash
+
+pacman -Q | grep "ba\|cs|\apps" 
