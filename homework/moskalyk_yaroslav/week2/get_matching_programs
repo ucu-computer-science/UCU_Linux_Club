@@ -1,5 +1,6 @@
 # usage: ./get_matching_programs
+# don't get how to replace endl with something else...
 
 #!/usr/bin/env bash
 
-pacman -Q | grep "ba\|cs|\apps" 
+pacman -Q | grep "ba\|cs|\apps" | tr '\n' '->' 
