@@ -1,0 +1,4 @@
+#!/bin/bash
+#helou
+
+pacman -Q | egrep 'cs|ba|apps'

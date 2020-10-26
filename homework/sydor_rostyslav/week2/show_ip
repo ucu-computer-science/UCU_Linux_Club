@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ip a | sed -n 11p | cut -b 10-21
