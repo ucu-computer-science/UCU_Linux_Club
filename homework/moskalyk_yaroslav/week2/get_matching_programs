@@ -1,6 +1,6 @@
 # usage: ./get_matching_programs
-# don't get how to replace endl with something else...
+# I've got it
 
 #!/usr/bin/env bash
 
-pacman -Q | grep "ba\|cs|\apps" | tr '\n' '->' 
+pacman -Q | grep "ba\|cs|\apps" | sed ':a;N;$!ba;s/\n/->/g'
