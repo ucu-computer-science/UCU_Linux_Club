@@ -1,0 +1,6 @@
+#!/bin/bash 
+ 
+# Print all the pcgs separated with ->
+# We skep file versions so we state $1 instead of $0
+pacman -Q | grep 'ba\|apps\|cs' | awk '{printf "%s->",$1} END {print ""}'
+

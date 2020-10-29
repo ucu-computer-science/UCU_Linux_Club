@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Output your ipv4 ip adress from the ifconfig.me vebsite
+curl ifconfig.me
+
