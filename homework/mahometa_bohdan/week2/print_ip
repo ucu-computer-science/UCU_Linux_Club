@@ -1,0 +1,5 @@
+#!/bin/bash
+#!/usr/bin/env bash
+
+# використовую ip a, бо тілько воно в мене працює
+ip a | grep wlo | grep inet | tr -s ' ' | cut -d' ' -f3 | cut -d'/' -f1

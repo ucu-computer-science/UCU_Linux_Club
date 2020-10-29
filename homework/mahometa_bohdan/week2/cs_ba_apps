@@ -1,0 +1,12 @@
+#!/bin/bash
+# для чого це писати?
+#!/usr/bin/env bash
+# і це?
+
+for i in $(pacman -Q | grep -i -e cs -e ba -e apps)
+    do echo -n $i'->'
+done
+
+echo
+
+
