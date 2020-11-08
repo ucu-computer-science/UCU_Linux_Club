@@ -3,9 +3,16 @@
 ### [**presetation**](https://docs.google.com/presentation/d/e/2PACX-1vSwRYb0LULiq0EGpJ1adne2e4W9_QAgsNcM1R825YCBey9WprUD_rWw9lmQuCYcVD7RZJcQRxVujCRJ/pub?start=false&loop=false&delayms=3000)
 
 ### homework
-1) create unit that is getting all messages with errors/warning/debug/ to log files. There should be config file, where u state, what priority messages to save. Must use journalctl and dmesg messages
-2) create unit for swap
-3) rewrite unit from lecture using timer
+1) create unit that is getting all messages with errors/warning/debug/ to log files. There should be config file, where u state, what priority messages to save. Use journalctl and dmesg messages
+2) rewrite hello_world unit from lecture using timer (If systemd refuses to start unit each second, trigger it each 10 sec)
+3) write timer unit that clears all exept last version of package in pacman cache
+
+Hint: paccache
+
+Useful links for hw:
+[archwiki on timers](https://wiki.archlinux.org/index.php/Systemd/Timers)
+first two links from useful links bellow |
+					 v
 
 ### useful links to read
 - [beautiful article about units](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files)

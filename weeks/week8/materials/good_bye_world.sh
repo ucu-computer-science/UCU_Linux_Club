@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "Finished. Date: $(date)" >> /home/pasha/Documents/Linux_club/presentation/scripts/hello_world.log
+# remember that on your device path will be another
+echo "Finished. Date: $(date)" >> /home/pasha/Documents/Linux_club/UCU_Linux_Club/weeks/week8/materials/hello_world.log
