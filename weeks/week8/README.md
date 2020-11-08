@@ -17,11 +17,9 @@ All details, like syntax for config in 1) are up to you. (But bash for scripting
 
 Useful links for hw:
 
-[archwiki on timers](https://wiki.archlinux.org/index.php/Systemd/Timers)
+- [archwiki on timers](https://wiki.archlinux.org/index.php/Systemd/Timers)
+- first two links from useful links bellow
 
-first two links from useful links bellow |
-
-					 v
 ### useful links to read
 - [beautiful article about units](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files)
 - [systemd documentation](https://www.freedesktop.org/software/systemd/man/)
