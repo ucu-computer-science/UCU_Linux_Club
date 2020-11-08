@@ -5,17 +5,22 @@
 ### homework
 1) create unit that is getting all messages from last boot with errors/warning/debug/ to some log file. There should be config file, where u state, what priority messages to save.
 
-Hint: Use journalctl and dmesg
+*Hint: Use journalctl and dmesg*
+
 2) rewrite hello_world unit from lecture using timer (If systemd refuses to start unit each second, trigger it each 10 sec)
+
 3) write timer unit that clears all exept last version of package in pacman cache
 
-Hint: paccache
+*Hint: paccache*
 
 All details, like syntax for config in 1) are up to you. (But bash for scripting is prefered)  Just write good README. If you want to extend some task, add some functionality, that's nice.
 
 Useful links for hw:
+
 [archwiki on timers](https://wiki.archlinux.org/index.php/Systemd/Timers)
+
 first two links from useful links bellow |
+
 					 v
 ### useful links to read
 - [beautiful article about units](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files)
@@ -29,4 +34,5 @@ first two links from useful links bellow |
 
 ### Questions?
 My telegram: @pavlohiley
+
 think twice before writing -_-
