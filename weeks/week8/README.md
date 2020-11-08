@@ -11,13 +11,12 @@ Hint: Use journalctl and dmesg
 
 Hint: paccache
 
-All details, like syntax for config in 1) or needed parameters in units are up to you. (But bash for scripting is prefered)  Just write good README. If you want to extend some task, add some functionality, that's nice.
+All details, like syntax for config in 1) are up to you. (But bash for scripting is prefered)  Just write good README. If you want to extend some task, add some functionality, that's nice.
 
 Useful links for hw:
 [archwiki on timers](https://wiki.archlinux.org/index.php/Systemd/Timers)
 first two links from useful links bellow |
 					 v
-
 ### useful links to read
 - [beautiful article about units](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files)
 - [systemd documentation](https://www.freedesktop.org/software/systemd/man/)
