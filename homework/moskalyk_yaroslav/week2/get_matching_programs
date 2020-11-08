@@ -1,0 +1,6 @@
+# usage: ./get_matching_programs
+# I've got it
+
+#!/usr/bin/env bash
+
+pacman -Q | grep "ba\|cs|\apps" | sed ':a;N;$!ba;s/\n/->/g'
