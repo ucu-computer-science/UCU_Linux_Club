@@ -22,4 +22,6 @@
 
 1. **How many disk operations are necessary to get the file at `/home/$USER/Documents/history/foucault.txt` path?** Presume that we are located at the root (`/`), no i-node is cached and each i-node transition takes 1 disk operation. 5
 
+smth edited
+
 1. In many \*nix systems, the i-nodes are kept at the start of the disk. An alternative design is to allocate an i-node when a file is created and put the i-node at the start of the first block of the file. **What are the tradeoffs of this approach?** When user adresses to a file, system needs the i-node to read that file. To reach the fragment of memory (in which i-node stored) system should perform n operations. However, if i-node is stored at the very start, there's no need to seek for it. So, this approach shortens the time for reaching i-node(and, then, reading file). 
