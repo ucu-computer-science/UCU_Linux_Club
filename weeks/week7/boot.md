@@ -55,3 +55,4 @@ Change GRUB to systemd-boot (scroll to the bottom and do exactly like this [guy]
 + [GRUB issues](https://www.unixmen.com/fixing-a-few-common-grub-errors-broken-bootloader-and-error-1715/)
 + [Systemd-boot](https://fedoraproject.org/wiki/How_to_debug_Systemd_problems)
 + [BIOS|UEFI](https://askubuntu.com/questions/173248/where-is-the-bootloader-stored-in-rom-ram-or-elsewhere)
++ [Multiboot USB](https://www.linuxbabe.com/apps/create-multiboot-usb-linux-windows-iso#:~:text=To%20create%20a%20multiboot%20usb%2C%20first%20insert%20your%20USB%20flash,specify%20the%20persistent%20file%20size.)
