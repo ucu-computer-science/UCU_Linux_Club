@@ -67,16 +67,23 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 ## Week 9
 [![](images/week9.png)]()
 
-## Week 10-12
-![](images/week10.png)
+## Week 10
+[![](images/week10.png)]()
+
+## Weeks 11-12
 [![](images/week11.png)]()
 
+## Next year
+[![](images/week12.png)]()
+
 # Usage for students
-[![](images/homework.png)](https://youtu.be/SrPrFjpCGvc)
 ```
 # Fork this repository
 # Watch the lecture
 # Create your personal directory in 'homework'
 # Copy the files from the respective directory in 'weeks' into your personal directory in 'homework'
-# Submit a pull request :)
+# Submit a pull request into your own repository's master
+# Add us as contributors into your repository
+# Add the responsible person as a reviewer to the pull request
+# Done!
 ```
