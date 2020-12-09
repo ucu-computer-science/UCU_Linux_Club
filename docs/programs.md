@@ -41,12 +41,9 @@ yay zsh
 chsh -s $(which zsh)
 ```
 
-### CLI programs for the terminal
+## CLI programs (Command Line Interface)
 #### For zsh
 - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
-
-#### Terminal emulator
-- [guake](http://guake-project.org/)
 
 #### Terminal multiplexor
 - [tmux](https://github.com/tmux/tmux/wiki)
@@ -90,10 +87,10 @@ chsh -s $(which zsh)
 - [tiv](https://github.com/stefanhaustein/TerminalImageViewer)
 
 #### Python interpreter
-Basic Python interpreter, called CPython (`python3` in the terminal), 
+Basic Python interpreter, called Cython (`python3` in the terminal), 
 is good enough, but it is not very fast and does not have a lot of features
 - IPython - have a beautiful interface with autocomplete
-- PyPy - very fast interpreter (about 20-30 times faster)
+- PyPy - in average 4.2 times faster than Cython
 
 #### For git management
 - [lazygit](https://github.com/jesseduffield/lazygit)
@@ -111,6 +108,9 @@ is good enough, but it is not very fast and does not have a lot of features
 
 #### [Gnome Extensions](https://extensions.gnome.org/)
 
+#### Bluetoorh manager
+- blueberry
+
 #### For photos view
 - PhotoQT
 - Gnome eye
@@ -123,7 +123,7 @@ is good enough, but it is not very fast and does not have a lot of features
 #### Terminal emulator
 - terminology
 - termite
-- Guake
+- [guake](http://guake-project.org/)
 
 #### Browsers
 - Chromium
