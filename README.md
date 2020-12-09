@@ -66,14 +66,13 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 
 ## Week 9
 [![](images/week9.png)]()
+[![](images/week9-1.png)]()
 
 ## Week 10
 [![](images/week10.png)]()
 
-## Weeks 11-12
-[![](images/week11.png)]()
-
 ## Next year
+[![](images/week11.png)]()
 [![](images/week12.png)]()
 
 # Usage for students
