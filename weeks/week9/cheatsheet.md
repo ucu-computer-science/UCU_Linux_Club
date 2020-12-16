@@ -60,6 +60,7 @@ int addNumbers(int a, int b)         // function definition with return type, na
 }
 Functions that do not return anything return `void`.
 There must always be a main function that returns an int:
+```
 ```c
 int main() 
 {
