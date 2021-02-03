@@ -13,10 +13,10 @@ Official repository of UCU student-organized Linux Club 20/21 with the schedule,
 # Second semester schedule
 
 ## Week 1
-[![](images/week1.png)]()
+[![](images/week1.png)](https://docs.google.com/presentation/d/e/2PACX-1vSSadBIITbvf13sJ624zSe88cXqjXVOvFeNqmFxbhoxof43t51eGi-POJZDPoUu8h4-3unlOy8FQQ13/pub?start=false&loop=false&delayms=3000)
 
 ## Week 2
-[![](images/week2-1.png)]()
+[![](images/week2-1.png)](https://docs.google.com/presentation/d/e/2PACX-1vQay3NircnJCfpeFy6WNKmFnbywvOR3Gf6rM93-8kjjrMe1CFWo-qDq1r289A0W3l5D-kbNoLH1FBAg/pub?start=false&loop=false&delayms=3000)
 [![](images/week2-2.png)]()
 
 ## Week 3
