@@ -1,0 +1,159 @@
+\documentclass[usenames,dvipsnames,10pt,aspectratio=169]{beamer} 
+% Add option 'aspectratio=169' for 16:9 widescreen 
+% Add option  'handout' to ignore animations
+% If you have a smaller amount of text, feel free to also try '11pt'! / Jesper
+
+\usepackage[utf8]{inputenc}
+\usepackage{verbatim}
+\usepackage{minted}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{geometry}
+\usepackage[document]{ragged2e}
+\usetheme{umu}
+\usemintedstyle{monokai}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=ucugreyish,
+    filecolor=ucured,
+    urlcolor=ucublue,
+}
+\urlstyle{same}
+
+%%% Bibliography
+\usepackage[style=authoryear,backend=biber]{biblatex}
+\addbibresource{bibliography.bib}
+
+\DeclareNameAlias{author}{given-family}
+
+%%% Suppress biblatex annoying warning
+\usepackage{silence}
+\WarningFilter{biblatex}{Patching footnotes failed}
+
+%%% Some useful commands
+% pdf-friendly newline in links
+\newcommand{\pdfnewline}{\texorpdfstring{\newline}{ }} 
+% Fill the vertical space in a slide (to put text at the bottom)
+\newcommand{\framefill}{\vskip0pt plus 1filll}
+
+%%% Enter additional packages below (or above, I can't stop you)! / Jesper
+\renewcommand{\proofname}{\sffamily{Proof}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[Linux club]{Linux Club}
+\date[\today]{\small\today}
+\author[Morhunenko Mykola]{Morhunenko Mykola}
+\institute{APPS@UCU}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}{\contentsname}
+\setbeamercolor{background canvas}{bg=ucugrey}
+\tableofcontents
+\end{frame}
+
+\framepic{graphics/6.jpg}{
+ \centering
+ \MakeUppercase\textcolor{ucuwhite}{Plans for semester}
+ \vskip 0.5cm
+}
+
+\section{A short history of systems programming}
+
+\framesplitc{The origins of C}{graphics/1.jpg}{The C programming language appeared during Unix development in 1972.\\
+
+Since it was created for a specific purpose % an operating system
+and a specific computer, %(PDP-11) 
+on the one hand it adapted to the
+needs of the programmers, and on the 
+other it adopted a large
+amount of somewhat unique and unpopular 
+ideas and concepts.}
+
+\begin{frame}{Possible solutions}
+\large
+C++ is born to help address some of these problems,\\ 
+introduces ‘zero cost’ abstractions, aimed at providing\\
+a nice interface for the programmer to use which\\
+compiles down to an almost ideal machine code.
+\vspace{0.5cm}
+
+Still has the old instruments, hangs on to C's machine\\
+model %(the fucking BACKWARDS COMPATIBILITY),
+and tries to encourage using the new\\ 
+modern safe concepts, 
+\href{https://alexgaynor.net/2019/apr/21/modern-c++-wont-save-us/}
+{which are not ideal either}.
+
+
+\end{frame}
+
+\begin{frame}{Modern ideas}
+
+\large
+In the meantime, languages like Java, Ruby and\\
+Python start sprawling up, presenting another\\
+model of growth - they are garbage-collected\\
+and are able to present even more complex\\
+abstractions (at the expense of the speed).\\
+
+\vspace{0.5cm}
+
+Go and others try to tackle C's speed and\\
+low-levelness, 
+\href{https://cowlark.com/2009-11-15-go/}{unsuccessfully}.
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Bonus Commands}
+
+
+\framecard{A SECTION\\TITLE}
+\framecard[ucublue]{A SECTION TITLE\\WITH A CUSTOM COLOR}
+
+
+\framepic{graphics/1.jpg}{
+	\framefill
+    \textcolor{white}{Luke,\\I am your supervisor}
+    \vskip 0.5cm
+}
+
+\framepic{graphics/1}{
+	\vfill
+    \begin{center}
+    \textcolor{ucured}{\textbf{Right-aligned text with\\Semi-transparent background}}
+    \end{center}	
+}
+
+\begin{frame}[t,fragile,allowframebreaks]
+\frametitle{Other bonus commands}
+
+We provide two other bonus commands:
+\begin{description}
+\item[\texttt{pdfnewline}] you can use \texttt{\textbackslash pdfnewline} to avoid the annoying \texttt{hyperref} related warnings when using newlines in the document's title, author, etc. For example, in this presentation the author is defined as:
+\begin{verbatim}
+\author[Luke Skywalker]{
+  Luke Skywalker, Ph.D.
+  \pdfnewline
+  \texttt{luke.skywalker@uniud.it}
+}
+\end{verbatim}
+\item[\texttt{marker}] you can use \texttt{\textbackslash marker} to highlight some text. The default color is \marker{orange}, but you can also \marker[ucublue]{use a custom color}. For example:
+\begin{verbatim}
+\marker{Default color}
+\marker[ucublue]{Custom Color}
+\end{verbatim}
+\item[\texttt{framefill}] you can use \texttt{\textbackslash framefill} to put the text at the bottom of a slide by filling all the vertical space.
+\end{description}
+
+\end{frame}
+
+
+\end{document}

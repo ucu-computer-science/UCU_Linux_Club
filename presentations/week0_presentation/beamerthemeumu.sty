@@ -1,0 +1,151 @@
+\mode<presentation>
+
+% comment/uncomment this line to enable/disable debug mode
+%\newcommand*{\DEBUG}{}
+
+% Requirement
+\RequirePackage{xcolor}	% colors
+\RequirePackage{tikz}	% drawing 
+\RequirePackage{soul} 	% text highlighting
+\RequirePackage{geometry}
+
+% in debug mode, show the boxes around the text
+\ifdefined\DEBUG
+\usepackage[absolute,overlay,showboxes]{textpos}
+\else
+\usepackage[absolute,overlay]{textpos}
+\fi
+
+% Settings
+\usefonttheme[onlymath]{serif} %För seriferad table of contents
+\useinnertheme{umu}
+\useoutertheme{umu}
+\usecolortheme{umu}
+\usefonttheme{umu}
+
+% Remove navigation symbols
+\setbeamertemplate{navigation symbols}{}
+% Squared blocks
+\setbeamertemplate{blocks}[rounded=false] 
+
+% Table of contents (outline) styling
+\setbeamertemplate{section in toc}[ball numbered]
+
+% Bibliography styling
+\setbeamertemplate{bibliography item}[text]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%										%%%%%
+%%%%%			~BONUS COMMANDS~			%%%%%
+%%%%%										%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% See the provided main.tex template for a tutorial
+% on how to use \framecard and \framepic.
+
+%%%%%										%%%%%
+%%%%%	~Frame with huge centered text~		%%%%%
+%%%%%										%%%%%
+\newcommand{\framecard}[2][ucuorange]{
+    {\setbeamercolor{background canvas}{bg=#1}%
+      \begin{frame}[plain]%
+        \vfill%
+        \begin{center}%
+          {\color{white}\Huge\textbf{%
+            {#2}%
+          }}%
+        \end{center}%
+        \vfill%
+      \end{frame}%
+  }
+}
+
+%%%%%       					        %%%%%
+%%%%%       	~Splited frame~	        %%%%%
+%%%%%       					        %%%%%
+
+\newcommand{\framesplit}[3]{
+    {
+       \begin{frame}{#1}
+            \begin{wrapfigure}{r}{0.5\textwidth}
+                \centering
+                \includegraphics[width=0.5\textwidth]{#2}
+            \end{wrapfigure}
+            \normalsize
+            #3
+            \vskip 0.8cm
+        \end{frame}
+    }
+}
+
+%%%%%       					                %%%%%
+%%%%%       	~Splited colored frame~        %%%%%
+%%%%%       					                %%%%%
+
+\newcommand{\framesplitc}[3]{
+    {
+    
+         \usebackgroundtemplate{
+            \tikz[overlay,remember picture] \node[opacity=1, at=(current page.center)] {
+            \includegraphics[height=\paperheight]{graphics/fg_split_v.png}};
+        }
+        
+      \begin{frame}
+    
+            \begin{wrapfigure}{r}{0.5\textwidth}
+                \begin{changemargin}{(\paperwidth - \textwidth)/4}{0}
+                    \centering
+                    \includegraphics[width=0.5\textwidth]{#2}
+                \end{changemargin}  
+            \end{wrapfigure}
+            
+            \Huge\textbf{#1}    
+            \vskip 1cm
+        \end{frame}
+        
+        
+    }
+}
+
+%%%%%										%%%%%
+%%%%%	~Frame with background image~		%%%%%
+%%%%%										%%%%%
+\newcommand{\framepic}[3][1]{
+  {
+    \usebackgroundtemplate{
+    \tikz[overlay,remember picture] \node[opacity=#1, at=(current page.center)] {
+      \includegraphics[height=\paperheight]{#2}};
+    }
+    {
+        \begin{frame}[plain]
+            \huge{#3}
+        \end{frame}
+    }
+  }
+}
+
+%%%%%										%%%%%
+%%%%%	~Marker for text highlighting ~		%%%%%
+%%%%%										%%%%%
+
+% beamer/soul compatibility fix
+\makeatletter
+\newcommand\SoulColor{%
+  \let\set@color\beamerorig@set@color
+  \let\reset@color\beamerorig@reset@color}
+\makeatother
+
+\newcommand{\marker}[2][ucuorange]{{\SoulColor\sethlcolor{#1}\hl{#2}}}
+
+\mode<all>
+
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}}

@@ -1,0 +1,62 @@
+\usepackage[T1]{fontenc} % Moved; old fonts indicated below /J
+% Maths
+\usefonttheme{serif}
+% UmU-font options provided by Jesper Erixon 
+
+% FONT OPTION 1: Sans Serif main text + Times math
+% FONT OPTION 2: Sans Serif main text + math 
+% FONT OPTION 3: Times main text + math 
+
+\def\fontoption{1} % Select font option by entering 
+                   % a number here
+                   
+                   % OR comment/select another number
+                   % (for example, 0) if you wish to 
+                   % use your own fonts
+                   
+% ----------------------------------------------------------
+\ifx\fontoption\undefined
+ % Do nothing if undefined 
+\else
+    \if\fontoption 1
+        \usepackage{newtxmath}
+        \usepackage[defaultfam,medium]{montserrat} % Sans-serif 
+        \renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}} 
+    \else
+        \if\fontoption 2
+            \usepackage[defaultfam,medium]{montserrat} % Sans-serif 
+            \usepackage{sfmath,sansmathaccent} % Math font
+            \renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}} 
+        \else
+            \if\fontoption 3
+                \usepackage{newtxmath,newtxtext}
+                \usepackage[medium]{montserrat} % Sans-serif
+                \renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}} 
+            \else
+            \fi
+        \fi
+    \fi
+\fi
+
+% ----------------------------------------------------------
+
+
+% Old fonts below - commented fonts will clash with Umeå University guidelines /J
+% general font
+% \renewcommand*\rmdefault{ppl}
+% monospaced
+\renewcommand*\ttdefault{lmvtt} % Latin Modern Mono Proportional Font
+
+% Font sizes
+% Have added \sffamily to all title fonts below /J
+\setbeamerfont{title}{size=\Huge}%} % Semibold title 
+\setbeamerfont{frametitle}{size=\Large\sffamily}
+\setbeamerfont{framesubtitle}{size=\normalsize}
+\setbeamerfont{title in head/foot}{size=\footnotesize\sffamily}
+\setbeamerfont{author in head/foot}{size=\footnotesize\sffamily}
+\setbeamerfont{block title}{size=\normalsize\sffamily}
+
+
+\setbeamerfont*{bibliography entry author}{series=\bfseries}
+\setbeamerfont*{bibliography entry title}{series=\bfseries}
+\setbeamerfont*{description item}{series=\bfseries}

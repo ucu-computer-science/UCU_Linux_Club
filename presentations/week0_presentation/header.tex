@@ -1,0 +1,9 @@
+% Header file with some shared commands.
+% This allows to use the umu beamer theme both 
+% within the provided main.tex template or in a new, % custom beamer presentation. 
+\ifdefined\UMU
+% header already included
+\else
+\newcommand*{\UMU}{}
+
+\fi
