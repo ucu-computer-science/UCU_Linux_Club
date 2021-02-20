@@ -20,7 +20,7 @@ Official repository of UCU student-organized Linux Club 20/21 with the schedule,
 [![](images/week2-2.png)](https://docs.google.com/presentation/d/e/2PACX-1vTxoWHLorLUICy34NvzPEE6dPTfuKQIoXX2TKXYTgHzLjeeVHQhj1ctp1j4nz4BCdufoEerdxnE5JFM/pub?start=false&loop=false&delayms=3000)
 
 ## Week 3
-[![](images/week3.png)]()
+[![](images/week3.png)](https://docs.google.com/presentation/d/e/2PACX-1vTGeWvHGl6CXoYriqlU4VEc5S0AogH5fn_85AswA7nwDaoiQ9mbeA8utyfrKF5GI-7ASeHdwecHmD2r/pub?start=false&loop=false&delayms=3000)
 
 ## Week 4
 [![](images/week4.png)]()
