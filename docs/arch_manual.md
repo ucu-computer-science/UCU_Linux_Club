@@ -2,6 +2,8 @@
 
 *The basis for this tutorial is [this one](https://sollus-soft.blogspot.com/2017/01/arch-linux-windows-10-uefi-systemd-boot.html)*
 
+Always keep tabs on this [extended official tutorial](https://wiki.archlinux.org/index.php/installation_guide).
+
 ## Preparing
 First of all, install arch ISO on your USB stick. [Here](https://www.archlinux.org/download/) you can find an official image. 
 
@@ -62,20 +64,30 @@ Now format partition and mount them. Root:
 mkfs.ext4 /dev/sda{root number} -L "ARCH"
 mount /dev/sda{root number} /mnt
 ```
+
 Boot:
 ```
 mkdir -p /mnt/boot
 mkfs.fat -F32 /dev/sda{boot number}
 mount /dev/sda{boot number} /mnt/boot
 ```
+
 Or just mount Windows EFI partition, if you didn't create new one
 ```
 mount /dev/sda{windows boot number} /mnt/boot
 ```
+
 Swap:
 ```
 mkswap /dev/sda{swap num}
 swapon /dev/sda{swap num}
+```
+
+Home:
+```
+mkdir -p /mnt/home
+mkfs.ext4 /dev/sda{home number} -L "home"
+mount /dev/sda{home number} /mnt/home
 ```
 
 Now let's update pacman: `pacman  -Syy`
@@ -111,15 +123,18 @@ en_US.UTF-8 UTF-8
 ru_RU.UTF-8 UTF-8
 uk_UA.UTF-8 UTF-8
 ```
-Don't forget to save
+Don't forget to save and actually generate the locales:
+```
+locale-gen
+```
 
-Adjust time zone and time : 
+Adjust time zone and time: 
 ```
 ln -sf /usr/share/zoneinfo/Europe/Kiev /etc/localtime
 hwclock --systohc
 ```
 
-Adjust the name of the computer: `vim /etc/hostname` and write there _"userhost - YOUR_USERNAME"_
+Adjust the name of the computer: `vim /etc/hostname` and write there _"YOUR_HOSTNAME"_
 
 Adjust hosts: `vim /etc/hosts` and write there -_"127.0.0.1 pavlik_giley.localdomain YOUR_USERNAME"-_ 
 DONT FORGET TO SAVE EVERYTHING
@@ -127,7 +142,7 @@ DONT FORGET TO SAVE EVERYTHING
 Password for root: `passwd` 
 
 Add new user: `useradd -G wheel -s /bin/bash -m YOUR_USERNAME`, and give him sudo permissions: `vim /etc/sudoers` 
-and uncomment _"%wheel ALL=(ALL) ALL"_
+and uncomment `%wheel ALL=(ALL) ALL`
 
 user's password: `passwd YOUR_USERNAME`
 
