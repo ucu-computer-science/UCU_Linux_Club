@@ -45,13 +45,11 @@ Official repository of UCU student-organized Linux Club 20/21 with the schedule,
 [![](images/week10.png)](https://github.com/LastGenius-edu/UCU_Rust_Course/raw/main/rust_4/lecture.pdf)
 
 ## Week 11
-[![](images/week11.png)]()
+[![](images/week11.png)](https://docs.google.com/presentation/d/e/2PACX-1vS6KO1ztKTymoCDD-wiWm33QvIvhTx9GC7VTjyFwyHRPV7A0Qli0QspKA13S8VqSCTRz32KCH-SyolP/pub?start=false&loop=false&delayms=3000)
 
 ## Week 12
 [![](images/week12.png)]()
 
-## Week 13
-[![](images/week13.png)]()
 
 # Usage for students
 ```
