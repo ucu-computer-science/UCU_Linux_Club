@@ -1,55 +1,59 @@
-# Linux Club 2020
-Official repository of UCU student-organized Linux Club 20/21 with the schedule, useful links and presentations.
+# Linux Club 2021
+Official repository of UCU student-organized Linux Club 21/22 with the schedule, useful links and presentations.
 
 ### Pre-requirements:
-- Remembering at least something from the first semester 
-- Having a working-and-running Arch-based system set up on your laptop
+- Personal laptop.
+- [ArchLinux](https://www.archlinux.org/) on your PC (not VM) or other Arch-based systems.
+  Can be [Manjaro](https://manjaro.org/downloads/official/gnome/), but NOT Debian- or Fedora-based systems.
+    - Manual for Arch Linux installation [here](./docs/arch_manual.md)
+    - Manual for Manjaro installation [here](./docs/manjaro_manual.md)
+- GNOM3 + Gnome shell or i3, **BUT** not (KDE, XFCE, MATE, Sway etc).
+- Basic knowledge of English language
+- [GitHub account](https://github.com/).
+- USB flash drive 8Gb+
+- **Webcams on** during online presentations.
+- Desire to learn something new and useful that will assist you throughout your career.
+
+#### For Mac users
+If you are going to visit the club regularly, the best is to install Arch/Manjaro natively. If you can't, you are going to need:
+
+- [brew](https://brew.sh) package manager</br>
+  ... More coming soon
 
 ### Project structure
 
 * [Useful resources, links and documentation](./docs/)
 * [Week directories with useful resources](./weeks/)
 
-# Second semester schedule
+### Can be useful before the course:
+
+- Watching the Revolution OS movie: [original version](https://www.youtube.com/watch?v=4vW62KqKJ5A) (which is better) or in [Russian](https://www.youtube.com/watch?v=n1F_MfLRlX0)
+- Reading about Linux distros in general [Wiki page on Linux](https://en.wikipedia.org/wiki/Linux), [Wiki page on Linux distributions](https://en.wikipedia.org/wiki/Linux_distribution)
+
+# Short schedule
+## Week 0
 
 ## Week 1
-[![](images/week1.png)](https://docs.google.com/presentation/d/e/2PACX-1vSSadBIITbvf13sJ624zSe88cXqjXVOvFeNqmFxbhoxof43t51eGi-POJZDPoUu8h4-3unlOy8FQQ13/pub?start=false&loop=false&delayms=3000)
 
 ## Week 2
-[![](images/week2-1.png)](https://docs.google.com/presentation/d/e/2PACX-1vQay3NircnJCfpeFy6WNKmFnbywvOR3Gf6rM93-8kjjrMe1CFWo-qDq1r289A0W3l5D-kbNoLH1FBAg/pub?start=false&loop=false&delayms=3000)
-[![](images/week2-2.png)](https://docs.google.com/presentation/d/e/2PACX-1vTxoWHLorLUICy34NvzPEE6dPTfuKQIoXX2TKXYTgHzLjeeVHQhj1ctp1j4nz4BCdufoEerdxnE5JFM/pub?start=false&loop=false&delayms=3000)
 
 ## Week 3
-[![](images/week3.png)](https://docs.google.com/presentation/d/e/2PACX-1vTGeWvHGl6CXoYriqlU4VEc5S0AogH5fn_85AswA7nwDaoiQ9mbeA8utyfrKF5GI-7ASeHdwecHmD2r/pub?start=false&loop=false&delayms=3000)
 
 ## Week 4
-[![](images/week4.png)](https://docs.google.com/presentation/d/e/2PACX-1vQ5R1REdagb1WsRLuhcZb-k1a_j6yPPgfZlL7gyadp4VwKWlWydVxbSl2OKpHH5lqlbBYblD0E9AM7z/pub?start=false&loop=false&delayms=3000)
 
 ## Week 5
-[![](images/week5.png)](https://docs.google.com/presentation/d/e/2PACX-1vSwRYb0LULiq0EGpJ1adne2e4W9_QAgsNcM1R825YCBey9WprUD_rWw9lmQuCYcVD7RZJcQRxVujCRJ/pub?start=false&loop=false&delayms=3000)
 
 ## Week 6
-[![](images/week6.png)](https://github.com/LastGenius-edu/UCU_Rust_Course/raw/main/rust_1/lecture.pdf)
 
 ## Week 7
-[![](images/week7.png)](https://github.com/LastGenius-edu/UCU_Rust_Course/raw/main/rust_2/lecture.pdf)
 
 ## Week 8
-[![](images/week8-1.png)]()
-[![](images/week8-2.png)]()
 
 ## Week 9
-[![](images/week9.png)](https://github.com/LastGenius-edu/UCU_Rust_Course/raw/main/rust_3/lecture.pdf)
 
 ## Week 10
-[![](images/week10.png)](https://github.com/LastGenius-edu/UCU_Rust_Course/raw/main/rust_4/lecture.pdf)
 
-## Week 11
-[![](images/week11.png)](https://docs.google.com/presentation/d/e/2PACX-1vS6KO1ztKTymoCDD-wiWm33QvIvhTx9GC7VTjyFwyHRPV7A0Qli0QspKA13S8VqSCTRz32KCH-SyolP/pub?start=false&loop=false&delayms=3000)
-
-## Week 12
-[![](images/week12.png)]()
-
+## Next year
 
 # Usage for students
 ```
@@ -62,3 +66,4 @@ Official repository of UCU student-organized Linux Club 20/21 with the schedule,
 # Add the responsible person as a reviewer to the pull request
 # Done!
 ```
+

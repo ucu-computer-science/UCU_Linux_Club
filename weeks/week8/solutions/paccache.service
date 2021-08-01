@@ -1,7 +1,0 @@
-[Unit]
-Description=Unit that will be executed each week. It will clean pacman cache
-After=multi-user.target
-
-[Service]
-Type=simple
-ExecStart=paccache -r -v
