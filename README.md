@@ -30,37 +30,64 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 - Watching the Revolution OS movie: [original version](https://www.youtube.com/watch?v=4vW62KqKJ5A) (which is better) or in [Russian](https://www.youtube.com/watch?v=n1F_MfLRlX0)
 - Reading about Linux distros in general [Wiki page on Linux](https://en.wikipedia.org/wiki/Linux), [Wiki page on Linux distributions](https://en.wikipedia.org/wiki/Linux_distribution)
 
-# Short schedule
+# Schedule
+
 ## Week 0
+
+![](./images/week0.png)
 
 ## Week 1
 
+![](./images/week1.png)
+
 ## Week 2
+
+![](./images/week2.png)
 
 ## Week 3
 
+![](./images/week3.png)
+
 ## Week 4
+
+![](./images/week4-1.png)
+![](./images/week4-2.png)
 
 ## Week 5
 
+![](./images/week5-1.png)
+![](./images/week5-2.png)
+
 ## Week 6
+
+![](./images/week6-1.png)
+![](./images/week6-2.png)
 
 ## Week 7
 
+![](./images/week7.png)
+
 ## Week 8
+
+![](./images/week8.png)
 
 ## Week 9
 
+![](./images/week9.png)
+
 ## Week 10
 
+![](./images/week10.png)
+
 ## Next year
+
+A lot more interesting and advanced stuff!
 
 # Usage for students
 ```
 # Fork this repository
 # Watch the lecture
-# Create your personal directory in 'homework'
-# Copy the files from the respective directory in 'weeks' into your personal directory in 'homework'
+# Work on your homework in the 'homework' directory
 # Submit a pull request into your own repository's master
 # Add us as contributors into your repository
 # Add the responsible person as a reviewer to the pull request
