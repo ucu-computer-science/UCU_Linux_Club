@@ -1,0 +1,10 @@
+[Unit]
+Description=Hello world service, that will be trigerred by timer
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/home/pasha/Documents/Linux_club/UCU_Linux_Club/weeks/week8/solutions/hello_world_1.sh
+ExecStop=/home/pasha/Documents/Linux_club/UCU_Linux_Club/weeks/week8/solutions/good_bye_world_1.sh
+User=pasha
+Group=pasha

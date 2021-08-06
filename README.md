@@ -1,12 +1,15 @@
 # Linux Club 2021
+
 Official repository of UCU student-organized Linux Club 21/22 with the schedule, useful links and presentations.
+
+**We also have a [website]()!**
 
 ### Pre-requirements:
 - Personal laptop.
 - [ArchLinux](https://www.archlinux.org/) on your PC (not VM) or other Arch-based systems.
   Can be [Manjaro](https://manjaro.org/downloads/official/gnome/), but NOT Debian- or Fedora-based systems.
-    - Manual for Arch Linux installation [here](./docs/arch_manual.md)
-    - Manual for Manjaro installation [here](./docs/manjaro_manual.md)
+    - Manual for Arch Linux installation [here](./docs/articles/arch_manual.md)
+    - Manual for Manjaro installation [here](./docs/articles/manjaro_manual.md)
 - GNOM3 + Gnome shell or i3, **BUT** not (KDE, XFCE, MATE, Sway etc).
 - Basic knowledge of English language
 - [GitHub account](https://github.com/).
@@ -22,8 +25,8 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 
 ### Project structure
 
-* [Useful resources, links and documentation](./docs/)
-* [Week directories with useful resources](./weeks/)
+* [Useful resources, links and documentation](./docs/content/articles)
+* [Week directories with useful resources](./homework/)
 
 ### Can be useful before the course:
 
@@ -78,6 +81,10 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 ## Week 10
 
 ![](./images/week10.png)
+
+## Week 11
+
+![](./images/week11.png)
 
 ## Next year
 

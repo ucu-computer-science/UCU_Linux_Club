@@ -1,0 +1,7 @@
+{% extends "base.html" %} {% block title %} LinuxClub@UCU {% endblock %} {% block content
+%}
+
+{% set page = get_page(path="readme/index.md") %}
+{{ page.content | safe }}
+
+{% endblock content %}

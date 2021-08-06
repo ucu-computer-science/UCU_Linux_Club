@@ -1,3 +1,9 @@
++++
+title = "Useful resources list"
+date = 2019-11-27
+[taxonomies]
+tags = ["List"]
++++
 # Useful resources
 
 ## [GitHub](https://github.com/)

@@ -1,3 +1,9 @@
++++
+title = "Manjaro installation manual"
+date = 2019-11-27
+[taxonomies]
+tags = ["Manjaro Linux", "Installation", "Manual"]
++++
 ## Manjaro Installation Guide
 
 **You'll need an Internet connection, laptop with some spare disk space, and a USB flash drive.**

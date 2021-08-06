@@ -1,0 +1,46 @@
+{% extends "base.html" %} {% block headadd %}
+<style></style>
+{% endblock %} {% block content %}
+<h1 class="title">{{ section.title }}</h1>
+<ul>
+  {% for page in section.pages %}
+  <div class="title-content">
+    <!--            <h3 style="position: absolute;"><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h3>-->
+    <h3><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h3>
+    <div class="intro"><a href="#">Subtitle</a></div>
+  </div>
+  <li></li>
+  {% endfor %}
+</ul>
+
+<ul class="nostyle home">
+  {% if paginator %} {% for page in paginator.pages %}
+  <li class="blogpost">
+    <a class="nostylelink" href="{{ page.permalink | safe }}">
+      <div class="content">
+        <h2 class="blogtitle">{{ page.title }}</h2>
+        <p class="blogoneliner">{{ page.description }}</p>
+        <p class="bloginfo">
+          {{ page.day }}.{{ page.month }}.{{ page.year }} | {{ page.reading_time
+          }} min.
+        </p>
+      </div>
+    </a>
+  </li>
+  {% endfor %} {% endif %}
+  <div style="text-align: center">
+    <h2>
+      {% if paginator.previous %}
+      <a class="active" href="{{ paginator.previous }}">&lt;</a>
+      {% else %}
+      <span class="inactive">&lt;</span>
+      {% endif %} {{ paginator.current_index }} page {% if paginator.next %}
+      <a class="active" href="{{ paginator.next }}">&gt;</a>
+      {% else %}
+      <span class="inactive">&gt;</span>
+      {% endif %}
+    </h2>
+  </div>
+</ul>
+
+{% endblock content %}

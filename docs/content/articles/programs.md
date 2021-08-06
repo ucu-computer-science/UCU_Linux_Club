@@ -1,3 +1,9 @@
++++
+title = "Useful programs list"
+date = 2019-11-27
+[taxonomies]
+tags = ["List", "Manual"]
++++
 **Almost every program you'll ever need is available in AUR (using `yay`)**
 
 

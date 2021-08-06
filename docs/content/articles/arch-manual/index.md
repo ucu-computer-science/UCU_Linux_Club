@@ -1,3 +1,9 @@
++++
+title = "Arch installation manual"
+date = 2019-11-27
+[taxonomies]
+tags = ["Arch Linux", "Installation", "Manual"]
++++
 # Installing Arch
 
 *The basis for this tutorial is [this one](https://sollus-soft.blogspot.com/2017/01/arch-linux-windows-10-uefi-systemd-boot.html)*
@@ -8,19 +14,19 @@ Always keep tabs on this [extended official tutorial](https://wiki.archlinux.org
 First of all, install arch ISO on your USB stick. [Here](https://www.archlinux.org/download/) you can find an official image. 
 
 I recomend using [RUFUS](https://rufus.ie/) for proper image installation. Choose everything as you see on this photo: 
-![](../images/arch_manual/rufus.PNG)
+![](rufus.png)
 
 **Important!** all files from USB-stick will be deleted
 
 Now go to the BIOS (press F2 or F8 or smth else on you laptop during booting), and choose `UEFI mode` and change boot order (make your USB first prior). result should be something like that:
 
-![](../images/arch_manual/bios.jpg)
+![](bios.jpg)
 
 Save changes and exit
 
 ## main part of installation
 Firstly check if you're loaded in EFI mode: `efivar -l`. The output should be like this: 
-![](../images/arch_manual/efivar.png)
+![](efivar.png)
 
 On some computers Wifi won't work without turning the module on with this  command: `rfkill unblock all`
 
@@ -37,7 +43,7 @@ station interface_name connect network_name
 
 Example of turning on wifi:
 
-![](../images/arch_manual/iwctl.jpg)
+![](iwctl.jpg)
 
 Check if internet works with `ping google.com` (should appear messages with '64 bytes' at the beginning, press CTRL+C to finish check)
 
@@ -46,7 +52,7 @@ Time synchronization: `timedatectl set-ntp true`
 Now let's look at your previous boot records: `efibootmgr` and delete previous linux or some other stuff: `efibootmgr -b X -B`, where 'X' is number of stuff's boot
 
 Here is how it should look like
-![](../images/arch_manual/efibootmgr.png)
+![](efibootmgr.png)
 
 Now disk management: `cfdisk`. Here I delete everything from previous system and 
 - choose  root directory (about 50GB, linux filesystem) 
@@ -56,7 +62,7 @@ Now disk management: `cfdisk`. Here I delete everything from previous system and
 Don't forget to "write" after making new partition. And don't delete Windows partitions if you want dual boot.
 
 Here, how it looks on my laptop:
-![](../images/arch_manual/cfdisk.png)
+![](cfdisk.png)
 As you can see I have 64GB root (/dev/sda11), 33GB home (/dev/sda10) 20GB swap (/dev/sda5), and my boot is /dev/sda3. Remeber, that on your laptop/PC, there will be other partition numbers.
 
 Now format partition and mount them. Root:

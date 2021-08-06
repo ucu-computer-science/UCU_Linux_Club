@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block headadd %}
+<style>
+    a {
+	    color: #E5E9F0;
+      text-decoration: underline;
+    }
+
+    .article {
+        width: 90%;
+        overflow: hidden;
+        margin: 0 auto 3em auto;
+    }
+</style>
+{% endblock %}
+
+ {% block content %}
+ <div class="article">
+<h1 class="blogtitle">{{ page.title }}</h1>
+{{ page.content | safe }} 
+</div>
+
+{% endblock content %}

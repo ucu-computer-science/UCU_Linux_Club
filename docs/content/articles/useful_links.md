@@ -1,3 +1,9 @@
++++
+title = "Useful links"
+date = 2019-11-27
+[taxonomies]
+tags = ["List"]
++++
 ## Links
 #### Arch Linux installation
 Arch Linux itself is not very simple for beginners, but amazing 
