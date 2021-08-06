@@ -1,6 +1,6 @@
 +++
-title = "About"
-date = 2021-04-05
+title = "LinuxClub@UCU - Second semester 2020/21"
+date = 2021-08-06
 +++
 
 # About us

@@ -2,7 +2,7 @@
 
 Official repository of UCU student-organized Linux Club 21/22 with the schedule, useful links and presentations.
 
-**We also have a [website]()!**
+**We also have a [website over here](https://ucu-cs.github.io/UCU_Linux_Club/)!**
 
 ### Pre-requirements:
 - Personal laptop.

@@ -1,5 +1,5 @@
 +++
-title = "2020/21 First Semester"
+title = "2020/21 Second Semester"
 sort_by = "date"
 paginate_by = 10
 template = "blog.html"
