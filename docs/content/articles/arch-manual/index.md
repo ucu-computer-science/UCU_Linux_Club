@@ -11,6 +11,23 @@ tags = ["Arch Linux", "Installation", "Manual"]
 Always keep tabs on this [extended official tutorial](https://wiki.archlinux.org/index.php/installation_guide).
 
 ## Preparing
+
+### For Linux users: 
+
+- First of all, install arch ISO on your USB stick. [Here](https://www.archlinux.org/download/) you can find an official image. 
+
+- Check your USB name using fdisk program `fdisk -l`. Ypu are interested in `/dev/sdX` kind of disk.
+
+- Use `dd` tool to make bootable drive
+
+```
+$ sudo dd if=/dev/sdX of=~/arch_image.iso
+```
+
+[skip windows manual](#main-part-of-installation)
+
+### For Windows users:
+
 First of all, install arch ISO on your USB stick. [Here](https://www.archlinux.org/download/) you can find an official image. 
 
 I recomend using [RUFUS](https://rufus.ie/) for proper image installation. Choose everything as you see on this photo: 
@@ -24,7 +41,7 @@ Now go to the BIOS (press F2 or F8 or smth else on you laptop during booting), a
 
 Save changes and exit
 
-## main part of installation
+## Main part of installation
 Firstly check if you're loaded in EFI mode: `efivar -l`. The output should be like this: 
 ![](efivar.png)
 
@@ -55,10 +72,10 @@ Here is how it should look like
 ![](efibootmgr.png)
 
 Now disk management: `cfdisk`. Here I delete everything from previous system and 
-- choose  root directory (about 50GB, linux filesystem) 
+- choose  root directory (about 60GB, linux filesystem) 
 - boot partition (1GB, EFI filesystem) (Actually it's better to install bootloader on the Windows EFI partition, if you want to see choise of system during loading). 
-- Create (or do nothing if you already have) home directory (40GB, linux filesystem). 
-- Create swap partition (4-8GB, Linux swap)
+- Create (or do nothing if you already have) home directory (40+GB, linux filesystem). 
+- Create swap partition (Your RAM size * 2, Linux swap)
 Don't forget to "write" after making new partition. And don't delete Windows partitions if you want dual boot.
 
 Here, how it looks on my laptop:
@@ -234,8 +251,12 @@ Server = https://mirror.mirohost.net/archlinux/$repo/os/$arch
 Server = http://mirrors.nix.org.ua/linux/archlinux/$repo/os/$arch
 Server = https://mirrors.nix.org.ua/linux/archlinux/$repo/os/$arch
 ```
+Or use automated tool `rankmirrors` for ranking mirrors:
+```
+rankmirrors -n 0 /etc/pacman.d/mirrorlist
+```
 
-Terminal: `sudo pacman -S terminator`
+Terminal: `sudo pacman -S terminology`
 
 git: `sudo pacman -S git`
 
@@ -278,7 +299,7 @@ cd /usr/lib
 sudo ln -s libncursesw.so.6.1 libncurses.so.5
 sudo ln -s libncursesw.so.6.1 libtinfo.so.5
 ```
-Follow [this tutorial](https://cms.ucu.edu.ua/pluginfile.php/181558/mod_resource/content/1/CLion_STM32_Settings.pdf) to work with STM32 through CLion: 
+Follow [this tutorial](https://gist.github.com/Myralllka/42385fdecacb7cc2a45ec9376b57a4b2) to work with STM32 through CLion: 
 
 List of other apps I use:
 1. Slack
