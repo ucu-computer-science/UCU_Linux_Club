@@ -21,7 +21,7 @@ Always keep tabs on this [extended official tutorial](https://wiki.archlinux.org
 - Use `dd` tool to make bootable drive
 
 ```
-$ sudo dd if=/dev/sdX of=~/arch_image.iso
+$ sudo dd if=path_to_arch_image.iso of=/dev/sdX bs=4M
 ```
 
 [skip windows manual](#main-part-of-installation)
