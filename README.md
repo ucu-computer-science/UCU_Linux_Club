@@ -91,13 +91,19 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 A lot more interesting and advanced stuff!
 
 # Usage for students
-```
-# Fork this repository
-# Watch the lecture
-# Work on your homework in the 'homework' directory
-# Submit a pull request into your own repository's master
-# Add us as contributors into your repository
-# Add the responsible person as a reviewer to the pull request
-# Done!
-```
 
+* Fork this repository
+* Watch the lecture
+* Work on your homework in the 'homework' directory
+* Submit a pull request into your own repository's master
+* Add us as contributors into your repository
+* Add the responsible person as a reviewer to the pull request
+* Done!
+
+# Usage for contributors
+
+* Fork this repository
+* Add any content and homework tasks in the 'homework' directory
+* Share a link to your presentation (either an Overleaf Latex one,
+or a Google Drive presentation in our [collaborative folder](https://drive.google.com/drive/u/1/folders/1sIDCjVzGFoQjZx35y-x2HWAjBaNIDXvk))
+* Submit pull requests when you're done working on your stuff!
