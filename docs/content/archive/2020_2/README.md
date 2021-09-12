@@ -19,8 +19,7 @@ which is why we've chosen to call our club after the Linux operating system
 and why we've decided to make this course public.
 
 You can join us live - we have lectures each **Wednesday 16:30 Kyiv time**, or watch 
-our previous recorded lectures and read through lecture notes. Learning as a part of community is 
-key, which is why we recommend you join our [Telegram group](https://t.me/joinchat/Rj8nFcuO9FWV6Mgv)!
+our previous recorded lectures and read through lecture notes.
 
 # Pre-requirements:
 
@@ -96,7 +95,6 @@ key, which is why we recommend you join our [Telegram group](https://t.me/joinch
 
 # Other resources:
 
-* [About page](./info/about)
 * [Arch Linux installation tutorial](./articles/arch-manual/)
 * [Manjaro Linux installation ](./articles/manjaro-manual/)
 * [Useful resources](./articles/resources/)
