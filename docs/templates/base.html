@@ -22,7 +22,7 @@
       /* Defining colors */
       :root {
         --dark-background: #0d1117;
-        --lighter-background: #0d1117;
+        --lighter-background: #3b303b;
         --border-color: #0069c0;
         --text-h: #e5e9f0;
         --text-p: #e5e9f0;
@@ -196,7 +196,7 @@
       }
 
       .inactive {
-        color: var(--lighter-background);
+        color: var(--dark-background);
         font-weight: 300;
       }
 
@@ -230,7 +230,7 @@
       .footer {
         bottom: 0;
         border-top: 1px solid var(--border-color);
-        background: var(--lighter-background);
+        background: var(--dark-background);
         height: 3em;
         width: 100%;
         display: block;
@@ -308,6 +308,21 @@
       /* code formatting stuff */
       code {
         border-radius: 3px;
+      }
+
+      pre {
+        width: 100%;
+        overflow:scroll;
+        overflow-x: auto;
+        background-color: var(--lighter-background);
+        border-radius: 0.3em;
+        border: 0.5em solid #2b303b;
+      }
+
+      :not(pre) > code {
+        background-color: var(--lighter-background);
+        border-radius: 0.3em;
+        border: 0.1em solid var(--lighter-background);
       }
     </style>
     {% block headadd %} {% endblock %}
