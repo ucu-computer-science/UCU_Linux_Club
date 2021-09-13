@@ -51,6 +51,7 @@ tags = ["Manjaro Linux", "Installation", "Manual"]
 	1. Install necessary packages for AUR usage
 	
 	```shell
+	sudo pacman -Syy
 	sudo pacman -S fakeroot binutils patch
 	```
 	
