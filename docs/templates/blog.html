@@ -1,6 +1,8 @@
 {% extends "base.html" %} {% block headadd %}
 <style></style>
-{% endblock %} {% block content %}
+{% endblock %}
+{% block title %}{{ section.title }}{% endblock title%}
+{% block content %}
 <h1 class="title">{{ section.title }}</h1>
 <ul>
   {% for page in section.pages %}

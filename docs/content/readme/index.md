@@ -34,12 +34,12 @@ our previous recorded lectures and read through lecture notes.
 
 **Week 0** - Intro and Club Presentation - 
 [Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-Lecture notes | 
+[Lecture notes](https://docs.google.com/presentation/d/e/2PACX-1vRUixUxmN_j533brmbuE02jgDaEobgiH6pYIYjLivIgXKTPaw9LT8KLsECMKx3hPVMAr-uzdcvqA_Qv/pub?start=false&loop=false&delayms=3000) |
 Recording
 
 **Week 1** - Intro to Open Source -
 [Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-Lecture notes | 
+[Lecture notes](https://docs.google.com/presentation/d/e/2PACX-1vSX13i4-Npx28dSqDKbd7qmG8kjaMq2vMhXYvDhhWluBQ0VC_lrw70mBivB-Cta1xxNVPy4DGACKhAN/pub?start=false&loop=false&delayms=3000) | 
 Recording
 
 **Week 2** - Intro to Git and Github - 

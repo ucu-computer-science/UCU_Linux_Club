@@ -13,8 +13,8 @@
     }
 </style>
 {% endblock %}
-
- {% block content %}
+{% block title %}{{ page.title }}{% endblock title%}
+{% block content %}
  <div class="article">
 <h1 class="blogtitle">{{ page.title }}</h1>
 {{ page.content | safe }} 
