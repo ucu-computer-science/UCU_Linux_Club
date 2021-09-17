@@ -84,7 +84,7 @@ As you can see I have 64GB root (/dev/sda11), 33GB home (/dev/sda10) 20GB swap (
 
 Now format partition and mount them. Root:
 ```
-mkfs.ext4 /dev/sda{root number} -L "ARCH"
+mkfs.ext4 /dev/sda{root number} -L "arch"
 mount /dev/sda{root number} /mnt
 ```
 
@@ -117,7 +117,7 @@ Now let's update pacman: `pacman  -Syy`
 
 Install base system and packet for future AUR using: `pacstrap /mnt base linux linux-firmware base-devel linux-headers`
 
-Generate fstab: `genfstab -U /mnt >> /mnt/etc/fstab`
+Generate fstab: `genfstab -L /mnt >> /mnt/etc/fstab`
 Check if it is generated: `nano /mnt/etc/fstab`
 
 Example fstab(don't forget to change filesystem UUIDs (you can find them in 'cfdisk')): 
@@ -169,7 +169,7 @@ and uncomment `%wheel ALL=(ALL) ALL`
 
 user's password: `passwd YOUR_USERNAME`
 
-Download some potentially useful stuff: `pacman -S  efibootmgr iw wpa_supplicant dialog netctl dhcpcd`.
+Download some potentially useful stuff: `pacman -S  efibootmgr iw wpa_supplicant dialog netctl dhcpcd iwd`.
 And more: `pacman -S ntfs-3g mtools fuse2`
 
 Install bootloader: `bootctl install`
@@ -195,7 +195,7 @@ title Arch Linux
 linux /vmlinuz-linux
 initrd /intel-ucode.img
 initrd /initramfs-linux.img
-options root="LABEL=ARCH" rw
+options root="LABEL=arch" rw
 ```
 Now exit and umount all partition:
 ```
