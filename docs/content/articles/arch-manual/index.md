@@ -230,8 +230,8 @@ First of all set normal wallpalers, change touchpad sensitivity and other settin
 
 Python: 
 ```
-sudo pacman python-pip
-sudo pacman ipython
+sudo pacman -S python-pip
+sudo pacman -S ipython
 ```
 
 Battery optimization:
