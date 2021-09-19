@@ -60,4 +60,4 @@ tags = ["Manjaro Linux", "Installation", "Manual"]
 	sudo pacman -Syu	
 	```
 
-	1. You should be all set! Proceed to [programs list](./programs.md), [resources](./resources.md) and [useful links](./useful_links.md) docs.
+	1. You should be all set! Proceed to [programs list](@/articles/programs.md), [resources](@/articles/resources.md) and [useful links](@/articles/useful-links.md) docs.

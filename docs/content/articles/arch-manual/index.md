@@ -225,6 +225,8 @@ systemctl enable gdm
 Lenovo y530 (my laptop) can't render HDMI output with intel GPU, so if you want to use second monitor, read [here](https://wiki.archlinux.org/index.php/PRIME#PRIME_render_offload)
 Also download prime-run (for running application with nvidia GPU(if you have nvidia): `sudo pacman -S prime-run`
 
+You should be all set! Proceed to [programs list](@/articles/programs.md), [resources](@/articles/resources.md) and [useful links](@/articles/useful-links.md) docs.
+
 # System customization and apps installation
 First of all set normal wallpalers, change touchpad sensitivity and other settings in GNOME
 
