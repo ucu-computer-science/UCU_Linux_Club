@@ -59,7 +59,7 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 ## Week 5
 
 ![](./images/week5-1.png)
-![](./images/week5-2.png)
+[![](./images/week5-2.png)](https://docs.google.com/presentation/d/1vD0txBSFIjGu86VvZOK88VphiO7BwbzEBbABQ-oBs1Y/present#slide=id.p)
 
 ## Week 6
 
