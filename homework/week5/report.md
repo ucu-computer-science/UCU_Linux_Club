@@ -1,8 +1,9 @@
 ## Week 5 RegEx Homework
 
 ### You should use this doc as a template, fork the repository, fill in the answers, push changes to your repo, create pull request and add Lesi-N as a reviewer.
+### Your task is to go to [this website](http://regextutorials.com/excercise.html) and complete all 21 challenges
 
-### Try and complete the challenges without consulting external sources; if you get stuck, move on and come back to it later. If you're still having difficulties, use the hints and try to understand them. Good luck!
+### Try and complete them  without consulting external sources; if you get stuc on one,  move on and come back to it later. If you're still having difficulties, use the hints and try to understand them. Good luck!
 
 ---
 
