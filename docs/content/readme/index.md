@@ -34,23 +34,21 @@ our previous recorded lectures and read through lecture notes.
 
 **Week 0** - Intro and Club Presentation - 
 [Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-[Lecture notes](https://docs.google.com/presentation/d/e/2PACX-1vRUixUxmN_j533brmbuE02jgDaEobgiH6pYIYjLivIgXKTPaw9LT8KLsECMKx3hPVMAr-uzdcvqA_Qv/pub?start=false&loop=false&delayms=3000) |
-Recording
+[Lecture notes](https://docs.google.com/presentation/d/e/2PACX-1vRUixUxmN_j533brmbuE02jgDaEobgiH6pYIYjLivIgXKTPaw9LT8KLsECMKx3hPVMAr-uzdcvqA_Qv/pub?start=false&loop=false&delayms=3000)
 
 **Week 1** - Intro to Open Source -
 [Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-[Lecture notes](https://docs.google.com/presentation/d/e/2PACX-1vSX13i4-Npx28dSqDKbd7qmG8kjaMq2vMhXYvDhhWluBQ0VC_lrw70mBivB-Cta1xxNVPy4DGACKhAN/pub?start=false&loop=false&delayms=3000) | 
-Recording
+[Lecture notes](https://docs.google.com/presentation/d/e/2PACX-1vSX13i4-Npx28dSqDKbd7qmG8kjaMq2vMhXYvDhhWluBQ0VC_lrw70mBivB-Cta1xxNVPy4DGACKhAN/pub?start=false&loop=false&delayms=3000)
 
 **Week 2** - Intro to Git and Github - 
 [Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-Lecture notes | 
-Recording
+[Lecture notes](https://docs.google.com/presentation/d/e/2PACX-1vSfbQQSyZkS36yTfLuemb2NAx-vhIVDxy7OApVf0hRjPBt9TffcrcfGf7OiWGpNlktK7JuOJqoLgL3V/pub?start=false&loop=false&delayms=3000) | 
+[Recording](https://youtu.be/ruqUJ1JgUNg)
 
 **Week 3** - Intro to CLI and Bash - 
 [Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-Lecture notes | 
-Recording
+[Lecture notes](https://docs.google.com/presentation/d/e/2PACX-1vS4fBISZhM9Au9xPjz-mKS2sXl1own8PCN9euoMdPEgOKMlhNNZRciME2Yq3Zfq1Qx6i20a9ILXcJVu/pub?start=false&loop=false&delayms=3000) | 
+[Recording](https://youtu.be/l-cEmgeFgE4)
 
 **Week 4.1** - Vim + tmux - 
 [Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
@@ -59,17 +57,17 @@ Recording
 
 **Week 4.2** - Package managers - 
 [Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-Lecture notes | 
+[Lecture notes](https://docs.google.com/presentation/d/e/2PACX-1vQYZWspte_5iGBd02e2iepxA7C2fC7F10yHB8_p75YZGbO1iY09PYqftKMTWPVkrBa6KPXZz3-363Sr/pub?start=false&loop=false&delayms=3000) | 
 Recording
 
 **Week 5.1** - Linux Filesystem Hierarchy -
 [Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-Lecture notes | 
+[Lecture notes](https://docs.google.com/presentation/d/e/2PACX-1vRaYRm_zImxtWNHKi7QXT9fKCnPWfP3ZieAsFfp89kqE8ZrgLZVuf85CUj_VNaLYPgZ2nCx8eEM5Siu/pub?start=false&loop=false&delayms=3000) | 
 Recording
 
 **Week 5.2** - Regular Expressions - 
 [Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-Lecture notes | 
+[Lecture notes](https://docs.google.com/presentation/d/e/2PACX-1vQ8qmzFuXoysej9BkmaPbZ1dT2QKCdG2Gj-Z3S78PyHN_LY7zt3Q2hqCUVRm_Owpw9RehKzDBLBLM1K/pub?start=false&loop=false&delayms=3000) | 
 Recording
 
 **Week 6.1** - Partition Tables - 
