@@ -49,7 +49,7 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 
 ## Week 3
 
-[![](./images/weekpng)](https://docs.google.com/presentation/d/e/2PACX-1vS4fBISZhM9Au9xPjz-mKS2sXl1own8PCN9euoMdPEgOKMlhNNZRciME2Yq3Zfq1Qx6i20a9ILXcJVu/pub?start=false&loop=false&delayms=3000)
+[![](./images/week3.png)](https://docs.google.com/presentation/d/e/2PACX-1vS4fBISZhM9Au9xPjz-mKS2sXl1own8PCN9euoMdPEgOKMlhNNZRciME2Yq3Zfq1Qx6i20a9ILXcJVu/pub?start=false&loop=false&delayms=3000)
 
 ## Week 4
 
@@ -68,7 +68,7 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 
 ## Week 7
 
-![](./images/week7.png)
+[![](./images/week7.png)](https://docs.google.com/presentation/d/e/2PACX-1vRP_JHLKLA_xs3P4WYc8hbVzdycS8jnaB2hKnaIDhQupva4euOPvHSOCG7fIiCbcqALEHXpLCM5vVbg/pub?start=false&loop=false&delayms=3000)
 
 ## Week 8
 
