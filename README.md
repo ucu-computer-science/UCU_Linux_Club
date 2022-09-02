@@ -6,8 +6,8 @@ Official repository of UCU student-organized Linux Club 21/22 with the schedule,
 
 ### Pre-requirements:
 - Personal laptop.
-- [ArchLinux](https://www.archlinux.org/) on your PC (not VM) or other Arch-based systems.
-  Can be [Manjaro](https://manjaro.org/downloads/official/gnome/), but NOT Debian- or Fedora-based systems.
+- [ArchLinux](https://archlinux.org/download/) on your PC (not VM) or other Arch-based systems.
+  Can be [Manjaro](https://manjaro.org/download/), but NOT Debian- or Fedora-based systems.
     - Manual for Arch Linux installation [here](https://ucu-computer-science.github.io/UCU_Linux_Club/articles/arch-manual/)
     - Manual for Manjaro installation [here](https://ucu-computer-science.github.io/UCU_Linux_Club/articles/manjaro-manual/)
 - GNOM3 + Gnome shell or i3, **BUT** not (KDE, XFCE, MATE, Sway etc).
@@ -30,7 +30,7 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 
 ### Can be useful before the course:
 
-- Watching the Revolution OS movie: [original version](https://www.youtube.com/watch?v=4vW62KqKJ5A) (which is better) or in [Russian](https://www.youtube.com/watch?v=n1F_MfLRlX0)
+- Watching the Revolution OS movie: [original version](https://www.youtube.com/watch?v=4vW62KqKJ5A)
 - Reading about Linux distros in general [Wiki page on Linux](https://en.wikipedia.org/wiki/Linux), [Wiki page on Linux distributions](https://en.wikipedia.org/wiki/Linux_distribution)
 
 # Schedule
