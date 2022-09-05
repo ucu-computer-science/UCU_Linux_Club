@@ -1,6 +1,6 @@
-# Linux Club 2021
+# Linux Club 2022
 
-Official repository of UCU student-organized Linux Club 21/22 with the schedule, useful links and presentations.
+Official repository of UCU student-organized Linux Club 22/23 with the schedule, useful links and presentations.
 
 **We also have a [website over here](https://ucu-computer-science.github.io/UCU_Linux_Club/)!**
 
@@ -10,8 +10,8 @@ Official repository of UCU student-organized Linux Club 21/22 with the schedule,
   Can be [Manjaro](https://manjaro.org/download/), but NOT Debian- or Fedora-based systems.
     - Manual for Arch Linux installation [here](https://ucu-computer-science.github.io/UCU_Linux_Club/articles/arch-manual/)
     - Manual for Manjaro installation [here](https://ucu-computer-science.github.io/UCU_Linux_Club/articles/manjaro-manual/)
-- GNOM3 + Gnome shell or i3, **BUT** not (KDE, XFCE, MATE, Sway etc).
-- Basic knowledge of English language
+- GNOME 3 + Gnome shell or i3, **BUT** not (KDE, XFCE, MATE, Sway etc).
+- Basic knowledge of the English language
 - [GitHub account](https://github.com/).
 - USB flash drive 8Gb+
 - **Webcams on** during online presentations.
