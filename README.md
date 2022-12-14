@@ -58,21 +58,20 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 
 ## Week 5
 
-[![](./images/week5-1.png)](https://docs.google.com/presentation/d/e/2PACX-1vRaYRm_zImxtWNHKi7QXT9fKCnPWfP3ZieAsFfp89kqE8ZrgLZVuf85CUj_VNaLYPgZ2nCx8eEM5Siu/pub?start=false&loop=false&delayms=3000)
-[![](./images/week5-2.png)](https://docs.google.com/presentation/d/1vD0txBSFIjGu86VvZOK88VphiO7BwbzEBbABQ-oBs1Y/present#slide=id.p)
+[![](./images/week5-1.png)](https://docs.google.com/presentation/d/e/2PACX-1vRP_JHLKLA_xs3P4WYc8hbVzdycS8jnaB2hKnaIDhQupva4euOPvHSOCG7fIiCbcqALEHXpLCM5vVbg/pub?start=false&loop=false&delayms=3000)
 
 ## Week 6
 
-[![](./images/week6-1.png)](https://docs.google.com/presentation/d/1FrdrwApi7BAHvTzQX49ZR3gTIfkYogYyad7aUeX_NwA/edit?usp=sharing)
+[![](./images/week6-1.png)](https://docs.google.com/presentation/d/e/2PACX-1vRaYRm_zImxtWNHKi7QXT9fKCnPWfP3ZieAsFfp89kqE8ZrgLZVuf85CUj_VNaLYPgZ2nCx8eEM5Siu/pub?start=false&loop=false&delayms=3000)
 ![](./images/week6-2.png)
 
 ## Week 7
 
-[![](./images/week7.png)](https://docs.google.com/presentation/d/e/2PACX-1vRP_JHLKLA_xs3P4WYc8hbVzdycS8jnaB2hKnaIDhQupva4euOPvHSOCG7fIiCbcqALEHXpLCM5vVbg/pub?start=false&loop=false&delayms=3000)
+![](./images/week7.png)
 
 ## Week 8
 
-![](./images/week8.png)
+[![](./images/week8.png)](https://docs.google.com/presentation/d/1FrdrwApi7BAHvTzQX49ZR3gTIfkYogYyad7aUeX_NwA/edit?usp=sharing)
 
 ## Week 9
 
