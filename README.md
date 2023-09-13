@@ -1,4 +1,4 @@
-# Linux Club 2022
+# Linux Club 2023
 
 Official repository of UCU student-organized Linux Club 22/23 with the schedule, useful links and presentations.
 
@@ -37,54 +37,54 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 
 ## Week 0
 
-[![](./images/week0.png)](https://docs.google.com/presentation/d/e/2PACX-1vRUixUxmN_j533brmbuE02jgDaEobgiH6pYIYjLivIgXKTPaw9LT8KLsECMKx3hPVMAr-uzdcvqA_Qv/pub?start=false&loop=false&delayms=3000)
+![]()
 
 ## Week 1
 
-[![](./images/week1.png)](https://docs.google.com/presentation/d/e/2PACX-1vSX13i4-Npx28dSqDKbd7qmG8kjaMq2vMhXYvDhhWluBQ0VC_lrw70mBivB-Cta1xxNVPy4DGACKhAN/pub?start=false&loop=false&delayms=3000)
+![]()
 
 ## Week 2
 
-[![](./images/week2.png)](https://docs.google.com/presentation/d/e/2PACX-1vSfbQQSyZkS36yTfLuemb2NAx-vhIVDxy7OApVf0hRjPBt9TffcrcfGf7OiWGpNlktK7JuOJqoLgL3V/pub?start=false&loop=false&delayms=3000)
+![]()
 
 ## Week 3
 
-[![](./images/week3.png)](https://docs.google.com/presentation/d/e/2PACX-1vS4fBISZhM9Au9xPjz-mKS2sXl1own8PCN9euoMdPEgOKMlhNNZRciME2Yq3Zfq1Qx6i20a9ILXcJVu/pub?start=false&loop=false&delayms=3000)
+![]()
 
 ## Week 4
 
-![](./images/week4-1.png)
-[![](./images/week4-2.png)](https://docs.google.com/presentation/d/e/2PACX-1vQYZWspte_5iGBd02e2iepxA7C2fC7F10yHB8_p75YZGbO1iY09PYqftKMTWPVkrBa6KPXZz3-363Sr/pub?start=false&loop=false&delayms=3000)
+![]()
+![]()
 
 ## Week 5
 
-[![](./images/week5-1.png)](https://docs.google.com/presentation/d/e/2PACX-1vRaYRm_zImxtWNHKi7QXT9fKCnPWfP3ZieAsFfp89kqE8ZrgLZVuf85CUj_VNaLYPgZ2nCx8eEM5Siu/pub?start=false&loop=false&delayms=3000)
-[![](./images/week5-2.png)](https://docs.google.com/presentation/d/1vD0txBSFIjGu86VvZOK88VphiO7BwbzEBbABQ-oBs1Y/present#slide=id.p)
+![]()
+![]()
 
 ## Week 6
 
-[![](./images/week6-1.png)](https://docs.google.com/presentation/d/1FrdrwApi7BAHvTzQX49ZR3gTIfkYogYyad7aUeX_NwA/edit?usp=sharing)
-![](./images/week6-2.png)
+![]()
+![]()
 
 ## Week 7
 
-[![](./images/week7.png)](https://docs.google.com/presentation/d/e/2PACX-1vRP_JHLKLA_xs3P4WYc8hbVzdycS8jnaB2hKnaIDhQupva4euOPvHSOCG7fIiCbcqALEHXpLCM5vVbg/pub?start=false&loop=false&delayms=3000)
+![]()
 
 ## Week 8
 
-![](./images/week8.png)
+![]()
 
 ## Week 9
 
-![](./images/week9.png)
+![]()
 
 ## Week 10
 
-![](./images/week10.png)
+![]()
 
 ## Week 11
 
-![](./images/week11.png)
+![]()
 
 ## Next year
 
