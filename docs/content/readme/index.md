@@ -1,9 +1,9 @@
 +++
 title = "About"
-date = 2021-08-06
+date = 2023-09-20
 +++
 
-# About us
+# About Us
 
 We are just a bunch of students from Ukrainian Catholic University passionate about
 computing! We like to know how our system works under the hood, both because we
@@ -18,8 +18,7 @@ which is why we've chosen to call our club after the Linux operating system
 (and why we're going to use it throughout our lectures),
 and why we've decided to make this course public.
 
-You can join us live - we have lectures each **Wednesday 16:30 Kyiv time**, or watch 
-our previous recorded lectures and read through lecture notes.
+Join us live on **Wednesday 16:50 Kyiv time** at UCU Lectorium (K-016)!
 
 # Pre-requirements:
 
@@ -28,82 +27,37 @@ our previous recorded lectures and read through lecture notes.
 - If you want to follow our later lectures, you need to have an Arch Linux-based system installed - see a [manual on how to set one up yourself](./articles/manual).
 - Desire to learn!
 
-# 2021/22 First Semester Schedule:
+# 2023 Fall Semester Schedule:
 
-*(Previous semesters' resources are available in the [archive](./archive/readme))*
+*(Previous semesters' resources are available in the [archive](../archive/readme))*
 
-**Week 0** - Intro and Club Presentation - 
-[Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-[Lecture notes](https://docs.google.com/presentation/d/e/2PACX-1vRUixUxmN_j533brmbuE02jgDaEobgiH6pYIYjLivIgXKTPaw9LT8KLsECMKx3hPVMAr-uzdcvqA_Qv/pub?start=false&loop=false&delayms=3000)
++ Week 0 - [**Intro and Club Presentation**](https://docs.google.com/presentation/d/1d2fPhHRSTY5q5pFCLouLXlm6OVXakXA7kIwOZt0sBGk/edit?usp=sharing) - *Teodor Muzychuk*
 
-**Week 1** - Intro to Open Source -
-[Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-[Lecture notes](https://docs.google.com/presentation/d/e/2PACX-1vSX13i4-Npx28dSqDKbd7qmG8kjaMq2vMhXYvDhhWluBQ0VC_lrw70mBivB-Cta1xxNVPy4DGACKhAN/pub?start=false&loop=false&delayms=3000)
++ Week 1 - **Intro to Open Source** - *Teodor Muzychuk*
 
-**Week 2** - Intro to Git and Github - 
-[Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-[Lecture notes](https://docs.google.com/presentation/d/e/2PACX-1vSfbQQSyZkS36yTfLuemb2NAx-vhIVDxy7OApVf0hRjPBt9TffcrcfGf7OiWGpNlktK7JuOJqoLgL3V/pub?start=false&loop=false&delayms=3000) | 
-[Recording](https://youtu.be/ruqUJ1JgUNg)
++ Week 2 - **Git and Github Workshop**
 
-**Week 3** - Intro to CLI and Bash - 
-[Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-[Lecture notes](https://docs.google.com/presentation/d/e/2PACX-1vS4fBISZhM9Au9xPjz-mKS2sXl1own8PCN9euoMdPEgOKMlhNNZRciME2Yq3Zfq1Qx6i20a9ILXcJVu/pub?start=false&loop=false&delayms=3000) | 
-[Recording](https://youtu.be/l-cEmgeFgE4)
++ Week 3 - **CLI and Bash Workshop**
 
-**Week 4.1** - Vim + tmux - 
-[Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-Lecture notes | 
-Recording
++ Week 4.1 - **Vim + tmux** - *Teodor Muzychuk*
 
-**Week 4.2** - Package managers - 
-[Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-[Lecture notes](https://docs.google.com/presentation/d/e/2PACX-1vQYZWspte_5iGBd02e2iepxA7C2fC7F10yHB8_p75YZGbO1iY09PYqftKMTWPVkrBa6KPXZz3-363Sr/pub?start=false&loop=false&delayms=3000) | 
-Recording
++ Week 4.2 - **Package managers** - *Bohdan Ruban*
 
-**Week 5.1** - Linux Filesystem Hierarchy -
-[Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-[Lecture notes](https://docs.google.com/presentation/d/e/2PACX-1vRaYRm_zImxtWNHKi7QXT9fKCnPWfP3ZieAsFfp89kqE8ZrgLZVuf85CUj_VNaLYPgZ2nCx8eEM5Siu/pub?start=false&loop=false&delayms=3000) | 
-Recording
++ Week 5.1 - **Linux Filesystem Hierarchy** - *Ostap Trush*
 
-**Week 5.2** - Regular Expressions - 
-[Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-[Lecture notes](https://docs.google.com/presentation/d/e/2PACX-1vQ8qmzFuXoysej9BkmaPbZ1dT2QKCdG2Gj-Z3S78PyHN_LY7zt3Q2hqCUVRm_Owpw9RehKzDBLBLM1K/pub?start=false&loop=false&delayms=3000) | 
-Recording
++ Week 5.2 - **Regular Expressions** - *Dmytro Shumskyi*
 
-**Week 6.1** - Partition Tables - 
-[Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-Lecture notes | 
-Recording
++ Week 6 - **Partition Tables and Bootloaders** - *Roman Mutel*
 
-**Week 6.2** - Bootloaders - 
-[Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-Lecture notes | 
-Recording
++ Week 7 - **Filesystems** - *Oleksii Hoyev*
 
-**Week 7** - Filesystems - 
-[Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-Lecture notes | 
-Recording
++ Week 8 - **SSH** - *Roman Mutel*
 
-**Week 8** - SSH - 
-[Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) |
-Lecture notes | 
-Recording
++ Week 9 - **Kernel, Systemd, Utilities** - *Ostap Seryvko*
 
-**Week 9** - Systemd and Utilities - 
-[Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-Lecture notes | 
-Recording
++ Week 10 - **Graphics: DM, DE, WM, X.org, rice** - *Ostap Seryvko*
 
-**Week 10** - Graphics: DM, DE, WM, X.org - 
-[Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) | 
-Lecture notes | 
-Recording
-
-**Week 11** - Internet utilities and features - 
-[Zoom](https://softserveinc.zoom.us/j/5674645619?pwd=VWNEcDBaTksycjR6YjhibFBtajhXdz09) |
-Lecture notes | 
-Recording
++ Week 11 - **Internet Utilities and Features** - *Oleksii Hoyev*
 
 # Other resources:
 
@@ -124,7 +78,7 @@ what the lecture was about and to learn on your own.
 You don't need to submit these homeworks, but if you want our feedback on 
 them to learn even more, here are a few simple steps for you to follow:
 
-* Fork [our repository](https://github.com/ucu-cs/UCU_Linux_Club)
+* Fork [our repository](https://github.com/ucu-computer-science/UCU_Linux_Club)
 * Watch the respective lecture on the topic
 * Work on this week's homework in `./homework`
 * Submit a pull request into our original repository

@@ -30,13 +30,13 @@ Yes, you can find a lot of basic and intermediate tutorials
 on Linux, Bash and other stuff on Youtube, it's not only for
 casual stupid videos.
 
-## [Habr](https://habr.com/ru/)
-Interesting site with a lot of programming world news on Russian.
-
 ## [Vimgenius](http://vimgenius.com/)
 The course that I passed to learn Vim.
 
 # Unverified
+
+#### [It's Foss](https://itsfoss.com/)
+
 #### [Linuxjorney](https://linuxjourney.com/)
 I don\`t know, if it is good or bad resource, but it seems okay.
 
