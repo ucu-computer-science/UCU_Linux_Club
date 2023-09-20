@@ -16,4 +16,4 @@ jobs:
           PAGES_BRANCH: website
           BUILD_DIR: docs
           # Provide personal access token
-          TOKEN: ${{ secrets.TOKEN }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
