@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://ucu-cs.github.io/UCU_Linux_Club/"
+base_url = "https://ucu-computer-science.github.io/UCU_Linux_Club/"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
