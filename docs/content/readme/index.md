@@ -33,31 +33,33 @@ Join us live on **Wednesday 16:50 Kyiv time** at UCU Lectorium (K-016)!
 
 + Week 0 - [**Intro and Club Presentation**](https://docs.google.com/presentation/d/1d2fPhHRSTY5q5pFCLouLXlm6OVXakXA7kIwOZt0sBGk/edit?usp=sharing) - *Teodor Muzychuk*
 
-+ Week 1 - **Intro to Open Source** - *Teodor Muzychuk*
++ Week 1.1 (20.09) - **Intro to Open Source** - *Teodor Muzychuk*
 
-+ Week 2 - **Git and Github Workshop**
++ Week 1.2 (20.09) - **Package managers** - *Bohdan Ruban*
 
-+ Week 3 - **CLI and Bash Workshop**
++ Week 1.3 (**sat 23.09 14:00 at Lectorium|IT space**) - **С++ Crash Course** (recommended for 2nd year students) - *Ostap Trush and Mykhailo Sobko*
 
-+ Week 4.1 - **Vim + tmux** - *Teodor Muzychuk*
++ Week 2 (27.09) - **CLI and Bash** - *Teodor Muzychuk*
 
-+ Week 4.2 - **Package managers** - *Bohdan Ruban*
++ Week 3 (04.10) - **Git and Github Workshop** - *Dmytro Shumshkyi*
 
-+ Week 5.1 - **Linux Filesystem Hierarchy** - *Ostap Trush*
++ Week 4 (11.10) - **Vim + tmux** - *Teodor Muzychuk*
 
-+ Week 5.2 - **Regular Expressions** - *Dmytro Shumskyi*
++ Week 5.1 (18.10) - **Linux Filesystem Hierarchy** - *Ostap Trush*
 
-+ Week 6 - **Partition Tables and Bootloaders** - *Roman Mutel*
++ Week 5.2 (18.10) - **Regular Expressions** - *Dmytro Shumskyi*
 
-+ Week 7 - **Filesystems** - *Oleksii Hoyev*
++ Week 6 (25.10) - **Partition Tables and Bootloaders** - *Roman Mutel*
 
-+ Week 8 - **SSH** - *Roman Mutel*
++ Week 7 (01.11) - **Filesystems** - *Oleksii Hoyev*
 
-+ Week 9 - **Kernel, Systemd, Utilities** - *Ostap Seryvko*
++ Week 8 (08.11) - **SSH** - *Roman Mutel*
 
-+ Week 10 - **Graphics: DM, DE, WM, X.org, rice** - *Ostap Seryvko*
++ Week 9 (15.11) - **Kernel, Systemd, Utilities** - *Ostap Seryvko*
 
-+ Week 11 - **Internet Utilities and Features** - *Oleksii Hoyev*
++ Week 10 (22.11) - **Graphics: DM, DE, WM, X.org, rice** - *Ostap Seryvko*
+
++ Week 11 (29.11) - **Internet Utilities and Features** - *Oleksii Hoyev*
 
 # Other resources:
 
