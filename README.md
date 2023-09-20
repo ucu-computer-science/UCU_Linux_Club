@@ -35,60 +35,50 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 
 # Schedule
 
-## Week 0
+## Week 0 (**13.09**) 
+[**Intro and Club Presentation**](https://docs.google.com/presentation/d/1d2fPhHRSTY5q5pFCLouLXlm6OVXakXA7kIwOZt0sBGk/edit?usp=sharing) - [*Teodor Muzychuk*](https://github.com/ch1pkav)
 
-![]()
+## Week 1.1 (20.09)
+**Intro to Open Source** - [*Teodor Muzychuk*](https://github.com/ch1pkav)
 
-## Week 1
+## Week 1.2 (20.09)
+**Package managers** - [*Bohdan Ruban*](https://github.com/iamthewalrus67)
 
-![]()
+## Week 1.3 (**sat 23.09 14:00 at IT space**) 
+**С++ Crash Course** (recommended for 2nd year students) - *[Ostap Trush](https://github.com/Adeon18) and [Mykhailo Sobko](https://github.com/myrimur)*
 
-## Week 2
+## Week 2 (27.09)
+**CLI and Bash** - [*Teodor Muzychuk*](https://github.com/ch1pkav)
 
-![]()
+## Week 3 (04.10)
+**Git and Github Workshop** - [*Dmytro Shumshkyi*](https://github.com/DmShums)
 
-## Week 3
+## Week 4 (11.10)
+**Vim + tmux** - [*Teodor Muzychuk*](https://github.com/ch1pkav)
 
-![]()
+## Week 5.1 (18.10) 
+**Linux Filesystem Hierarchy** - [*Ostap Trush*](https://github.com/Adeon18)
 
-## Week 4
+## Week 5.2 (18.10)
+**Regular Expressions** - [*Dmytro Shumshkyi*](https://github.com/DmShums)
 
-![]()
-![]()
+## Week 6 (25.10)
+**Partition Tables and Bootloaders** - [*Roman Mutel*](https://github.com/rwmutel)
 
-## Week 5
+## Week 7 (01.11)
+**Filesystems** - [*Oleksii Hoyev*](https://github.com/alexg-lviv)
 
-![]()
-![]()
+## Week 8 (08.11)
+**SSH** - [*Roman Mutel*](https://github.com/rwmutel)
 
-## Week 6
+## Week 9 (15.11)
+**Kernel, Systemd, Utilities** - [*Ostap Seryvko*](https://github.com/redn1nja)
 
-![]()
-![]()
+## Week 10 (22.11)
+**Graphics: DM, DE, WM, X.org, rice** - [*Ostap Seryvko*](https://github.com/redn1nja)
 
-## Week 7
-
-![]()
-
-## Week 8
-
-![]()
-
-## Week 9
-
-![]()
-
-## Week 10
-
-![]()
-
-## Week 11
-
-![]()
-
-## Next year
-
-A lot more interesting and advanced stuff!
+## Week 11 (29.11)
+**Internet Utilities and Features** - [*Oleksii Hoyev*](https://github.com/alexg-lviv)
 
 # Usage for students
 
