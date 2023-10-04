@@ -7,16 +7,21 @@ Fill in all the missing code in the functions and in main
 """
 import math
 import typing
+import math
 
 
-def get_input() -> int:
-    """Gets input from the user and returns it as an integer"""
-    pass
+def get_input(inputed) -> int:
+    return int(input())
 
 
 def fibonacci_list(n: int) -> typing.List[int]:
     """Returns a list of the first n Fibonacci numbers"""
-    pass
+    if isinstance(n, int):
+        fib_sequence = [1, 2]
+        for i in range(n-2):
+            add = fib_sequence[i] + fib_sequence[i + 1]
+            fib_sequence.append(add)
+        return fib_sequence
 
 
 def fibonacci_single(n: int) -> int:
@@ -41,12 +46,14 @@ def golden_section_reciprocal() -> float:
 
 def power(num: int, n: int) -> int:
     """Raises num to the nth power"""
-    pass
+    result = math.pow(num, n)
+    return result
 
 
 def sqrt(num: int) -> float:
     """Returns the square root of num"""
-    pass
+    result = math.sqrt(num)
+    return result
 
 
 def main():
