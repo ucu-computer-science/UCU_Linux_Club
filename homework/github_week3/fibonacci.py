@@ -5,7 +5,9 @@ It uses the formula for the nth term of the Fibonacci sequence
 and functionally decomposes the calculations.
 Fill in all the missing code in the functions and in main
 """
+import math
 import typing
+
 
 def get_input() -> int:
     """Gets input from the user and returns it as an integer"""
@@ -23,13 +25,18 @@ def fibonacci_single(n: int) -> int:
 
 
 def golden_section_num() -> float:
-    """Returns the golden section number (capital Phi)"""
-    pass
+    """
+    Returns the golden section number (capital Phi)
+    """
+
+    return (1 + math.sqrt(5)) / 2
 
 
 def golden_section_reciprocal() -> float:
-    """Returns the reciprocal of the golden section number (lowercase phi)"""
-    pass
+    """
+    Returns the reciprocal of the golden section number (lowercase phi)
+    """
+    return (1 - math.sqrt(5)) / 2
 
 
 def power(num: int, n: int) -> int:
