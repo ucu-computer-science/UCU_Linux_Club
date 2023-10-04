@@ -19,11 +19,16 @@ def fibonacci_list(n: int) -> typing.List[int]:
 
 def fibonacci_single(n: int) -> int:
     """Returns the nth Fibonacci number"""
+    return round((power(golden_section_num(), n) - power(-golden_section_reciprocal(), n)) / sqrt(5))
+
+
+def golden_section_num() -> float:
+    """Returns the golden section number"""
     pass
 
 
-def golden_ratio(n: int) -> float:
-    """Returns the golden ratio, used in calculations"""
+def golden_section_reciprocal() -> float:
+    """Returns the reciprocal of the golden section number"""
     pass
 
 
