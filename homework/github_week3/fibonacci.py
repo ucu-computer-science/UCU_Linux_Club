@@ -17,14 +17,15 @@ def fibonacci_list(n: int) -> typing.List[int]:
     pass
 
 
-def fibonacci_single(n: int) -> int:
+def fibonacci_single(nomer: int) -> int:
+
     """Returns the nth Fibonacci number"""
-    pass
+    return ((golden_section_num()**nomer) - ((-1 * golden_section_reciprocal())**nomer))/(5**(1/2))
 
 
 def golden_section_num() -> float:
     """Returns the golden section number (capital Phi)"""
-    pass
+    return (5**(1/2) + 1)/2
 
 
 def golden_section_reciprocal() -> float:
