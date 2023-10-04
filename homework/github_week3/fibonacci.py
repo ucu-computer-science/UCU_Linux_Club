@@ -6,6 +6,7 @@ and functionally decomposes the calculations.
 Fill in all the missing code in the functions and in main
 """
 import typing
+import math
 
 def get_input() -> int:
     """Gets input from the user and returns it as an integer"""
@@ -34,12 +35,14 @@ def golden_section_reciprocal() -> float:
 
 def power(num: int, n: int) -> int:
     """Raises num to the nth power"""
-    pass
+    result = math.pow(num, n)
+    return result
 
 
 def sqrt(num: int) -> float:
     """Returns the square root of num"""
-    pass
+    result = math.sqrt(num)
+    return result
 
 
 def main():
