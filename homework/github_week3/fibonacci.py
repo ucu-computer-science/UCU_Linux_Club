@@ -7,10 +7,9 @@ Fill in all the missing code in the functions and in main
 """
 import typing
 
-def get_input(inputed) -> int:
+def get_input() -> int:
     """Gets input from the user and returns it as an integer"""
-    if isinstance(inputed, int):
-        return int(inputed)
+    return int(input())
 
 
 def fibonacci_list(n: int) -> typing.List[int]:
