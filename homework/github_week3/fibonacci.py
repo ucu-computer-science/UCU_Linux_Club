@@ -8,14 +8,20 @@ Fill in all the missing code in the functions and in main
 import typing
 import math
 
-def get_input() -> int:
+def get_input(inputed) -> int:
     """Gets input from the user and returns it as an integer"""
-    pass
+    if isinstance(inputed, int):
+        return int(inputed)
 
 
 def fibonacci_list(n: int) -> typing.List[int]:
     """Returns a list of the first n Fibonacci numbers"""
-    pass
+    if isinstance(n, int):    
+        fib_sequence = [1, 2]
+        for i in range(n-2):
+            add = fib_sequence[i] + fib_sequence[i + 1]
+            fib_sequence.append(add)
+        return fib_sequence
 
 
 def fibonacci_single(n: int) -> int:
