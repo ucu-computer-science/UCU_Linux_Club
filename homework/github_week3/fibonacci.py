@@ -24,12 +24,12 @@ def fibonacci_single(n: int) -> int:
 
 def golden_section_num() -> float:
     """Returns the golden section number (capital Phi)"""
-    return (sqrt(5)+1)/2
+    return (sqrt(5)+1)/(2)
 
 
 def golden_section_reciprocal() -> float:
     """Returns the reciprocal of the golden section number (lowercase phi)"""
-    return (sqrt(5)-1)/2
+    return (sqrt(5)-1)/(2)
 
 
 def power(num: int, n: int) -> int:
