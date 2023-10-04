@@ -34,12 +34,14 @@ def golden_section_reciprocal() -> float:
 
 def power(num: int, n: int) -> int:
     """Raises num to the nth power"""
-    pass
+    if isinstance(num, int) and isinstance(n, int):
+        return num**n
 
 
 def sqrt(num: int) -> float:
     """Returns the square root of num"""
-    pass
+    if isinstance(num, int):
+        return num**0.5
 
 
 def main():
