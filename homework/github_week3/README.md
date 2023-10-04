@@ -75,7 +75,8 @@ Where $\Phi$ and $\phi$ are:
 \Phi = \frac{\sqrt{5} + 1}{2}
 ```
 
-Results within code will likely require rounding due to floating-point inaccuracy.
 ```math
 \phi = \frac{\sqrt{5} - 1}{2}
 ```
+
+Results within code will likely require rounding due to floating-point inaccuracy.
