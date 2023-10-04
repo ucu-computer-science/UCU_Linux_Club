@@ -9,17 +9,23 @@ import typing
 
 def get_input() -> int:
     """Gets input from the user and returns it as an integer"""
-    pass
+    usr_inp = int(input("Print your numb:"))
+    return usr_inp
 
 
 def fibonacci_list(n: int) -> typing.List[int]:
     """Returns a list of the first n Fibonacci numbers"""
-    pass
+    lst = []
+    for i in range(n + 1):
+        lst.append(fibonacci_single(i))
+    return lst
 
 
 def fibonacci_single(n: int) -> int:
     """Returns the nth Fibonacci number"""
-    pass
+    x = (power(golden_section_num(), n)) - (power((- golden_section_reciprocal()), n))
+    y = x / (5 ** .5)
+    return y
 
 
 def golden_section_num() -> float:
@@ -34,20 +40,18 @@ def golden_section_reciprocal() -> float:
 
 def power(num: int, n: int) -> int:
     """Raises num to the nth power"""
-    if isinstance(num, int) and isinstance(n, int):
-        return num**n
+    return num**n
 
 
 def sqrt(num: int) -> float:
     """Returns the square root of num"""
-    if isinstance(num, int):
-        return num**0.5
+    return num**0.5
 
 
 def main():
     """Main function"""
-    pass
+    return fibonacci_list(get_input())
 
 
 if __name__ == "__main__":
-    main()
+    print(main())
