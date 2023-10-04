@@ -62,3 +62,20 @@ git push origin master
 ```
 
 8. Create a pull request to the main repo.
+
+## Needed formulae
+
+Formula for the nth term:
+```math
+F_n = \frac{\Phi^n - (-\phi)^n}{\sqrt{5}}
+```
+
+Where $\Phi$ and $\phi$ are:
+```math
+\Phi = \frac{\sqrt{5} + 1}{2}
+```
+
+Results within code will likely require rounding due to floating-point inaccuracy.
+```math
+\phi = \frac{\sqrt{5} - 1}{2}
+```
