@@ -45,11 +45,11 @@ Join us live on **Wednesday 16:50 Kyiv time** at UCU Lectorium (K-016)!
 
 + Week 4 (11.10) - **Vim + tmux** - *Teodor Muzychuk*
 
-+ Week 5.1 (18.10) - **Linux Filesystem Hierarchy** - *Ostap Trush*
++ Week 5 (25.10) - **Partition Tables and Bootloaders** - *Roman Mutel*
 
-+ Week 5.2 (18.10) - **Regular Expressions** - *Dmytro Shumskyi*
++ Week 6.1 (18.10) - **Linux Filesystem Hierarchy** - *Ostap Trush*
 
-+ Week 6 (25.10) - **Partition Tables and Bootloaders** - *Roman Mutel*
++ Week 6.2 (18.10) - **Regular Expressions** - *Dmytro Shumskyi*
 
 + Week 7 (01.11) - **Filesystems** - *Oleksii Hoyev*
 
@@ -63,12 +63,12 @@ Join us live on **Wednesday 16:50 Kyiv time** at UCU Lectorium (K-016)!
 
 # Other resources:
 
-* [Arch Linux installation tutorial](./articles/arch-manual/)
-* [Manjaro Linux installation ](./articles/manjaro-manual/)
-* [Useful resources](./articles/resources/)
-* [Useful programs](./articles/programs/)
-* [Useful links](./articles/useful-links/)
-* [All of our written articles](./articles)
+* [Arch Linux installation tutorial](../articles/arch-manual/)
+* [Manjaro Linux installation ](../articles/manjaro-manual/)
+* [Useful resources](../articles/resources/)
+* [Useful programs](../articles/programs/)
+* [Useful links](../articles/useful-links/)
+* [All of our written articles](../articles)
 
 # Homework
 
