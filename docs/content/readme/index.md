@@ -20,46 +20,46 @@ and why we've decided to make this course public.
 
 Join us live on **Wednesday 16:50 Kyiv time** at UCU Lectorium (K-016)!
 
+# 2023 Fall Semester Schedule:
+
+*(Previous semesters' resources are available in the [archive](../archive/readme))*
+
++ Week 0 - [**Intro and Club Presentation**](https://docs.google.com/presentation/d/1d2fPhHRSTY5q5pFCLouLXlm6OVXakXA7kIwOZt0sBGk/edit?usp=sharing) -  [*Teodor Muzychuk*](https://github.com/ch1pkav)
+
++ Week 1.1 (20.09) - [**Intro to Open Source**](https://docs.google.com/presentation/d/1aSBcK0A0yJrH1IMCxxX4drk7QP3dpujxViqqINwBNAk/edit?usp=sharing) -  [*Teodor Muzychuk*](https://github.com/ch1pkav)
+
++ Week 1.2 (20.09) - [**Package managers**](https://docs.google.com/presentation/d/1C3uC4RX_twIeqkJiMsR2CVKXFd8FrTbf-3k1la8Bl30/edit?usp=sharing) - [*Bohdan Ruban*](https://github.com/iamthewalrus67)
+
++ Week 1.3 (**sat 23.09 14:00 at Lectorium|IT space**) - **С++ Crash Course** (recommended for 2nd year students) - *[Ostap Trush](https://github.com/Adeon18) and [Mykhailo Sobko](https://github.com/myrimur)*
+
++ Week 2 (27.09) - [**CLI and Bash**](https://docs.google.com/presentation/d/1bEc8DEu7H1vRGcvSCzmu9x1T-5JqaOHxA5xu4iFRE1Q/edit?usp=sharing) -  [*Teodor Muzychuk*](https://github.com/ch1pkav)
+
++ Week 3 (04.10) - [**Git and Github Workshop**](https://docs.google.com/presentation/d/1I7xOQ8g71ydjc_YH-51nBSkcW2Xe2dcL0vSsF_8Yi-8/edit?usp=sharing) - [*Dmytro Shumshkyi*](https://github.com/DmShums)
+
++ Week 4 (11.10) - [**Vim + tmux**](https://docs.google.com/presentation/d/1hTp84WBFWUYQAqp0RHHFblVGq5fZ6GImetUR6nqRjUk/edit?usp=sharing) -  [*Teodor Muzychuk*](https://github.com/ch1pkav)
+
++ Week 5 (25.10) - [**Partition Tables and Bootloaders**](https://docs.google.com/presentation/d/1hY0rxAByOzy5Qm36kIMwCJvPLmWLhKBwZDk8aoGulkg/edit?usp=sharing) - [*Roman Mutel*](https://github.com/rwmutel)
+
++ Week 6.1 (18.10) - [**Linux Filesystem Hierarchy**](https://docs.google.com/presentation/d/1edR7FsbypkGwK_QjP3mhjmL8iKF2Bpf4zeIT40wJSTo/edit?usp=sharing) - *[Ostap Trush](https://github.com/Adeon18)*
+
++ Week 6.2 (18.10) - [**Regular Expressions**](https://docs.google.com/presentation/d/1U4E6qDZKQE2LGSB9ICoSEd8KYwKZZk3-3fcO6GL0z20/edit?usp=sharing) - [*Dmytro Shumshkyi*](https://github.com/DmShums)
+
++ Week 7 (01.11) - [**Filesystems**](https://docs.google.com/presentation/d/1EyS3DytXb4My-BLqjMZkYwpZ4MXTcTcnyam3LIrhIa8/edit?usp=sharing) - [*Oleksii Hoyev*](https://github.com/alexg-lviv)
+
++ Week 8 (08.11) - [**SSH**](https://docs.google.com/presentation/d/1MnKh1AcSWvY9EnFD5U-kDm9Ng43yDOlLVr_pxAYkcN8/edit?usp=sharing) - [*Roman Mutel*](https://github.com/rwmutel)
+
++ Week 9 (15.11) - **Kernel, Systemd, Utilities** - [*Ostap Seryvko*](https://github.com/redn1nja)
+
++ Week 10 (22.11) - **Graphics: DM, DE, WM, X.org, rice** - [*Ostap Seryvko*](https://github.com/redn1nja)
+
++ Week 11 (29.11) - **Internet Utilities and Features** - [*Oleksii Hoyev*](https://github.com/alexg-lviv)
+
 # Pre-requirements:
 
 - An *OK* English level. If you've gotten this far, you're good to go! 
 - Computer with an Internet connection.
 - If you want to follow our later lectures, you need to have an Arch Linux-based system installed - see a [manual on how to set one up yourself](./articles/manual).
 - Desire to learn!
-
-# 2023 Fall Semester Schedule:
-
-*(Previous semesters' resources are available in the [archive](../archive/readme))*
-
-+ Week 0 - [**Intro and Club Presentation**](https://docs.google.com/presentation/d/1d2fPhHRSTY5q5pFCLouLXlm6OVXakXA7kIwOZt0sBGk/edit?usp=sharing) - *Teodor Muzychuk*
-
-+ Week 1.1 (20.09) - **Intro to Open Source** - *Teodor Muzychuk*
-
-+ Week 1.2 (20.09) - **Package managers** - *Bohdan Ruban*
-
-+ Week 1.3 (**sat 23.09 14:00 at Lectorium|IT space**) - **С++ Crash Course** (recommended for 2nd year students) - *Ostap Trush and Mykhailo Sobko*
-
-+ Week 2 (27.09) - **CLI and Bash** - *Teodor Muzychuk*
-
-+ Week 3 (04.10) - **Git and Github Workshop** - *Dmytro Shumshkyi*
-
-+ Week 4 (11.10) - **Vim + tmux** - *Teodor Muzychuk*
-
-+ Week 5 (25.10) - **Partition Tables and Bootloaders** - *Roman Mutel*
-
-+ Week 6.1 (18.10) - **Linux Filesystem Hierarchy** - *Ostap Trush*
-
-+ Week 6.2 (18.10) - **Regular Expressions** - *Dmytro Shumskyi*
-
-+ Week 7 (01.11) - **Filesystems** - *Oleksii Hoyev*
-
-+ Week 8 (08.11) - **SSH** - *Roman Mutel*
-
-+ Week 9 (15.11) - **Kernel, Systemd, Utilities** - *Ostap Seryvko*
-
-+ Week 10 (22.11) - **Graphics: DM, DE, WM, X.org, rice** - *Ostap Seryvko*
-
-+ Week 11 (29.11) - **Internet Utilities and Features** - *Oleksii Hoyev*
 
 # Other resources:
 
