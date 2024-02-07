@@ -31,7 +31,7 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 # Spring semester schedule (Subject to change)
 
 ## Week 1 (07.02)
-**Docker** - [*Ostap*](https://github.com/redn1nja)
+[**Docker**](https://docs.google.com/presentation/d/1iSzaKn8KC4NKSgjFX4qExMnmapOjbFpBnP7G61Ab1MU/edit) - [*Ostap*](https://github.com/redn1nja)
 
 ## Week 2 (14.02)
 TBD
