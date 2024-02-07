@@ -1,6 +1,6 @@
 # Linux Club 2023
 
-Official repository of UCU student-organized Linux Club 22/23 with the schedule, useful links and presentations. Archives of this repo from previous semester can be found in the Releases tab.
+Official repository of UCU student-organized Linux Club 22/23 with the schedule, useful links and presentations. Archives of this repo from previous semesters can be found in the Releases tab.
 
 **We also have a [website over here](https://ucu-computer-science.github.io/UCU_Linux_Club/)!**
 
@@ -28,7 +28,7 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 * [Useful resources, links and documentation](https://ucu-computer-science.github.io/UCU_Linux_Club/articles/)
 * [Week directories with useful resources](./homework/)
 
-# Second semester schedule (Subject to change)
+# Spring semester schedule (Subject to change)
 
 ## Week 1 (07.02)
 **Docker** - [*Ostap*](https://github.com/redn1nja)
