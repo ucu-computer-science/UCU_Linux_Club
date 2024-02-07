@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Week 9 Homework</title>
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="https://ucu-computer-science.github.io/UCU_Linux_Club/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://ucu-computer-science.github.io/UCU_Linux_Club/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://ucu-computer-science.github.io/UCU_Linux_Club/favicon-16x16.png">
+    <link rel="manifest" href="https://ucu-computer-science.github.io/UCU_Linux_Club/site.webmanifest">
+    <link rel="mask-icon" href="https://ucu-computer-science.github.io/UCU_Linux_Club/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://ucu-computer-science.github.io/UCU_Linux_Club/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="https://ucu-computer-science.github.io/UCU_Linux_Club/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+      /* Loading in the fonts*/
+      @import url(//fonts.googleapis.com/css?family=Source+Sans+Pro);
+      @import url(//fonts.googleapis.com/css?family=Space+Mono);
+
+      /* Defining colors */
+      :root {
+        --dark-background: #0d1117;
+        --lighter-background: #3b303b;
+        --border-color: #0069c0;
+        --text-h: #e5e9f0;
+        --text-p: #e5e9f0;
+      }
+
+      /* The main sections' CSS */
+      body {
+        font-family: "Source Sans Pro", serif;
+        text-align: left;
+        font-style: normal;
+        color: var(--text-h);
+        background-color: var(--dark-background);
+        line-height: 1.5;
+        font-size: 1.1em;
+      }
+
+      @media (min-width: 768px) {
+        body {font-size: 1.15em;}
+      }
+
+      /* Organizes the site's contents size */
+      .main {
+        width: 90%;
+        overflow: hidden;
+        margin: 0 auto 3em auto;
+      }
+
+      /* For mobile devices */
+      @media (min-width: 768px) {
+        .main { width: 42rem; }
+      }
+
+      /* Blog posts*/
+      .home {
+        margin: 1em auto;
+      }
+
+      .nostyle {
+        list-style: none;
+      }
+
+      /* Header stuff */
+      .header {
+        width: 100%;
+        margin: 0;
+        padding: 1.1rem 0 0 0;
+        height: auto;
+        display: inline-block;
+      }
+
+      @media (min-width: 768px) {
+        .header { margin: 1em 1em 0 1em; }
+      }
+
+      .intro {
+        width: auto;
+        margin: 0;
+        float: left;
+        height: auto;
+      }
+
+      @media (min-width: 768px) {
+        .intro { width: 20em; }
+      }
+
+      .nav {
+        width: auto;
+        float: right;
+        display: block;
+        margin-top: 0.1em;
+        padding: 0;
+      }
+
+      @media (min-width: 768px) {
+        .nav { margin: 0.8em; }
+      }
+
+      .headernav {
+        float: right;
+        margin: 0;
+        padding: 0;
+      }
+      
+      @media (min-width: 768px) {
+        .headernav { margin-right: 1em; }
+      }
+
+      ol, ul {
+        padding-inline-start: 1em;
+      }
+
+      @media (min-width: 768px) {
+        ol, ul { padding-inline-start: 2em; }
+      }
+
+      .navbutton {
+        display: inline-block;
+        margin-right: 1em;
+      }
+
+      .name {
+        font-family: "Space Mono", monospace;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 0 1em 1em 0;
+      }
+
+      @media (min-width: 768px) {
+        .name { font-size: 200%; }
+      }
+
+      /* Blog post*/
+      .blogpost {
+        /* border-right: 1px solid #3B4252; */
+        border-bottom: 1px solid var(--border-color);
+        display: block;
+        margin: 0;
+        position: relative;
+        padding: 1.4em 1.4em 1em 1.4em;
+      }
+
+      .blogtitle {
+        font-family: "Source Sans Pro", serif;
+        font-size: 1.4rem;
+        font-weight: bolder;
+        margin: 0.2em 0 0.4em 0;
+        color: var(--text-h);
+        line-height: 1;
+      }
+
+      .blogoneliner {
+        font-family: "Source Sans Pro", serif;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin: 0 0 0 0;
+        color: var(--text-h);
+      }
+
+      .bloginfo {
+        font-family: "Source Sans Pro", serif;
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 0.6em 0 0 0;
+        color: var(--text-h);
+      }
+
+      @media (min-width: 768px) {
+        .blogtitle { font-size: 1.5rem; }
+        .blogoneliner { font-size: 1.05rem; }
+        .bloginfo { font-size: 1rem; }
+      }
+
+      h1 {
+        font-size: 2.2rem;
+        margin: 0;
+        color: var(--text-h);
+        font-weight: 900;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+        margin: 1em 0 0.2em 0;
+        color: var(--text-h);
+        font-weight: 900;
+      }
+
+      h6 {
+        margin: 1em 0 1em 0;
+        color: var(--text-h);
+        font-weight: 800;
+      }
+
+      .inactive {
+        color: var(--dark-background);
+        font-weight: 300;
+      }
+
+      .active {
+        color: var(--border-color);
+        font-weight: 900;
+      }
+
+      .tagsingle {
+        font-size: 1.3rem;
+        color: var(--text-h);
+        font-weight: 500;
+      }
+
+      img {
+        max-width: 25rem;
+        width: 100%;
+        height: auto;
+        margin: 1.2em auto 1.2em auto;
+        display: block;
+      }
+
+      .logo {
+        width: 2.2em;
+        display: block;
+      }
+
+      /* Footer stuff */
+      .footer {
+        bottom: 0;
+        border-top: 1px solid var(--border-color);
+        background: var(--dark-background);
+        height: 3em;
+        width: 100%;
+        display: block;
+        padding: 1em 0 2em 0;
+        border: 0;
+        text-align: left;
+        font-size: 1rem;
+      }
+
+      .footercontents {
+        width: 95%;
+        margin: 0 auto;
+        border: 0;
+        padding: 0;
+      }
+
+      /* For mobile devices */
+      @media (min-width: 768px) {
+        .footercontents { width: 42em; }
+      }
+
+      .centerlinks {
+        margin: auto;
+        padding: 0;
+        border: 0;
+      }
+
+      .buttons {
+        color: var(--text-h);
+        font-family: "Space Mono", monospace;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+
+      .nostylelink {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a {
+	    color: var(--text-h);
+      text-decoration: underline;
+      }
+
+      .terms {
+        list-style: none;
+        font-size: 1.2em;
+      }
+
+      .error {
+        margin: 7em auto;
+        text-align: center;
+      }
+
+      .article-info {
+        border-top: 1px solid #3B4252;
+        margin-top: 0.3em;
+        padding-top: 1em;
+      }
+
+      .zola-anchor {
+        text-decoration: none;
+        margin-left: 0.3em;
+        color: var(--border-color);
+      }
+
+      /* code formatting stuff */
+      code {
+        border-radius: 3px;
+      }
+
+      pre {
+        width: 100%;
+        overflow:scroll;
+        overflow-x: auto;
+        background-color: var(--lighter-background);
+        border-radius: 0.3em;
+        border: 0.5em solid #2b303b;
+      }
+
+      :not(pre) > code {
+        background-color: var(--lighter-background);
+        border-radius: 0.3em;
+        border: 0.1em solid var(--lighter-background);
+      }
+    </style>
+    
+<style>
+    a {
+	    color: var(--text-h);
+      text-decoration: underline;
+    }
+</style>
+
+  </head>
+
+  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <div id="site">
+      <div class="main">
+        <div class="header">
+          <div class="intro">
+            <a
+              class="nostylelink"
+              href="https://ucu-computer-science.github.io/UCU_Linux_Club"
+            >
+              <h1 class="name"><span class="red"></span>LinuxClub@UCU</h1>
+            </a>
+          </div>
+          <nav class="nav">
+            <ul class="nostyle headernav">
+              <li class="navbutton">
+                <a
+                  class="nostylelink"
+                  href="https://ucu-computer-science.github.io/UCU_Linux_Club/articles/"
+                  title="Articles"
+                  class="buttons"
+                  >Docs</a
+                >
+              </li>
+              <li class="navbutton">
+                <a
+                  class="nostylelink"
+                  href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/readme/"
+                  title="Archive"
+                  class="buttons"
+                  >Archive</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        
+<h1 class="title">Week 9 Homework</h1>
+<p>There is a short introduction and cheat sheat <a href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/2020_1/weeks/week9/./week9-cheatsheet">available here</a>, which explains 
+the basics of the C programming language and its compilation process on Linux.</p>
+<h2 id="problem-1-mario">Problem 1 (Mario)<a class="zola-anchor" href="#problem-1-mario" aria-label="Anchor link for: problem-1-mario">🔗</a></h2>
+<p>Let's recreate the pyramids from Super Mario in text:</p>
+<pre data-lang="c" style="background-color:#2b303b;color:#c0c5ce;" class="language-c "><code class="language-c" data-lang="c"><span>     #
+</span><span>    ##
+</span><span>   ###
+</span><span>  ####
+</span><span> #####
+</span><span>######
+</span></code></pre>
+<p>So, the program should prompt the user to input the height of the pyramid
+and then output the pyramid of the specified height:</p>
+<pre data-lang="c" style="background-color:#2b303b;color:#c0c5ce;" class="language-c "><code class="language-c" data-lang="c"><span>$ ./mario
+</span><span>Height: </span><span style="color:#d08770;">6
+</span><span>     #
+</span><span>    ##
+</span><span>   ###
+</span><span>  ####
+</span><span> #####
+</span><span>######
+</span></code></pre>
+<p>Other examples:</p>
+<pre data-lang="c" style="background-color:#2b303b;color:#c0c5ce;" class="language-c "><code class="language-c" data-lang="c"><span>$ ./mario
+</span><span>Height: </span><span style="color:#d08770;">2
+</span><span> #
+</span><span>##
+</span></code></pre>
+<pre data-lang="c" style="background-color:#2b303b;color:#c0c5ce;" class="language-c "><code class="language-c" data-lang="c"><span>$ ./mario
+</span><span>Height: </span><span style="color:#d08770;">1
+</span><span>#
+</span></code></pre>
+<h2 id="problem-2">Problem 2<a class="zola-anchor" href="#problem-2" aria-label="Anchor link for: problem-2">🔗</a></h2>
+<p>Create a program that takes two integer numbers as an input from the user 
+(a ≤ b) and for every number in the interval [a; b] outputs: </p>
+<ul>
+<li>the number in plain text english if it's less than 10</li>
+<li>otherwise, whether it's <code>odd</code> or <code>even</code></li>
+</ul>
+<pre data-lang="c" style="background-color:#2b303b;color:#c0c5ce;" class="language-c "><code class="language-c" data-lang="c"><span>$ ./interval
+</span><span>Input a: </span><span style="color:#d08770;">8
+</span><span>Input b: </span><span style="color:#d08770;">11
+</span><span>
+</span><span>eight
+</span><span style="color:#8fa1b3;">nine
+</span><span>even 
+</span><span style="color:#8fa1b3;">odd
+</span></code></pre>
+<p>Other examples:</p>
+<pre data-lang="c" style="background-color:#2b303b;color:#c0c5ce;" class="language-c "><code class="language-c" data-lang="c"><span>$ ./interval
+</span><span>Input a: </span><span style="color:#d08770;">13
+</span><span>Input b: </span><span style="color:#d08770;">15
+</span><span>
+</span><span>odd
+</span><span style="color:#8fa1b3;">even
+</span><span>odd
+</span></code></pre>
+<pre data-lang="c" style="background-color:#2b303b;color:#c0c5ce;" class="language-c "><code class="language-c" data-lang="c"><span>$ ./interval
+</span><span>Input a: </span><span style="color:#d08770;">1
+</span><span>Input b: </span><span style="color:#d08770;">4
+</span><span>
+</span><span>one
+</span><span style="color:#8fa1b3;">two
+</span><span>three
+</span><span style="color:#8fa1b3;">four
+</span></code></pre>
+<h2 id="problem-3">Problem 3<a class="zola-anchor" href="#problem-3" aria-label="Anchor link for: problem-3">🔗</a></h2>
+<p>Develop a program which is going to output English text according to these rules:</p>
+<ul>
+<li>First, all the whitespace are deleted</li>
+<li>Let the length of the text taken as an input be <code>L</code>. 
+Then, output the text as a table with the number of rows and columns, where 
+<code>[√L] ≤ rows ≤ columns ≤ [√L] + 1</code> ([x] is an integer part of the number) </li>
+</ul>
+<p>For example, the message <code>capital is an abstract parasite, an insatiable  vampire and zombie maker; but the living flesh it converts into dead labor  is ours, and the zombies it makes are us</code> has a length of 134 symbols without 
+the whitespace, we can output it in a table 12 x 12.</p>
+<pre data-lang="c" style="background-color:#2b303b;color:#c0c5ce;" class="language-c "><code class="language-c" data-lang="c"><span>capitalisan
+</span><span style="color:#8fa1b3;">abstractpar
+</span><span>asite,anins
+</span><span>atiablevamp
+</span><span style="color:#8fa1b3;">ireandzombi
+</span><span>emaker;butt
+</span><span>helivingfle
+</span><span style="color:#8fa1b3;">shitconvert
+</span><span>sintodeadla
+</span><span>borisours,a
+</span><span>ndthezombie
+</span><span style="color:#8fa1b3;">sitmakesare
+</span><span>us
+</span></code></pre>
+<p>You have to check whether <code>rows × columns ≥ L</code> and if there are several
+possible rectangles choose the one with the smaller area.</p>
+<p>Other examples:</p>
+<pre data-lang="c" style="background-color:#2b303b;color:#c0c5ce;" class="language-c "><code class="language-c" data-lang="c"><span>$ ./table
+</span><span>Input your text: it is time that lived moments replace the dead memory that has stamped acquaintance with the hidden restriction that nothing can ever be experienced.
+</span><span>
+</span><span>Characters total: </span><span style="color:#d08770;">126
+</span><span>Rows: </span><span style="color:#d08770;">11
+</span><span>Columns: </span><span style="color:#d08770;">12
+</span><span>
+</span><span>itistimethat
+</span><span style="color:#8fa1b3;">livedmoments
+</span><span>replacethede
+</span><span style="color:#8fa1b3;">admemorythat
+</span><span>hasstampedac
+</span><span style="color:#8fa1b3;">quaintancewi
+</span><span>ththehiddenr
+</span><span style="color:#8fa1b3;">estrictionth
+</span><span>atnothingcan
+</span><span style="color:#8fa1b3;">everbeexperi
+</span><span>enced.
+</span></code></pre>
+<h2 id="problem-4">Problem 4<a class="zola-anchor" href="#problem-4" aria-label="Anchor link for: problem-4">🔗</a></h2>
+<p>Develop a program which, taking two integer arrays as its input will
+create a new integer array. The new array consists of the digits of the sum of the original
+two arrays' elements.</p>
+<p>So, for the example if given two arrays {23, 5, 2, 7, 87} and {4, 67, 2, 8}, 
+the new array will look like this {2, 7, 7, 2, 4, 1, 5, 8, 7}.</p>
+<p>If the array is empty, just consider the respective elements as zeros.
+Then, if given two arrays { } and {4, 67, 3, 8} then the new array will look 
+like {4, 6, 7, 3, 8}.</p>
+<p>An example usage:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>$ ./arrays
+</span><span>Input the length of the first array: 5
+</span><span>Input the numbers: 5
+</span><span>23
+</span><span>5
+</span><span>2
+</span><span>7
+</span><span>87
+</span><span>
+</span><span>Input the length of the second array: 5
+</span><span>Input the numbers: 4
+</span><span>4
+</span><span>67
+</span><span>2
+</span><span>8
+</span><span>
+</span><span>The output array: 
+</span><span>2 7 7 2 4 1 5 8 7
+</span></code></pre>
+ 
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footercontents">
+        <ul style="margin-block-start: 0; padding-inline-start: 0;" class="nostyle">
+          <li class="centerlinks name">
+            <img class="logo" src="https://ucu-computer-science.github.io/UCU_Linux_Club/icon.png" alt="LinuxClub@UCU logo">
+          </li>
+          <li class="centerlinksname">
+            <a class="nostylelink" href="https://apps.ucu.edu.ua/" title="APPS@UCU">
+            <img class="logo" src="https://ucu-computer-science.github.io/UCU_Linux_Club/apps.png" alt="APPS@UCU logo">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

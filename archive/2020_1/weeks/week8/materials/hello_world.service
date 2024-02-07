@@ -1,0 +1,14 @@
+[Unit]
+Description=Stupid hello world unit
+After=network.target
+
+[Service]
+Type=simple
+ExecStartPre=echo "I was born!"
+ExecStart=/home/pasha/Documents/Linux_club/presentation/scripts/hello_world.sh
+ExecStop=/home/pasha/Documents/Linux_club/presentation/scripts/good_bye_world.sh
+User=pasha
+Group=pasha
+
+[Install]
+WantedBy=multi-user.target

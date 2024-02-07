@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Week 7 Notes</title>
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="https://ucu-computer-science.github.io/UCU_Linux_Club/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://ucu-computer-science.github.io/UCU_Linux_Club/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://ucu-computer-science.github.io/UCU_Linux_Club/favicon-16x16.png">
+    <link rel="manifest" href="https://ucu-computer-science.github.io/UCU_Linux_Club/site.webmanifest">
+    <link rel="mask-icon" href="https://ucu-computer-science.github.io/UCU_Linux_Club/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://ucu-computer-science.github.io/UCU_Linux_Club/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="https://ucu-computer-science.github.io/UCU_Linux_Club/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+      /* Loading in the fonts*/
+      @import url(//fonts.googleapis.com/css?family=Source+Sans+Pro);
+      @import url(//fonts.googleapis.com/css?family=Space+Mono);
+
+      /* Defining colors */
+      :root {
+        --dark-background: #0d1117;
+        --lighter-background: #3b303b;
+        --border-color: #0069c0;
+        --text-h: #e5e9f0;
+        --text-p: #e5e9f0;
+      }
+
+      /* The main sections' CSS */
+      body {
+        font-family: "Source Sans Pro", serif;
+        text-align: left;
+        font-style: normal;
+        color: var(--text-h);
+        background-color: var(--dark-background);
+        line-height: 1.5;
+        font-size: 1.1em;
+      }
+
+      @media (min-width: 768px) {
+        body {font-size: 1.15em;}
+      }
+
+      /* Organizes the site's contents size */
+      .main {
+        width: 90%;
+        overflow: hidden;
+        margin: 0 auto 3em auto;
+      }
+
+      /* For mobile devices */
+      @media (min-width: 768px) {
+        .main { width: 42rem; }
+      }
+
+      /* Blog posts*/
+      .home {
+        margin: 1em auto;
+      }
+
+      .nostyle {
+        list-style: none;
+      }
+
+      /* Header stuff */
+      .header {
+        width: 100%;
+        margin: 0;
+        padding: 1.1rem 0 0 0;
+        height: auto;
+        display: inline-block;
+      }
+
+      @media (min-width: 768px) {
+        .header { margin: 1em 1em 0 1em; }
+      }
+
+      .intro {
+        width: auto;
+        margin: 0;
+        float: left;
+        height: auto;
+      }
+
+      @media (min-width: 768px) {
+        .intro { width: 20em; }
+      }
+
+      .nav {
+        width: auto;
+        float: right;
+        display: block;
+        margin-top: 0.1em;
+        padding: 0;
+      }
+
+      @media (min-width: 768px) {
+        .nav { margin: 0.8em; }
+      }
+
+      .headernav {
+        float: right;
+        margin: 0;
+        padding: 0;
+      }
+      
+      @media (min-width: 768px) {
+        .headernav { margin-right: 1em; }
+      }
+
+      ol, ul {
+        padding-inline-start: 1em;
+      }
+
+      @media (min-width: 768px) {
+        ol, ul { padding-inline-start: 2em; }
+      }
+
+      .navbutton {
+        display: inline-block;
+        margin-right: 1em;
+      }
+
+      .name {
+        font-family: "Space Mono", monospace;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 0 1em 1em 0;
+      }
+
+      @media (min-width: 768px) {
+        .name { font-size: 200%; }
+      }
+
+      /* Blog post*/
+      .blogpost {
+        /* border-right: 1px solid #3B4252; */
+        border-bottom: 1px solid var(--border-color);
+        display: block;
+        margin: 0;
+        position: relative;
+        padding: 1.4em 1.4em 1em 1.4em;
+      }
+
+      .blogtitle {
+        font-family: "Source Sans Pro", serif;
+        font-size: 1.4rem;
+        font-weight: bolder;
+        margin: 0.2em 0 0.4em 0;
+        color: var(--text-h);
+        line-height: 1;
+      }
+
+      .blogoneliner {
+        font-family: "Source Sans Pro", serif;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin: 0 0 0 0;
+        color: var(--text-h);
+      }
+
+      .bloginfo {
+        font-family: "Source Sans Pro", serif;
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 0.6em 0 0 0;
+        color: var(--text-h);
+      }
+
+      @media (min-width: 768px) {
+        .blogtitle { font-size: 1.5rem; }
+        .blogoneliner { font-size: 1.05rem; }
+        .bloginfo { font-size: 1rem; }
+      }
+
+      h1 {
+        font-size: 2.2rem;
+        margin: 0;
+        color: var(--text-h);
+        font-weight: 900;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+        margin: 1em 0 0.2em 0;
+        color: var(--text-h);
+        font-weight: 900;
+      }
+
+      h6 {
+        margin: 1em 0 1em 0;
+        color: var(--text-h);
+        font-weight: 800;
+      }
+
+      .inactive {
+        color: var(--dark-background);
+        font-weight: 300;
+      }
+
+      .active {
+        color: var(--border-color);
+        font-weight: 900;
+      }
+
+      .tagsingle {
+        font-size: 1.3rem;
+        color: var(--text-h);
+        font-weight: 500;
+      }
+
+      img {
+        max-width: 25rem;
+        width: 100%;
+        height: auto;
+        margin: 1.2em auto 1.2em auto;
+        display: block;
+      }
+
+      .logo {
+        width: 2.2em;
+        display: block;
+      }
+
+      /* Footer stuff */
+      .footer {
+        bottom: 0;
+        border-top: 1px solid var(--border-color);
+        background: var(--dark-background);
+        height: 3em;
+        width: 100%;
+        display: block;
+        padding: 1em 0 2em 0;
+        border: 0;
+        text-align: left;
+        font-size: 1rem;
+      }
+
+      .footercontents {
+        width: 95%;
+        margin: 0 auto;
+        border: 0;
+        padding: 0;
+      }
+
+      /* For mobile devices */
+      @media (min-width: 768px) {
+        .footercontents { width: 42em; }
+      }
+
+      .centerlinks {
+        margin: auto;
+        padding: 0;
+        border: 0;
+      }
+
+      .buttons {
+        color: var(--text-h);
+        font-family: "Space Mono", monospace;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+
+      .nostylelink {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a {
+	    color: var(--text-h);
+      text-decoration: underline;
+      }
+
+      .terms {
+        list-style: none;
+        font-size: 1.2em;
+      }
+
+      .error {
+        margin: 7em auto;
+        text-align: center;
+      }
+
+      .article-info {
+        border-top: 1px solid #3B4252;
+        margin-top: 0.3em;
+        padding-top: 1em;
+      }
+
+      .zola-anchor {
+        text-decoration: none;
+        margin-left: 0.3em;
+        color: var(--border-color);
+      }
+
+      /* code formatting stuff */
+      code {
+        border-radius: 3px;
+      }
+
+      pre {
+        width: 100%;
+        overflow:scroll;
+        overflow-x: auto;
+        background-color: var(--lighter-background);
+        border-radius: 0.3em;
+        border: 0.5em solid #2b303b;
+      }
+
+      :not(pre) > code {
+        background-color: var(--lighter-background);
+        border-radius: 0.3em;
+        border: 0.1em solid var(--lighter-background);
+      }
+    </style>
+    
+<style>
+    a {
+	    color: var(--text-h);
+      text-decoration: underline;
+    }
+</style>
+
+  </head>
+
+  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <div id="site">
+      <div class="main">
+        <div class="header">
+          <div class="intro">
+            <a
+              class="nostylelink"
+              href="https://ucu-computer-science.github.io/UCU_Linux_Club"
+            >
+              <h1 class="name"><span class="red"></span>LinuxClub@UCU</h1>
+            </a>
+          </div>
+          <nav class="nav">
+            <ul class="nostyle headernav">
+              <li class="navbutton">
+                <a
+                  class="nostylelink"
+                  href="https://ucu-computer-science.github.io/UCU_Linux_Club/articles/"
+                  title="Articles"
+                  class="buttons"
+                  >Docs</a
+                >
+              </li>
+              <li class="navbutton">
+                <a
+                  class="nostylelink"
+                  href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/readme/"
+                  title="Archive"
+                  class="buttons"
+                  >Archive</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        
+<h1 class="title">Week 7 Notes</h1>
+<h1 id="bootloader-homework">Bootloader homework<a class="zola-anchor" href="#bootloader-homework" aria-label="Anchor link for: bootloader-homework">🔗</a></h1>
+<p>This week you had a lecture about booting and bootloaders in particular. Even though they are very small they still can cause a lot of troubles. In this homework, you don't need to submit anything, though it doesn't mean that you should do nothing. You have a few tasks below with the most common problems and just useful things.</p>
+<h5 id=""><a class="zola-anchor" href="#" aria-label="Anchor link for: ">🔗</a></h5>
+<p>If you are a happy owner of mac than these tasks aren't for you. But you still have your own homework: as we didn't talk about mac bootloader, please find out more about it.</p>
+<h3 id="hello-bios">Hello, BIOS!<a class="zola-anchor" href="#hello-bios" aria-label="Anchor link for: hello-bios">🔗</a></h3>
+<p>I have heard that some of you still don't know how to access BIOS setup. So your first task will be to boot from it :)</p>
+<h3 id="-1"><a class="zola-anchor" href="#-1" aria-label="Anchor link for: -1">🔗</a></h3>
+<p>BIOS setup is also very small, but have many useful and interesting settings. I do not recommend you to play with them unless you want to crash your computer, but highly recommend you to read more about them.</p>
+<h3 id="-2"><a class="zola-anchor" href="#-2" aria-label="Anchor link for: -2">🔗</a></h3>
+<p>As Linux user, you often will need to boot from USB (flash drive) and you can do this from BIOS, so, this task is MANDATORY! If you won't know how to boot from USB after this homework - shame on you ^^.
+(<a href="https://www.tomshardware.com/reviews/bios-keys-to-access-your-firmware,5732.html">For lazy ones</a>) Hope you will be able to find out how to boot Linux/Windows from it.</p>
+<h3 id="more-space">More space<a class="zola-anchor" href="#more-space" aria-label="Anchor link for: more-space">🔗</a></h3>
+<p>As I have noted boot loaders are really small, so most companies initially put 100 MB on them. But now your bootloader has to deal with two OS (or even more), so they need more space. Firstly, check how much space it already has:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>lsblk
+</span></code></pre>
+<p>This will show you all your partitions, you just need to find one with '/boot' mark.(<a href="https://www.cyberciti.biz/faq/linux-check-boot-path-command/">more commands for partitions</a>).
+<img src="https://user-images.githubusercontent.com/54356826/100021860-0ed6a300-2dda-11eb-8e27-be899b3857cc.png" alt="image" /></p>
+<h3 id="-3"><a class="zola-anchor" href="#-3" aria-label="Anchor link for: -3">🔗</a></h3>
+<p>As you can see I allocated 900MB for my boot 0_0 I think for you 500MB will be more than enough. If you already have 200MB+ than it isn't so critical for you...maybe... But if you have only 100MB it is mandatory for you to increase it to 500!</p>
+<h3 id="-4"><a class="zola-anchor" href="#-4" aria-label="Anchor link for: -4">🔗</a></h3>
+<p>I know that you are new to Linux, so was I when I faced with a boot memory problem. So you have no excuses for not doing this part!</p>
+<h3 id="try-something-new">Try something new<a class="zola-anchor" href="#try-something-new" aria-label="Anchor link for: try-something-new">🔗</a></h3>
+<p>(Plz, do not hate me for this task)</p>
+<h3 id="-5"><a class="zola-anchor" href="#-5" aria-label="Anchor link for: -5">🔗</a></h3>
+<p>I know that most of you didn't install Linux by themselves(someone did it for you). So you probably don't know how to install and set bootloader. Change your bootloader (systemd-boot &lt;-&gt; GRUB), delete previous one (for users that have already changed something in their boot loaders' config: don't delete files with configs), do some tasks for it and go back to your previous bootloader, or stay on a new one if you like it more. (Some guides below)</p>
+<h4 id="-6"><a class="zola-anchor" href="#-6" aria-label="Anchor link for: -6">🔗</a></h4>
+<p>(If you have another bootloader than it probably will be better if you change it to systemd-boot|GRUB)</p>
+<h4 id="systemd-boot-only-for-uefi-users">Systemd-boot (only for UEFI users)<a class="zola-anchor" href="#systemd-boot-only-for-uefi-users" aria-label="Anchor link for: systemd-boot-only-for-uefi-users">🔗</a></h4>
+<p>Check whether you have UEFI or BIOS.</p>
+<h4 id="-7"><a class="zola-anchor" href="#-7" aria-label="Anchor link for: -7">🔗</a></h4>
+<p>I hate when I have only 5, 4, 3, 2, 1.... ****! seconds to choose the wanted OS. Haven't you changed it yet? If no, then it is a perfect time for it! Make your bootloader more comfortable.</p>
+<h3 id="-8"><a class="zola-anchor" href="#-8" aria-label="Anchor link for: -8">🔗</a></h3>
+<p>Systemd-boot doesn't give you so many configurations as GRUB. But still, try to find out how to autoload another OS (a task with *) Useful site
+<a href="https://wiki.archlinux.org/index.php/Systemd-boot#Loader_configuration">Useful site</a></p>
+<h3 id="-9"><a class="zola-anchor" href="#-9" aria-label="Anchor link for: -9">🔗</a></h3>
+<p>Switch to GRUB now (install grub, mount it, remove systemd-boot (REMEMBER THAT SOME COMMANDS YOU CAN EXECUTE ONLY FROM ROOT (sudo su)).</p>
+<h4 id="grub">GRUB<a class="zola-anchor" href="#grub" aria-label="Anchor link for: grub">🔗</a></h4>
+<p>The same task to change your timer :) Remember what GRUB files you can edit and what you don't need to touch?</p>
+<h4 id="-10"><a class="zola-anchor" href="#-10" aria-label="Anchor link for: -10">🔗</a></h4>
+<p>Find where GRUB add your Arch|Manjaro and Windows(another second OS) to the menu (do not change anything). It may help you if GRUB doesn't add all OS automatically and you need to do it by yourself. Big hint:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>cd /etc/grub.d
+</span></code></pre>
+<p>Change your theme (task with *, for ones that will stay with GRUB).</p>
+<h3 id="-11"><a class="zola-anchor" href="#-11" aria-label="Anchor link for: -11">🔗</a></h3>
+<p>If you are familiar with GRUB and want to do something harder then try to put a password on it :)</p>
+<h3 id="-12"><a class="zola-anchor" href="#-12" aria-label="Anchor link for: -12">🔗</a></h3>
+<p><a href="https://ostechnix.com/configure-grub-2-boot-loader-settings-ubuntu-16-04/">Hints</a> BUT DO NOT USE Grub-customizer!!!</p>
+<h3 id="-13"><a class="zola-anchor" href="#-13" aria-label="Anchor link for: -13">🔗</a></h3>
+<p>Change GRUB to systemd-boot (scroll to the bottom and do exactly like this <a href="https://bbs.archlinux.org/viewtopic.php?id=223909">guy</a>)</p>
+<h3 id="some-links-to-refresh-information-from-lecture">Some links to refresh information from lecture:<a class="zola-anchor" href="#some-links-to-refresh-information-from-lecture" aria-label="Anchor link for: some-links-to-refresh-information-from-lecture">🔗</a></h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=zIYkol851dU&amp;ab_channel=Techquickie">Cool guy</a></li>
+<li><a href="https://www.tecmint.com/find-and-fix-linux-boot-issues/">Boot issues (actually more for next week)</a></li>
+<li><a href="https://www.unixmen.com/fixing-a-few-common-grub-errors-broken-bootloader-and-error-1715/">GRUB issues</a></li>
+<li><a href="https://fedoraproject.org/wiki/How_to_debug_Systemd_problems">Systemd-boot</a></li>
+<li><a href="https://askubuntu.com/questions/173248/where-is-the-bootloader-stored-in-rom-ram-or-elsewhere">BIOS|UEFI</a></li>
+<li><a href="https://www.linuxbabe.com/apps/create-multiboot-usb-linux-windows-iso#:~:text=To%20create%20a%20multiboot%20usb%2C%20first%20insert%20your%20USB%20flash,specify%20the%20persistent%20file%20size.">Multiboot USB</a></li>
+</ul>
+ 
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footercontents">
+        <ul style="margin-block-start: 0; padding-inline-start: 0;" class="nostyle">
+          <li class="centerlinks name">
+            <img class="logo" src="https://ucu-computer-science.github.io/UCU_Linux_Club/icon.png" alt="LinuxClub@UCU logo">
+          </li>
+          <li class="centerlinksname">
+            <a class="nostylelink" href="https://apps.ucu.edu.ua/" title="APPS@UCU">
+            <img class="logo" src="https://ucu-computer-science.github.io/UCU_Linux_Club/apps.png" alt="APPS@UCU logo">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

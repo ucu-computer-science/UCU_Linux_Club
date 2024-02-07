@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>LinuxClub@UCU - First semester 2020&#x2F;21</title>
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="https://ucu-computer-science.github.io/UCU_Linux_Club/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://ucu-computer-science.github.io/UCU_Linux_Club/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://ucu-computer-science.github.io/UCU_Linux_Club/favicon-16x16.png">
+    <link rel="manifest" href="https://ucu-computer-science.github.io/UCU_Linux_Club/site.webmanifest">
+    <link rel="mask-icon" href="https://ucu-computer-science.github.io/UCU_Linux_Club/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://ucu-computer-science.github.io/UCU_Linux_Club/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="https://ucu-computer-science.github.io/UCU_Linux_Club/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+      /* Loading in the fonts*/
+      @import url(//fonts.googleapis.com/css?family=Source+Sans+Pro);
+      @import url(//fonts.googleapis.com/css?family=Space+Mono);
+
+      /* Defining colors */
+      :root {
+        --dark-background: #0d1117;
+        --lighter-background: #3b303b;
+        --border-color: #0069c0;
+        --text-h: #e5e9f0;
+        --text-p: #e5e9f0;
+      }
+
+      /* The main sections' CSS */
+      body {
+        font-family: "Source Sans Pro", serif;
+        text-align: left;
+        font-style: normal;
+        color: var(--text-h);
+        background-color: var(--dark-background);
+        line-height: 1.5;
+        font-size: 1.1em;
+      }
+
+      @media (min-width: 768px) {
+        body {font-size: 1.15em;}
+      }
+
+      /* Organizes the site's contents size */
+      .main {
+        width: 90%;
+        overflow: hidden;
+        margin: 0 auto 3em auto;
+      }
+
+      /* For mobile devices */
+      @media (min-width: 768px) {
+        .main { width: 42rem; }
+      }
+
+      /* Blog posts*/
+      .home {
+        margin: 1em auto;
+      }
+
+      .nostyle {
+        list-style: none;
+      }
+
+      /* Header stuff */
+      .header {
+        width: 100%;
+        margin: 0;
+        padding: 1.1rem 0 0 0;
+        height: auto;
+        display: inline-block;
+      }
+
+      @media (min-width: 768px) {
+        .header { margin: 1em 1em 0 1em; }
+      }
+
+      .intro {
+        width: auto;
+        margin: 0;
+        float: left;
+        height: auto;
+      }
+
+      @media (min-width: 768px) {
+        .intro { width: 20em; }
+      }
+
+      .nav {
+        width: auto;
+        float: right;
+        display: block;
+        margin-top: 0.1em;
+        padding: 0;
+      }
+
+      @media (min-width: 768px) {
+        .nav { margin: 0.8em; }
+      }
+
+      .headernav {
+        float: right;
+        margin: 0;
+        padding: 0;
+      }
+      
+      @media (min-width: 768px) {
+        .headernav { margin-right: 1em; }
+      }
+
+      ol, ul {
+        padding-inline-start: 1em;
+      }
+
+      @media (min-width: 768px) {
+        ol, ul { padding-inline-start: 2em; }
+      }
+
+      .navbutton {
+        display: inline-block;
+        margin-right: 1em;
+      }
+
+      .name {
+        font-family: "Space Mono", monospace;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 0 1em 1em 0;
+      }
+
+      @media (min-width: 768px) {
+        .name { font-size: 200%; }
+      }
+
+      /* Blog post*/
+      .blogpost {
+        /* border-right: 1px solid #3B4252; */
+        border-bottom: 1px solid var(--border-color);
+        display: block;
+        margin: 0;
+        position: relative;
+        padding: 1.4em 1.4em 1em 1.4em;
+      }
+
+      .blogtitle {
+        font-family: "Source Sans Pro", serif;
+        font-size: 1.4rem;
+        font-weight: bolder;
+        margin: 0.2em 0 0.4em 0;
+        color: var(--text-h);
+        line-height: 1;
+      }
+
+      .blogoneliner {
+        font-family: "Source Sans Pro", serif;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin: 0 0 0 0;
+        color: var(--text-h);
+      }
+
+      .bloginfo {
+        font-family: "Source Sans Pro", serif;
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 0.6em 0 0 0;
+        color: var(--text-h);
+      }
+
+      @media (min-width: 768px) {
+        .blogtitle { font-size: 1.5rem; }
+        .blogoneliner { font-size: 1.05rem; }
+        .bloginfo { font-size: 1rem; }
+      }
+
+      h1 {
+        font-size: 2.2rem;
+        margin: 0;
+        color: var(--text-h);
+        font-weight: 900;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+        margin: 1em 0 0.2em 0;
+        color: var(--text-h);
+        font-weight: 900;
+      }
+
+      h6 {
+        margin: 1em 0 1em 0;
+        color: var(--text-h);
+        font-weight: 800;
+      }
+
+      .inactive {
+        color: var(--dark-background);
+        font-weight: 300;
+      }
+
+      .active {
+        color: var(--border-color);
+        font-weight: 900;
+      }
+
+      .tagsingle {
+        font-size: 1.3rem;
+        color: var(--text-h);
+        font-weight: 500;
+      }
+
+      img {
+        max-width: 25rem;
+        width: 100%;
+        height: auto;
+        margin: 1.2em auto 1.2em auto;
+        display: block;
+      }
+
+      .logo {
+        width: 2.2em;
+        display: block;
+      }
+
+      /* Footer stuff */
+      .footer {
+        bottom: 0;
+        border-top: 1px solid var(--border-color);
+        background: var(--dark-background);
+        height: 3em;
+        width: 100%;
+        display: block;
+        padding: 1em 0 2em 0;
+        border: 0;
+        text-align: left;
+        font-size: 1rem;
+      }
+
+      .footercontents {
+        width: 95%;
+        margin: 0 auto;
+        border: 0;
+        padding: 0;
+      }
+
+      /* For mobile devices */
+      @media (min-width: 768px) {
+        .footercontents { width: 42em; }
+      }
+
+      .centerlinks {
+        margin: auto;
+        padding: 0;
+        border: 0;
+      }
+
+      .buttons {
+        color: var(--text-h);
+        font-family: "Space Mono", monospace;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+
+      .nostylelink {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a {
+	    color: var(--text-h);
+      text-decoration: underline;
+      }
+
+      .terms {
+        list-style: none;
+        font-size: 1.2em;
+      }
+
+      .error {
+        margin: 7em auto;
+        text-align: center;
+      }
+
+      .article-info {
+        border-top: 1px solid #3B4252;
+        margin-top: 0.3em;
+        padding-top: 1em;
+      }
+
+      .zola-anchor {
+        text-decoration: none;
+        margin-left: 0.3em;
+        color: var(--border-color);
+      }
+
+      /* code formatting stuff */
+      code {
+        border-radius: 3px;
+      }
+
+      pre {
+        width: 100%;
+        overflow:scroll;
+        overflow-x: auto;
+        background-color: var(--lighter-background);
+        border-radius: 0.3em;
+        border: 0.5em solid #2b303b;
+      }
+
+      :not(pre) > code {
+        background-color: var(--lighter-background);
+        border-radius: 0.3em;
+        border: 0.1em solid var(--lighter-background);
+      }
+    </style>
+    
+<style>
+    a {
+	    color: var(--text-h);
+      text-decoration: underline;
+    }
+</style>
+
+  </head>
+
+  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <div id="site">
+      <div class="main">
+        <div class="header">
+          <div class="intro">
+            <a
+              class="nostylelink"
+              href="https://ucu-computer-science.github.io/UCU_Linux_Club"
+            >
+              <h1 class="name"><span class="red"></span>LinuxClub@UCU</h1>
+            </a>
+          </div>
+          <nav class="nav">
+            <ul class="nostyle headernav">
+              <li class="navbutton">
+                <a
+                  class="nostylelink"
+                  href="https://ucu-computer-science.github.io/UCU_Linux_Club/articles/"
+                  title="Articles"
+                  class="buttons"
+                  >Docs</a
+                >
+              </li>
+              <li class="navbutton">
+                <a
+                  class="nostylelink"
+                  href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/readme/"
+                  title="Archive"
+                  class="buttons"
+                  >Archive</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        
+<h1 class="title">LinuxClub@UCU - First semester 2020&#x2F;21</h1>
+<h3 id="pre-requirements">Pre-requirements:<a class="zola-anchor" href="#pre-requirements" aria-label="Anchor link for: pre-requirements">🔗</a></h3>
+<ul>
+<li>Personal laptop.</li>
+<li><a href="https://www.archlinux.org/">ArchLinux</a> on your PC (not VM) or other Arch-based systems. 
+Can be <a href="https://manjaro.org/downloads/official/gnome/">Manjaro</a>, but NOT Debian- or Fedora-based systems. 
+<ul>
+<li>Manual for Arch Linux installation <a href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/2020_1/readme/./docs/arch_manual.md">here</a></li>
+<li>Manual for Manjaro installation <a href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/2020_1/readme/./docs/manjaro_manual.md">here</a></li>
+</ul>
+</li>
+<li>GNOM3 + Gnome shell or i3, <strong>BUT</strong> not (KDE, XFCE, MATE, Sway etc).</li>
+<li>Basic knowledge of English language</li>
+<li><a href="https://github.com/">GitHub account</a> - we are going to be using Github Classroom as well.</li>
+<li>USB flash drive 8Gb+</li>
+<li><strong>Webcams on</strong> during online presentations.</li>
+<li>Desire to learn something new and useful that will assist you throughout your career.</li>
+</ul>
+<h4 id="for-mac-users">For Mac users<a class="zola-anchor" href="#for-mac-users" aria-label="Anchor link for: for-mac-users">🔗</a></h4>
+<p>If you are going to visit the club regularly, the best is to install Arch/Manjaro natively. If you can't, you are going to need:</p>
+<ul>
+<li><a href="https://brew.sh">brew</a> package manager</br>
+... More coming soon</li>
+</ul>
+<h3 id="project-structure">Project structure<a class="zola-anchor" href="#project-structure" aria-label="Anchor link for: project-structure">🔗</a></h3>
+<ul>
+<li><a href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/2020_1/readme/./docs/">Useful resources, links and documentation</a></li>
+<li><a href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/2020_1/readme/./weeks/">Week directories with useful resources</a></li>
+</ul>
+<h3 id="can-be-useful-before-the-course">Can be useful before the course:<a class="zola-anchor" href="#can-be-useful-before-the-course" aria-label="Anchor link for: can-be-useful-before-the-course">🔗</a></h3>
+<ul>
+<li>Watching the Revolution OS movie: <a href="https://www.youtube.com/watch?v=4vW62KqKJ5A">original version</a> (which is better) or in <a href="https://www.youtube.com/watch?v=n1F_MfLRlX0">Russian</a></li>
+<li>Reading about Linux distros in general <a href="https://en.wikipedia.org/wiki/Linux">Wiki page on Linux</a>, <a href="https://en.wikipedia.org/wiki/Linux_distribution">Wiki page on Linux distributions</a></li>
+</ul>
+<h1 id="schedule">Schedule<a class="zola-anchor" href="#schedule" aria-label="Anchor link for: schedule">🔗</a></h1>
+<p><strong>Week 0</strong> - Club Presentation - 
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vRi-Y4N9ZtOIzydZR6EQ8IoFAq4C1a9_eNwvvzEPdSfE0svzASplVUCbaciWGgk1558iEzWSCSbDmPX/pub?start=false&amp;loop=false&amp;delayms=3000">Lecture notes</a></p>
+<p><strong>Richard Stallman talk</strong> - 
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vS_t6q2SvHNjQdfg-aleD8wlKWIvOljyJLepamwOEP35TVX07moEDn9Qpjbe-WQ2bU05phubQfiBFi6/pub?start=false&amp;loop=false&amp;delayms=3000">Lecture notes</a></p>
+<p><strong>Week 1</strong> - Introduction to open-source, different distributions - 
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vS6kqNkHhNC_wJHbxYyyQ5jEJpwHrJpLXyvGB-qbL283JTaMu5u0vgQqhqzHlXmrkcAbzTLXZ-ssrXR/pub?start=false&amp;loop=false&amp;delayms=3000">Lecture notes</a></p>
+<p><strong>Week 2</strong> - Introduction to the shell - 
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vQEPooIqgfJSh2nEOmx-AZLd5yqzZU97TPTOl8imIG_wDx4yuhtaYwhZtJcAJvOTvGCkZ73zmnBmYIW/pub?start=false&amp;loop=false&amp;delayms=3000#slide=id.g8e350c3bc9_0_62">Lecture notes</a></p>
+<p><strong>Week 3</strong> - Git and Github -
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vQpENq6D9IV3GBmQcyclrJyKitLXLYxN2PsyhS38Hr0w88Vt5H8HTZhTRWNFszSyZx-mc9FrYrhMPrL/pub?start=false&amp;loop=false&amp;delayms=3000">Lecture notes</a></p>
+<p><strong>Week 4.1</strong> - Vim, Terminal multiplexers - 
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vS-zNqZiu8AyoiwxPcI_1GnzFc6FgBCWhXdT86Hw0h-qx9zrEcj7j7ouAgvX7iYiB077zghqdYVS05o/pub?start=false&amp;loop=false&amp;delayms=3000">Lecture notes</a></p>
+<p><strong>Week 4.2</strong> - Package managers - 
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vSRBuN3hl6HWfgI_z3KLq8gY35N1gEUsGi3JApA4ZakJ5RDGm4p3ExnLi0ZNAPM4C_NvLJmOmNaf98q/pub?start=false&amp;loop=false&amp;delayms=3000">Lecture notes</a></p>
+<p><strong>Week 5</strong> - File systems -
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vTmkpOZMXZ5LhFshN5sTL15caN5JTDKdf2g7xMSfKtFoGc5sqOjhukygI6xi4whgRrPPbAucvT_VQIv/pub?start=false&amp;loop=false&amp;delayms=3000">Lecture notes</a></p>
+<p><strong>Week 6.1</strong> - Linux Filesystem Hierarchy Standard -
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vTgosA-hz5Zz2GZvTzLu9xhSC06Vsj0QHmv9efVPArnFbXzwek-FeV5WWIfmqD6dKu8juRF4D_6ZPiD/pub?start=false&amp;loop=false&amp;delayms=3000">Lecture notes</a></p>
+<p><strong>Week 6.2</strong> - Regular expressions -
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vQFodXityFvFlMzroauuDcOOqz1vXOv9vBdn6fRGXaDsAb0_R4XkhsanCkG0g6gVDiGN4_1_dgmkwwm/pub?start=false&amp;loop=false&amp;delayms=3000">Lecture notes</a></p>
+<p><strong>Week 7.1</strong> - Boot (EFI/UEFI) - 
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vQAE745HD6qTOhWPDTTANzsAK7tgt-4gvC9q0GiIYCSrRwfl_m93LTfIXoLNBBqi79LMppSY3lX2i99/pub?start=false&amp;loop=false&amp;delayms=3000">Lecture notes</a></p>
+<p><strong>Week 7.2</strong> - Disk tables (MBR/GPT) -
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vQGTWVyWNQR_dT8cVmzuadkSgM5W-OF5WPQ66lQBp4EVcnE-eghFT5HI5FXAPq7X9vblcMcoFD58OKJ/pub?start=false&amp;loop=false&amp;delayms=3000">Lecture notes</a></p>
+<p><strong>Week 8</strong> - Systemd, systemctl, kernel options -
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vSwRYb0LULiq0EGpJ1adne2e4W9_QAgsNcM1R825YCBey9WprUD_rWw9lmQuCYcVD7RZJcQRxVujCRJ/pub?start=false&amp;loop=false&amp;delayms=3000">Lecture notes</a></p>
+<p><strong>Week 9.1</strong> - X.org, Gnome, Wayland, i3, KDE, XFCE, MATE etc.
+<strong>Week 9.2</strong> - The C Programming Language</p>
+<h1 id="resources">Resources<a class="zola-anchor" href="#resources" aria-label="Anchor link for: resources">🔗</a></h1>
+<ul>
+<li><a href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/2020_1/readme/weeks/week2">Week 2</a></li>
+<li><a href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/2020_1/readme/weeks/week4">Week 4</a></li>
+<li><a href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/2020_1/readme/weeks/week5">Week 5</a></li>
+<li><a href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/2020_1/readme/weeks/week6">Week 6</a></li>
+<li><a href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/2020_1/readme/weeks/week7-partition-table">Week 7 Partition Tables Homework</a> and <a href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/2020_1/readme/weeks/week7-boot">Week 7 Boot Homework</a></li>
+<li><a href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/2020_1/readme/weeks/week8">Week 8</a></li>
+<li><a href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/2020_1/readme/weeks/week9">Week 9</a></li>
+</ul>
+<h1 id="usage-for-students">Usage for students<a class="zola-anchor" href="#usage-for-students" aria-label="Anchor link for: usage-for-students">🔗</a></h1>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span># Fork this repository
+</span><span># Watch the lecture
+</span><span># Create your personal directory in &#39;homework&#39;
+</span><span># Copy the files from the respective directory in &#39;weeks&#39; into your personal directory in &#39;homework&#39;
+</span><span># Submit a pull request into your own repository&#39;s master
+</span><span># Add us as contributors into your repository
+</span><span># Add the responsible person as a reviewer to the pull request
+</span><span># Done!
+</span></code></pre>
+ 
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footercontents">
+        <ul style="margin-block-start: 0; padding-inline-start: 0;" class="nostyle">
+          <li class="centerlinks name">
+            <img class="logo" src="https://ucu-computer-science.github.io/UCU_Linux_Club/icon.png" alt="LinuxClub@UCU logo">
+          </li>
+          <li class="centerlinksname">
+            <a class="nostylelink" href="https://apps.ucu.edu.ua/" title="APPS@UCU">
+            <img class="logo" src="https://ucu-computer-science.github.io/UCU_Linux_Club/apps.png" alt="APPS@UCU logo">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
