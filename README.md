@@ -1,6 +1,6 @@
 # Linux Club 2023
 
-Official repository of UCU student-organized Linux Club 22/23 with the schedule, useful links and presentations.
+Official repository of UCU student-organized Linux Club 22/23 with the schedule, useful links and presentations. Archives of this repo from previous semester can be found in the Releases tab.
 
 **We also have a [website over here](https://ucu-computer-science.github.io/UCU_Linux_Club/)!**
 
@@ -28,56 +28,28 @@ If you are going to visit the club regularly, the best is to install Arch/Manjar
 * [Useful resources, links and documentation](https://ucu-computer-science.github.io/UCU_Linux_Club/articles/)
 * [Week directories with useful resources](./homework/)
 
-### Can be useful before the course:
+# Second semester schedule (Subject to change)
 
-- Watching the Revolution OS movie: [original version](https://www.youtube.com/watch?v=4vW62KqKJ5A)
-- Reading about Linux distros in general [Wiki page on Linux](https://en.wikipedia.org/wiki/Linux), [Wiki page on Linux distributions](https://en.wikipedia.org/wiki/Linux_distribution)
+## Week 1 (07.02)
+**Docker** - [*Ostap*](https://github.com/redn1nja)
 
-# Schedule
+## Week 2 (14.02)
+TBD
 
-##Week 0 
-[**Intro and Club Presentation**](https://docs.google.com/presentation/d/1d2fPhHRSTY5q5pFCLouLXlm6OVXakXA7kIwOZt0sBGk/edit?usp=sharing) -  [*Teodor Muzychuk*](https://github.com/ch1pkav)
+## Week 3 (21.02)
+TBD
 
-+ Week 1.1 (20.09) - [**Intro to Open Source**](https://docs.google.com/presentation/d/1aSBcK0A0yJrH1IMCxxX4drk7QP3dpujxViqqINwBNAk/edit?usp=sharing) -  [*Teodor Muzychuk*](https://github.com/ch1pkav)
+## Week 4 (28.02)
+**Microcontrollers and Roboclub** - [*Ostap*](https://github.com/redn1nja), [*Teodor*](https://github.com/ch1pkav)
 
-## Week 1.2 (20.09)
-[**Package managers**](https://docs.google.com/presentation/d/1C3uC4RX_twIeqkJiMsR2CVKXFd8FrTbf-3k1la8Bl30/edit?usp=sharing) - [*Bohdan Ruban*](https://github.com/iamthewalrus67)
+## Week 5 (06.03)
+**Intro to C - Guest lecture** - [*Oleg Farenyuk*](https://apps.ucu.edu.ua/teachers/oleg-farenyuk/)
 
-## Week 1.3 (**sat 23.09 14:00 at Lectorium|IT space**)
-**С++ Crash Course** (recommended for 2nd year students) - *[Ostap Trush](https://github.com/Adeon18) and [Mykhailo Sobko](https://github.com/myrimur)*
+## Week 6-9 (13.03 - 03.04)
+**Rust course** - [Bohdan Ruban](https://github.com/iamthewalrus)
 
-## Week 2 (27.09)
-[**CLI and Bash**](https://docs.google.com/presentation/d/1bEc8DEu7H1vRGcvSCzmu9x1T-5JqaOHxA5xu4iFRE1Q/edit?usp=sharing) -  [*Teodor Muzychuk*](https://github.com/ch1pkav)
-
-## Week 3 (04.10)
-[**Git and Github Workshop**](https://docs.google.com/presentation/d/1I7xOQ8g71ydjc_YH-51nBSkcW2Xe2dcL0vSsF_8Yi-8/edit?usp=sharing) - [*Dmytro Shumshkyi*](https://github.com/DmShums)
-
-## Week 4 (11.10)
-[**Vim + tmux**](https://docs.google.com/presentation/d/1hTp84WBFWUYQAqp0RHHFblVGq5fZ6GImetUR6nqRjUk/edit?usp=sharing) -  [*Teodor Muzychuk*](https://github.com/ch1pkav)
-
-## Week 5 (25.10)
-[**Partition Tables and Bootloaders**](https://docs.google.com/presentation/d/1hY0rxAByOzy5Qm36kIMwCJvPLmWLhKBwZDk8aoGulkg/edit?usp=sharing) - [*Roman Mutel*](https://github.com/rwmutel)
-
-## Week 6.1 (18.10)
-[**Linux Filesystem Hierarchy**](https://docs.google.com/presentation/d/1edR7FsbypkGwK_QjP3mhjmL8iKF2Bpf4zeIT40wJSTo/edit?usp=sharing) - *[Ostap Trush](https://github.com/Adeon18)*
-
-## Week 6.2 (18.10)
-[**Regular Expressions**](https://docs.google.com/presentation/d/1U4E6qDZKQE2LGSB9ICoSEd8KYwKZZk3-3fcO6GL0z20/edit?usp=sharing) - [*Dmytro Shumshkyi*](https://github.com/DmShums)
-
-## Week 7 (01.11)
-[**Filesystems**](https://docs.google.com/presentation/d/1EyS3DytXb4My-BLqjMZkYwpZ4MXTcTcnyam3LIrhIa8/edit?usp=sharing) - [*Oleksii Hoyev*](https://github.com/alexg-lviv)
-
-## Week 8 (08.11)
-[**SSH**](https://docs.google.com/presentation/d/1MnKh1AcSWvY9EnFD5U-kDm9Ng43yDOlLVr_pxAYkcN8/edit?usp=sharing) - [*Roman Mutel*](https://github.com/rwmutel)
-
-## Week 9 (15.11)
-**Kernel, Systemd, Utilities** - [*Ostap Seryvko*](https://github.com/redn1nja)
-
-## Week 10 (22.11)
-**Graphics: DM, DE, WM, X.org, rice** - [*Ostap Seryvko*](https://github.com/redn1nja)
-
-## Week 11 (29.11)
-**Internet Utilities and Features** - [*Oleksii Hoyev*](https://github.com/alexg-lviv)
+## Week 10 (10.04)
+TBD
 
 # Usage for students
 
