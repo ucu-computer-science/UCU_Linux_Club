@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Week 2 Homework</title>
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="https://ucu-computer-science.github.io/UCU_Linux_Club/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://ucu-computer-science.github.io/UCU_Linux_Club/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://ucu-computer-science.github.io/UCU_Linux_Club/favicon-16x16.png">
+    <link rel="manifest" href="https://ucu-computer-science.github.io/UCU_Linux_Club/site.webmanifest">
+    <link rel="mask-icon" href="https://ucu-computer-science.github.io/UCU_Linux_Club/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://ucu-computer-science.github.io/UCU_Linux_Club/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="https://ucu-computer-science.github.io/UCU_Linux_Club/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+      /* Loading in the fonts*/
+      @import url(//fonts.googleapis.com/css?family=Source+Sans+Pro);
+      @import url(//fonts.googleapis.com/css?family=Space+Mono);
+
+      /* Defining colors */
+      :root {
+        --dark-background: #0d1117;
+        --lighter-background: #3b303b;
+        --border-color: #0069c0;
+        --text-h: #e5e9f0;
+        --text-p: #e5e9f0;
+      }
+
+      /* The main sections' CSS */
+      body {
+        font-family: "Source Sans Pro", serif;
+        text-align: left;
+        font-style: normal;
+        color: var(--text-h);
+        background-color: var(--dark-background);
+        line-height: 1.5;
+        font-size: 1.1em;
+      }
+
+      @media (min-width: 768px) {
+        body {font-size: 1.15em;}
+      }
+
+      /* Organizes the site's contents size */
+      .main {
+        width: 90%;
+        overflow: hidden;
+        margin: 0 auto 3em auto;
+      }
+
+      /* For mobile devices */
+      @media (min-width: 768px) {
+        .main { width: 42rem; }
+      }
+
+      /* Blog posts*/
+      .home {
+        margin: 1em auto;
+      }
+
+      .nostyle {
+        list-style: none;
+      }
+
+      /* Header stuff */
+      .header {
+        width: 100%;
+        margin: 0;
+        padding: 1.1rem 0 0 0;
+        height: auto;
+        display: inline-block;
+      }
+
+      @media (min-width: 768px) {
+        .header { margin: 1em 1em 0 1em; }
+      }
+
+      .intro {
+        width: auto;
+        margin: 0;
+        float: left;
+        height: auto;
+      }
+
+      @media (min-width: 768px) {
+        .intro { width: 20em; }
+      }
+
+      .nav {
+        width: auto;
+        float: right;
+        display: block;
+        margin-top: 0.1em;
+        padding: 0;
+      }
+
+      @media (min-width: 768px) {
+        .nav { margin: 0.8em; }
+      }
+
+      .headernav {
+        float: right;
+        margin: 0;
+        padding: 0;
+      }
+      
+      @media (min-width: 768px) {
+        .headernav { margin-right: 1em; }
+      }
+
+      ol, ul {
+        padding-inline-start: 1em;
+      }
+
+      @media (min-width: 768px) {
+        ol, ul { padding-inline-start: 2em; }
+      }
+
+      .navbutton {
+        display: inline-block;
+        margin-right: 1em;
+      }
+
+      .name {
+        font-family: "Space Mono", monospace;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 0 1em 1em 0;
+      }
+
+      @media (min-width: 768px) {
+        .name { font-size: 200%; }
+      }
+
+      /* Blog post*/
+      .blogpost {
+        /* border-right: 1px solid #3B4252; */
+        border-bottom: 1px solid var(--border-color);
+        display: block;
+        margin: 0;
+        position: relative;
+        padding: 1.4em 1.4em 1em 1.4em;
+      }
+
+      .blogtitle {
+        font-family: "Source Sans Pro", serif;
+        font-size: 1.4rem;
+        font-weight: bolder;
+        margin: 0.2em 0 0.4em 0;
+        color: var(--text-h);
+        line-height: 1;
+      }
+
+      .blogoneliner {
+        font-family: "Source Sans Pro", serif;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin: 0 0 0 0;
+        color: var(--text-h);
+      }
+
+      .bloginfo {
+        font-family: "Source Sans Pro", serif;
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 0.6em 0 0 0;
+        color: var(--text-h);
+      }
+
+      @media (min-width: 768px) {
+        .blogtitle { font-size: 1.5rem; }
+        .blogoneliner { font-size: 1.05rem; }
+        .bloginfo { font-size: 1rem; }
+      }
+
+      h1 {
+        font-size: 2.2rem;
+        margin: 0;
+        color: var(--text-h);
+        font-weight: 900;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+        margin: 1em 0 0.2em 0;
+        color: var(--text-h);
+        font-weight: 900;
+      }
+
+      h6 {
+        margin: 1em 0 1em 0;
+        color: var(--text-h);
+        font-weight: 800;
+      }
+
+      .inactive {
+        color: var(--dark-background);
+        font-weight: 300;
+      }
+
+      .active {
+        color: var(--border-color);
+        font-weight: 900;
+      }
+
+      .tagsingle {
+        font-size: 1.3rem;
+        color: var(--text-h);
+        font-weight: 500;
+      }
+
+      img {
+        max-width: 25rem;
+        width: 100%;
+        height: auto;
+        margin: 1.2em auto 1.2em auto;
+        display: block;
+      }
+
+      .logo {
+        width: 2.2em;
+        display: block;
+      }
+
+      /* Footer stuff */
+      .footer {
+        bottom: 0;
+        border-top: 1px solid var(--border-color);
+        background: var(--dark-background);
+        height: 3em;
+        width: 100%;
+        display: block;
+        padding: 1em 0 2em 0;
+        border: 0;
+        text-align: left;
+        font-size: 1rem;
+      }
+
+      .footercontents {
+        width: 95%;
+        margin: 0 auto;
+        border: 0;
+        padding: 0;
+      }
+
+      /* For mobile devices */
+      @media (min-width: 768px) {
+        .footercontents { width: 42em; }
+      }
+
+      .centerlinks {
+        margin: auto;
+        padding: 0;
+        border: 0;
+      }
+
+      .buttons {
+        color: var(--text-h);
+        font-family: "Space Mono", monospace;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+
+      .nostylelink {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a {
+	    color: var(--text-h);
+      text-decoration: underline;
+      }
+
+      .terms {
+        list-style: none;
+        font-size: 1.2em;
+      }
+
+      .error {
+        margin: 7em auto;
+        text-align: center;
+      }
+
+      .article-info {
+        border-top: 1px solid #3B4252;
+        margin-top: 0.3em;
+        padding-top: 1em;
+      }
+
+      .zola-anchor {
+        text-decoration: none;
+        margin-left: 0.3em;
+        color: var(--border-color);
+      }
+
+      /* code formatting stuff */
+      code {
+        border-radius: 3px;
+      }
+
+      pre {
+        width: 100%;
+        overflow:scroll;
+        overflow-x: auto;
+        background-color: var(--lighter-background);
+        border-radius: 0.3em;
+        border: 0.5em solid #2b303b;
+      }
+
+      :not(pre) > code {
+        background-color: var(--lighter-background);
+        border-radius: 0.3em;
+        border: 0.1em solid var(--lighter-background);
+      }
+    </style>
+    
+<style>
+    a {
+	    color: var(--text-h);
+      text-decoration: underline;
+    }
+</style>
+
+  </head>
+
+  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <div id="site">
+      <div class="main">
+        <div class="header">
+          <div class="intro">
+            <a
+              class="nostylelink"
+              href="https://ucu-computer-science.github.io/UCU_Linux_Club"
+            >
+              <h1 class="name"><span class="red"></span>LinuxClub@UCU</h1>
+            </a>
+          </div>
+          <nav class="nav">
+            <ul class="nostyle headernav">
+              <li class="navbutton">
+                <a
+                  class="nostylelink"
+                  href="https://ucu-computer-science.github.io/UCU_Linux_Club/articles/"
+                  title="Articles"
+                  class="buttons"
+                  >Docs</a
+                >
+              </li>
+              <li class="navbutton">
+                <a
+                  class="nostylelink"
+                  href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/readme/"
+                  title="Archive"
+                  class="buttons"
+                  >Archive</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        
+<h1 class="title">Week 2 Homework</h1>
+<p><a href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/2020_1/weeks/week2/./week2-example-commands">Example commands</a></p>
+<ol>
+<li>Write a program that prints your ip adress.</li>
+<li>List all installed programs which contain <code>apps</code> or <code>cs</code> or <code>ba</code> case insensitive separated with <code>-&gt;</code>. Example: <code>pr_apps.py-&gt;cs2-&gt;ba_11</code>. Hint: to list all installed packages use <code>pacman -Q</code></li>
+<li>Write a keylogger. As a command line argument it takes a file path where to store logs. If the log file or path do not exist, the program should create them. Each command that user entered should be prefixed with timestamp (<code>[year:month:day|hour:min:sec]</code>). The commands should work as in the usual command line. Prompt of the keylogger can be any symbol or string (e.g. <code>&gt;</code> or <code>$</code>).</li>
+</ol>
+<p>All programs must have a description and usage examples on the very top of the file as a comment or in the README.md file.</p>
+ 
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footercontents">
+        <ul style="margin-block-start: 0; padding-inline-start: 0;" class="nostyle">
+          <li class="centerlinks name">
+            <img class="logo" src="https://ucu-computer-science.github.io/UCU_Linux_Club/icon.png" alt="LinuxClub@UCU logo">
+          </li>
+          <li class="centerlinksname">
+            <a class="nostylelink" href="https://apps.ucu.edu.ua/" title="APPS@UCU">
+            <img class="logo" src="https://ucu-computer-science.github.io/UCU_Linux_Club/apps.png" alt="APPS@UCU logo">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

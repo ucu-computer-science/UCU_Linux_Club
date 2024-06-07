@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Arch installation manual</title>
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="https://ucu-computer-science.github.io/UCU_Linux_Club/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://ucu-computer-science.github.io/UCU_Linux_Club/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://ucu-computer-science.github.io/UCU_Linux_Club/favicon-16x16.png">
+    <link rel="manifest" href="https://ucu-computer-science.github.io/UCU_Linux_Club/site.webmanifest">
+    <link rel="mask-icon" href="https://ucu-computer-science.github.io/UCU_Linux_Club/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://ucu-computer-science.github.io/UCU_Linux_Club/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="https://ucu-computer-science.github.io/UCU_Linux_Club/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+      /* Loading in the fonts*/
+      @import url(//fonts.googleapis.com/css?family=Source+Sans+Pro);
+      @import url(//fonts.googleapis.com/css?family=Space+Mono);
+
+      /* Defining colors */
+      :root {
+        --dark-background: #0d1117;
+        --lighter-background: #3b303b;
+        --border-color: #0069c0;
+        --text-h: #e5e9f0;
+        --text-p: #e5e9f0;
+      }
+
+      /* The main sections' CSS */
+      body {
+        font-family: "Source Sans Pro", serif;
+        text-align: left;
+        font-style: normal;
+        color: var(--text-h);
+        background-color: var(--dark-background);
+        line-height: 1.5;
+        font-size: 1.1em;
+      }
+
+      @media (min-width: 768px) {
+        body {font-size: 1.15em;}
+      }
+
+      /* Organizes the site's contents size */
+      .main {
+        width: 90%;
+        overflow: hidden;
+        margin: 0 auto 3em auto;
+      }
+
+      /* For mobile devices */
+      @media (min-width: 768px) {
+        .main { width: 42rem; }
+      }
+
+      /* Blog posts*/
+      .home {
+        margin: 1em auto;
+      }
+
+      .nostyle {
+        list-style: none;
+      }
+
+      /* Header stuff */
+      .header {
+        width: 100%;
+        margin: 0;
+        padding: 1.1rem 0 0 0;
+        height: auto;
+        display: inline-block;
+      }
+
+      @media (min-width: 768px) {
+        .header { margin: 1em 1em 0 1em; }
+      }
+
+      .intro {
+        width: auto;
+        margin: 0;
+        float: left;
+        height: auto;
+      }
+
+      @media (min-width: 768px) {
+        .intro { width: 20em; }
+      }
+
+      .nav {
+        width: auto;
+        float: right;
+        display: block;
+        margin-top: 0.1em;
+        padding: 0;
+      }
+
+      @media (min-width: 768px) {
+        .nav { margin: 0.8em; }
+      }
+
+      .headernav {
+        float: right;
+        margin: 0;
+        padding: 0;
+      }
+      
+      @media (min-width: 768px) {
+        .headernav { margin-right: 1em; }
+      }
+
+      ol, ul {
+        padding-inline-start: 1em;
+      }
+
+      @media (min-width: 768px) {
+        ol, ul { padding-inline-start: 2em; }
+      }
+
+      .navbutton {
+        display: inline-block;
+        margin-right: 1em;
+      }
+
+      .name {
+        font-family: "Space Mono", monospace;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 0 1em 1em 0;
+      }
+
+      @media (min-width: 768px) {
+        .name { font-size: 200%; }
+      }
+
+      /* Blog post*/
+      .blogpost {
+        /* border-right: 1px solid #3B4252; */
+        border-bottom: 1px solid var(--border-color);
+        display: block;
+        margin: 0;
+        position: relative;
+        padding: 1.4em 1.4em 1em 1.4em;
+      }
+
+      .blogtitle {
+        font-family: "Source Sans Pro", serif;
+        font-size: 1.4rem;
+        font-weight: bolder;
+        margin: 0.2em 0 0.4em 0;
+        color: var(--text-h);
+        line-height: 1;
+      }
+
+      .blogoneliner {
+        font-family: "Source Sans Pro", serif;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin: 0 0 0 0;
+        color: var(--text-h);
+      }
+
+      .bloginfo {
+        font-family: "Source Sans Pro", serif;
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 0.6em 0 0 0;
+        color: var(--text-h);
+      }
+
+      @media (min-width: 768px) {
+        .blogtitle { font-size: 1.5rem; }
+        .blogoneliner { font-size: 1.05rem; }
+        .bloginfo { font-size: 1rem; }
+      }
+
+      h1 {
+        font-size: 2.2rem;
+        margin: 0;
+        color: var(--text-h);
+        font-weight: 900;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+        margin: 1em 0 0.2em 0;
+        color: var(--text-h);
+        font-weight: 900;
+      }
+
+      h6 {
+        margin: 1em 0 1em 0;
+        color: var(--text-h);
+        font-weight: 800;
+      }
+
+      .inactive {
+        color: var(--dark-background);
+        font-weight: 300;
+      }
+
+      .active {
+        color: var(--border-color);
+        font-weight: 900;
+      }
+
+      .tagsingle {
+        font-size: 1.3rem;
+        color: var(--text-h);
+        font-weight: 500;
+      }
+
+      img {
+        max-width: 25rem;
+        width: 100%;
+        height: auto;
+        margin: 1.2em auto 1.2em auto;
+        display: block;
+      }
+
+      .logo {
+        width: 2.2em;
+        display: block;
+      }
+
+      /* Footer stuff */
+      .footer {
+        bottom: 0;
+        border-top: 1px solid var(--border-color);
+        background: var(--dark-background);
+        height: 3em;
+        width: 100%;
+        display: block;
+        padding: 1em 0 2em 0;
+        border: 0;
+        text-align: left;
+        font-size: 1rem;
+      }
+
+      .footercontents {
+        width: 95%;
+        margin: 0 auto;
+        border: 0;
+        padding: 0;
+      }
+
+      /* For mobile devices */
+      @media (min-width: 768px) {
+        .footercontents { width: 42em; }
+      }
+
+      .centerlinks {
+        margin: auto;
+        padding: 0;
+        border: 0;
+      }
+
+      .buttons {
+        color: var(--text-h);
+        font-family: "Space Mono", monospace;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+
+      .nostylelink {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a {
+	    color: var(--text-h);
+      text-decoration: underline;
+      }
+
+      .terms {
+        list-style: none;
+        font-size: 1.2em;
+      }
+
+      .error {
+        margin: 7em auto;
+        text-align: center;
+      }
+
+      .article-info {
+        border-top: 1px solid #3B4252;
+        margin-top: 0.3em;
+        padding-top: 1em;
+      }
+
+      .zola-anchor {
+        text-decoration: none;
+        margin-left: 0.3em;
+        color: var(--border-color);
+      }
+
+      /* code formatting stuff */
+      code {
+        border-radius: 3px;
+      }
+
+      pre {
+        width: 100%;
+        overflow:scroll;
+        overflow-x: auto;
+        background-color: var(--lighter-background);
+        border-radius: 0.3em;
+        border: 0.5em solid #2b303b;
+      }
+
+      :not(pre) > code {
+        background-color: var(--lighter-background);
+        border-radius: 0.3em;
+        border: 0.1em solid var(--lighter-background);
+      }
+    </style>
+    
+<style>
+    a {
+	    color: var(--text-h);
+      text-decoration: underline;
+    }
+</style>
+
+  </head>
+
+  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <div id="site">
+      <div class="main">
+        <div class="header">
+          <div class="intro">
+            <a
+              class="nostylelink"
+              href="https://ucu-computer-science.github.io/UCU_Linux_Club"
+            >
+              <h1 class="name"><span class="red"></span>LinuxClub@UCU</h1>
+            </a>
+          </div>
+          <nav class="nav">
+            <ul class="nostyle headernav">
+              <li class="navbutton">
+                <a
+                  class="nostylelink"
+                  href="https://ucu-computer-science.github.io/UCU_Linux_Club/articles/"
+                  title="Articles"
+                  class="buttons"
+                  >Docs</a
+                >
+              </li>
+              <li class="navbutton">
+                <a
+                  class="nostylelink"
+                  href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/readme/"
+                  title="Archive"
+                  class="buttons"
+                  >Archive</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        
+<h1 class="title">Arch installation manual</h1>
+<h1 id="installing-arch">Installing Arch<a class="zola-anchor" href="#installing-arch" aria-label="Anchor link for: installing-arch">🔗</a></h1>
+<p><em>The basis for this tutorial is <a href="https://sollus-soft.blogspot.com/2017/01/arch-linux-windows-10-uefi-systemd-boot.html">this one</a></em></p>
+<p>Always keep tabs on this <a href="https://wiki.archlinux.org/index.php/installation_guide">extended official tutorial</a>.</p>
+<h2 id="preparing">Preparing<a class="zola-anchor" href="#preparing" aria-label="Anchor link for: preparing">🔗</a></h2>
+<h3 id="for-linux-users">For Linux users:<a class="zola-anchor" href="#for-linux-users" aria-label="Anchor link for: for-linux-users">🔗</a></h3>
+<ul>
+<li>
+<p>First of all, install arch ISO on your USB stick. <a href="https://www.archlinux.org/download/">Here</a> you can find an official image. </p>
+</li>
+<li>
+<p>Check your USB name using fdisk program <code>fdisk -l</code>. Ypu are interested in <code>/dev/sdX</code> kind of disk.</p>
+</li>
+<li>
+<p>Use <code>dd</code> tool to make bootable drive</p>
+</li>
+</ul>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>$ sudo dd if=path_to_arch_image.iso of=/dev/sdX bs=4M
+</span></code></pre>
+<p><a href="https://ucu-computer-science.github.io/UCU_Linux_Club/articles/arch-manual/#main-part-of-installation">skip windows manual</a></p>
+<h3 id="for-windows-users">For Windows users:<a class="zola-anchor" href="#for-windows-users" aria-label="Anchor link for: for-windows-users">🔗</a></h3>
+<p>First of all, install arch ISO on your USB stick. <a href="https://www.archlinux.org/download/">Here</a> you can find an official image. </p>
+<p>I recomend using <a href="https://rufus.ie/">RUFUS</a> for proper image installation. Choose everything as you see on this photo: 
+<img src="https://ucu-computer-science.github.io/UCU_Linux_Club/articles/arch-manual/rufus.png" alt="" /></p>
+<p><strong>Important!</strong> all files from USB-stick will be deleted</p>
+<p>Now go to the BIOS (press F2 or F8 or smth else on you laptop during booting), and choose <code>UEFI mode</code> and change boot order (make your USB first prior). result should be something like that:</p>
+<p><img src="https://ucu-computer-science.github.io/UCU_Linux_Club/articles/arch-manual/bios.jpg" alt="" /></p>
+<p>Save changes and exit</p>
+<h2 id="main-part-of-installation">Main part of installation<a class="zola-anchor" href="#main-part-of-installation" aria-label="Anchor link for: main-part-of-installation">🔗</a></h2>
+<p>Firstly check if you're loaded in EFI mode: <code>efivar -l</code>. The output should be like this: 
+<img src="https://ucu-computer-science.github.io/UCU_Linux_Club/articles/arch-manual/efivar.png" alt="" /></p>
+<p>On some computers Wifi won't work without turning the module on with this  command: <code>rfkill unblock all</code></p>
+<p>Now let's turn on Wifi. Firstly get name of your interface: <code>ip link</code> (it usually starts with 'w', i.e: 'wlan0') 
+Then activate the interface: <code>ip link set interface_name up</code>.</p>
+<p>First method: <code>iwctl</code> </p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>iwctl
+</span><span>station interface_name scan
+</span><span>station interface_name get-networks
+</span><span>station interface_name connect network_name
+</span></code></pre>
+<p>Example of turning on wifi:</p>
+<p><img src="https://ucu-computer-science.github.io/UCU_Linux_Club/articles/arch-manual/iwctl.jpg" alt="" /></p>
+<p>Check if internet works with <code>ping google.com</code> (should appear messages with '64 bytes' at the beginning, press CTRL+C to finish check)</p>
+<p>Time synchronization: <code>timedatectl set-ntp true</code></p>
+<p>Now let's look at your previous boot records: <code>efibootmgr</code> and delete previous linux or some other stuff: <code>efibootmgr -b X -B</code>, where 'X' is number of stuff's boot</p>
+<p>Here is how it should look like
+<img src="https://ucu-computer-science.github.io/UCU_Linux_Club/articles/arch-manual/efibootmgr.png" alt="" /></p>
+<p>Now disk management: <code>cfdisk</code>. Here I delete everything from previous system and </p>
+<ul>
+<li>choose  root directory (about 60GB, linux filesystem) </li>
+<li>boot partition (1GB, EFI filesystem) (Actually it's better to install bootloader on the Windows EFI partition, if you want to see choise of system during loading). </li>
+<li>Create (or do nothing if you already have) home directory (40+GB, linux filesystem). </li>
+<li>Create swap partition (Your RAM size * 2, Linux swap)
+Don't forget to &quot;write&quot; after making new partition. And don't delete Windows partitions if you want dual boot.</li>
+</ul>
+<p>Here, how it looks on my laptop:
+<img src="https://ucu-computer-science.github.io/UCU_Linux_Club/articles/arch-manual/cfdisk.png" alt="" />
+As you can see I have 64GB root (/dev/sda11), 33GB home (/dev/sda10) 20GB swap (/dev/sda5), and my boot is /dev/sda3. Remeber, that on your laptop/PC, there will be other partition numbers.</p>
+<p>Now format partition and mount them. Root:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>mkfs.ext4 /dev/sda{root number} -L &quot;arch&quot;
+</span><span>mount /dev/sda{root number} /mnt
+</span></code></pre>
+<p>Boot:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>mkdir -p /mnt/boot
+</span><span>mkfs.fat -F32 /dev/sda{boot number}
+</span><span>mount /dev/sda{boot number} /mnt/boot
+</span></code></pre>
+<p>Or just mount Windows EFI partition, if you didn't create new one</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>mount /dev/sda{windows boot number} /mnt/boot
+</span></code></pre>
+<p>Swap:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>mkswap /dev/sda{swap num}
+</span><span>swapon /dev/sda{swap num}
+</span></code></pre>
+<p>Home:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>mkdir -p /mnt/home
+</span><span>mkfs.ext4 /dev/sda{home number} -L &quot;home&quot;
+</span><span>mount /dev/sda{home number} /mnt/home
+</span></code></pre>
+<p>Now let's update pacman: <code>pacman  -Syy</code></p>
+<p>Install base system and packet for future AUR using: <code>pacstrap /mnt base linux linux-firmware base-devel linux-headers</code></p>
+<p>Generate fstab: <code>genfstab -L /mnt &gt;&gt; /mnt/etc/fstab</code>
+Check if it is generated: <code>nano /mnt/etc/fstab</code></p>
+<p>Example fstab(don't forget to change filesystem UUIDs (you can find them in 'cfdisk')): </p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>UUID=8d3f44f4-a017-4c76-9e66-dd5068dc5397	/         	ext4      	rw,relatime,discard	0 1
+</span><span>
+</span><span>UUID=2f671175-0fe6-472a-a4b0-1da5345f03e1	/home     	ext4      	rw,relatime,discard	0 2
+</span><span>
+</span><span>UUID=1892-CB1C      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 2
+</span></code></pre>
+<p>!!<strong>IMPORTANT</strong>!! If you have SSD, than this is extremely important to automatically activate TRIM each time it's needed. This will save lifetime of your SSD. So please, add 'discard' option to mount points in fstab (as you can see in the example)</p>
+<p>Now let's go in arch: <code>arch-chroot /mnt </code></p>
+<p>It is good idea to download an adequate text editor at the beggining: <code>pacman -S vim</code></p>
+<p>super short guide for vim: </p>
+<ul>
+<li>i - go to 'insert' mode (you can type in this mode!)</li>
+<li>Esc - back to 'normal' mode</li>
+<li>:w - write to file (in normal mode)</li>
+<li>:q - quit from file (again, in normal mode) (you can combine: ':wq') </li>
+</ul>
+<p>Adjust locals: <code>vim /etc/locale.gen</code> and uncomment</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>en_US.UTF-8 UTF-8
+</span><span>ru_RU.UTF-8 UTF-8
+</span><span>uk_UA.UTF-8 UTF-8
+</span></code></pre>
+<p>Don't forget to save and actually generate the locales:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>locale-gen
+</span></code></pre>
+<p>Adjust time zone and time: </p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>ln -sf /usr/share/zoneinfo/Europe/Kiev /etc/localtime
+</span><span>hwclock --systohc
+</span></code></pre>
+<p>Adjust the name of the computer: <code>vim /etc/hostname</code> and write there <em>&quot;YOUR_HOSTNAME&quot;</em></p>
+<p>Adjust hosts: <code>vim /etc/hosts</code> and write there -<em>&quot;127.0.0.1 pavlik_giley.localdomain YOUR_USERNAME&quot;-</em> 
+DONT FORGET TO SAVE EVERYTHING</p>
+<p>Password for root: <code>passwd</code> </p>
+<p>Add new user: <code>useradd -G wheel -s /bin/bash -m YOUR_USERNAME</code>, and give him sudo permissions: <code>vim /etc/sudoers</code> 
+and uncomment <code>%wheel ALL=(ALL) ALL</code></p>
+<p>user's password: <code>passwd YOUR_USERNAME</code></p>
+<p>Download some potentially useful stuff: <code>pacman -S  efibootmgr iw wpa_supplicant dialog netctl dhcpcd iwd</code>.
+And more: <code>pacman -S ntfs-3g mtools fuse2</code></p>
+<p>Install bootloader: <code>bootctl install</code></p>
+<p>Loader config: <code>vim /boot/loader/loader.conf</code></p>
+<p>Example loader: </p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>default arch
+</span><span>timeout 2
+</span><span>editor 0
+</span></code></pre>
+<p>(It will wait 2 seconds before running into default choice - arch, editor 0 means you can't change loader parameters during boot(this is for security))</p>
+<p>Now it is vital to adjust kernel settings: </p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>pacman -S intel-ucode
+</span><span>vim /boot/loader/entries/arch.conf
+</span></code></pre>
+<p>Write here something like this (maybe you will need to change them in the future):</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>title Arch Linux
+</span><span>linux /vmlinuz-linux
+</span><span>initrd /intel-ucode.img
+</span><span>initrd /initramfs-linux.img
+</span><span>options root=&quot;LABEL=arch&quot; rw
+</span></code></pre>
+<p>Now exit and umount all partition:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>exit
+</span><span>umount -R /mnt
+</span><span>reboot
+</span></code></pre>
+<h1 id="gnome-installation">GNOME installation<a class="zola-anchor" href="#gnome-installation" aria-label="Anchor link for: gnome-installation">🔗</a></h1>
+<p>Install X: <code>sudo pacman -S xorg-server xorg-xinit xorg-apps mesa-libgl xterm</code></p>
+<p>Install graphic drivers:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>sudo pacman -S xf86-video-intel
+</span><span>sudo pacman -S nvidia #if you have nvidia GPU
+</span></code></pre>
+<p>Now install GNOME itself:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>sudo pacman -Syu
+</span><span>sudo pacman -S gnome
+</span><span>systemctl enable NetworkManager
+</span><span>systemctl enable gdm
+</span></code></pre>
+<p>Lenovo y530 (my laptop) can't render HDMI output with intel GPU, so if you want to use second monitor, read <a href="https://wiki.archlinux.org/index.php/PRIME#PRIME_render_offload">here</a>
+Also download prime-run (for running application with nvidia GPU(if you have nvidia): <code>sudo pacman -S prime-run</code></p>
+<p>You should be all set! Proceed to <a href="https://ucu-computer-science.github.io/UCU_Linux_Club/articles/programs/">programs list</a>, <a href="https://ucu-computer-science.github.io/UCU_Linux_Club/articles/resources/">resources</a> and <a href="https://ucu-computer-science.github.io/UCU_Linux_Club/articles/useful-links/">useful links</a> docs.</p>
+<h1 id="system-customization-and-apps-installation">System customization and apps installation<a class="zola-anchor" href="#system-customization-and-apps-installation" aria-label="Anchor link for: system-customization-and-apps-installation">🔗</a></h1>
+<p>First of all set normal wallpalers, change touchpad sensitivity and other settings in GNOME</p>
+<p>Python: </p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>sudo pacman -S python-pip
+</span><span>sudo pacman -S ipython
+</span></code></pre>
+<p>Battery optimization:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>sudo pacman -S tlp
+</span><span>sudo tlp start
+</span><span>sudo systemctl enable tlp.service
+</span></code></pre>
+<p>It's a good idea to create new mirrorlist file for Pacman, if you from Ukraine, you can use this: (replace it in /etc/pacman.d/mirrorlist)</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>## Ukraine
+</span><span>Server = http://archlinux.ip-connect.vn.ua/$repo/os/$arch
+</span><span>Server = https://archlinux.ip-connect.vn.ua/$repo/os/$arch
+</span><span>Server = http://mirror.mirohost.net/archlinux/$repo/os/$arch
+</span><span>Server = https://mirror.mirohost.net/archlinux/$repo/os/$arch
+</span><span>Server = http://mirrors.nix.org.ua/linux/archlinux/$repo/os/$arch
+</span><span>Server = https://mirrors.nix.org.ua/linux/archlinux/$repo/os/$arch
+</span></code></pre>
+<p>Or use automated tool <code>rankmirrors</code> for ranking mirrors:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>rankmirrors -n 0 /etc/pacman.d/mirrorlist
+</span></code></pre>
+<p>Terminal: <code>sudo pacman -S terminology</code></p>
+<p>git: <code>sudo pacman -S git</code></p>
+<p>yay: <code>git clone https://aur.archlinux.org/yay.git; cd yay; makepkg -si</code></p>
+<p>zsh installation and customization with oh my zsh:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>cd ~
+</span><span>sudo pacman -S zsh
+</span><span>sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;
+</span><span>git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+</span><span>echo &quot;source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh&quot; &gt;&gt; ${ZDOTDIR:-$HOME}/.zshrc
+</span></code></pre>
+<p>Browser + telegram: </p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>yay telegram-desktop
+</span><span>yay firefox
+</span></code></pre>
+<p>Don't forget to sign in gmail, youtube, CMS, etc.</p>
+<p>CUSTOMIZATION</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>sps gnome-tweaks
+</span></code></pre>
+<p>Download all extension and setup tweask as you like</p>
+<p>Install VScode: <code>yay visual-studio-code-insiders</code></p>
+<p>Cion <code>yay clion #chose just clion</code>. Don't forget to activate licension and type path to compilers and debugger</p>
+<p>Pycharm <code>yay pycharm #choose community version</code> Don't forget to install material theme and set 18's font</p>
+<p>STM32. Install eveything except eclipse from <a href="https://gist.github.com/Myralllka/42385fdecacb7cc2a45ec9376b57a4b2">this tutorial</a>
+After this download STM32CubeMX itself from <a href="https://www.st.com/en/development-tools/stm32cubemx.html">official site</a>
+Then unzip script, give permissions to run it (chmod +x scriptname.sh) and run it with sudo</p>
+<p>Then if you will have problems with debuggger run those commands:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>cd /usr/lib
+</span><span>sudo ln -s libncursesw.so.6.1 libncurses.so.5
+</span><span>sudo ln -s libncursesw.so.6.1 libtinfo.so.5
+</span></code></pre>
+<p>Follow <a href="https://gist.github.com/Myralllka/42385fdecacb7cc2a45ec9376b57a4b2">this tutorial</a> to work with STM32 through CLion: </p>
+<p>List of other apps I use:</p>
+<ol>
+<li>Slack</li>
+<li>IntellijIDEA (don't forget to get jdk)</li>
+<li>AndroidStudio (+sdk +ndk)</li>
+<li>zoom</li>
+<li>Microsoft Teams ('teams' package in local repository)</li>
+<li>clion-gui</li>
+<li>LibreOffice</li>
+</ol>
+<p>Also it's quite useful to configurate your touchpad gestures with <a href="https://github.com/bulletmark/libinput-gestures">this</a> application, if you're using xorg on gnome</p>
+<p>Looks like that's it. Happy archlinux experience!</p>
+ 
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footercontents">
+        <ul style="margin-block-start: 0; padding-inline-start: 0;" class="nostyle">
+          <li class="centerlinks name">
+            <img class="logo" src="https://ucu-computer-science.github.io/UCU_Linux_Club/icon.png" alt="LinuxClub@UCU logo">
+          </li>
+          <li class="centerlinksname">
+            <a class="nostylelink" href="https://apps.ucu.edu.ua/" title="APPS@UCU">
+            <img class="logo" src="https://ucu-computer-science.github.io/UCU_Linux_Club/apps.png" alt="APPS@UCU logo">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

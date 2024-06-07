@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Useful programs list</title>
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="https://ucu-computer-science.github.io/UCU_Linux_Club/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://ucu-computer-science.github.io/UCU_Linux_Club/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://ucu-computer-science.github.io/UCU_Linux_Club/favicon-16x16.png">
+    <link rel="manifest" href="https://ucu-computer-science.github.io/UCU_Linux_Club/site.webmanifest">
+    <link rel="mask-icon" href="https://ucu-computer-science.github.io/UCU_Linux_Club/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://ucu-computer-science.github.io/UCU_Linux_Club/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="https://ucu-computer-science.github.io/UCU_Linux_Club/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+      /* Loading in the fonts*/
+      @import url(//fonts.googleapis.com/css?family=Source+Sans+Pro);
+      @import url(//fonts.googleapis.com/css?family=Space+Mono);
+
+      /* Defining colors */
+      :root {
+        --dark-background: #0d1117;
+        --lighter-background: #3b303b;
+        --border-color: #0069c0;
+        --text-h: #e5e9f0;
+        --text-p: #e5e9f0;
+      }
+
+      /* The main sections' CSS */
+      body {
+        font-family: "Source Sans Pro", serif;
+        text-align: left;
+        font-style: normal;
+        color: var(--text-h);
+        background-color: var(--dark-background);
+        line-height: 1.5;
+        font-size: 1.1em;
+      }
+
+      @media (min-width: 768px) {
+        body {font-size: 1.15em;}
+      }
+
+      /* Organizes the site's contents size */
+      .main {
+        width: 90%;
+        overflow: hidden;
+        margin: 0 auto 3em auto;
+      }
+
+      /* For mobile devices */
+      @media (min-width: 768px) {
+        .main { width: 42rem; }
+      }
+
+      /* Blog posts*/
+      .home {
+        margin: 1em auto;
+      }
+
+      .nostyle {
+        list-style: none;
+      }
+
+      /* Header stuff */
+      .header {
+        width: 100%;
+        margin: 0;
+        padding: 1.1rem 0 0 0;
+        height: auto;
+        display: inline-block;
+      }
+
+      @media (min-width: 768px) {
+        .header { margin: 1em 1em 0 1em; }
+      }
+
+      .intro {
+        width: auto;
+        margin: 0;
+        float: left;
+        height: auto;
+      }
+
+      @media (min-width: 768px) {
+        .intro { width: 20em; }
+      }
+
+      .nav {
+        width: auto;
+        float: right;
+        display: block;
+        margin-top: 0.1em;
+        padding: 0;
+      }
+
+      @media (min-width: 768px) {
+        .nav { margin: 0.8em; }
+      }
+
+      .headernav {
+        float: right;
+        margin: 0;
+        padding: 0;
+      }
+      
+      @media (min-width: 768px) {
+        .headernav { margin-right: 1em; }
+      }
+
+      ol, ul {
+        padding-inline-start: 1em;
+      }
+
+      @media (min-width: 768px) {
+        ol, ul { padding-inline-start: 2em; }
+      }
+
+      .navbutton {
+        display: inline-block;
+        margin-right: 1em;
+      }
+
+      .name {
+        font-family: "Space Mono", monospace;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 0 1em 1em 0;
+      }
+
+      @media (min-width: 768px) {
+        .name { font-size: 200%; }
+      }
+
+      /* Blog post*/
+      .blogpost {
+        /* border-right: 1px solid #3B4252; */
+        border-bottom: 1px solid var(--border-color);
+        display: block;
+        margin: 0;
+        position: relative;
+        padding: 1.4em 1.4em 1em 1.4em;
+      }
+
+      .blogtitle {
+        font-family: "Source Sans Pro", serif;
+        font-size: 1.4rem;
+        font-weight: bolder;
+        margin: 0.2em 0 0.4em 0;
+        color: var(--text-h);
+        line-height: 1;
+      }
+
+      .blogoneliner {
+        font-family: "Source Sans Pro", serif;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin: 0 0 0 0;
+        color: var(--text-h);
+      }
+
+      .bloginfo {
+        font-family: "Source Sans Pro", serif;
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 0.6em 0 0 0;
+        color: var(--text-h);
+      }
+
+      @media (min-width: 768px) {
+        .blogtitle { font-size: 1.5rem; }
+        .blogoneliner { font-size: 1.05rem; }
+        .bloginfo { font-size: 1rem; }
+      }
+
+      h1 {
+        font-size: 2.2rem;
+        margin: 0;
+        color: var(--text-h);
+        font-weight: 900;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+        margin: 1em 0 0.2em 0;
+        color: var(--text-h);
+        font-weight: 900;
+      }
+
+      h6 {
+        margin: 1em 0 1em 0;
+        color: var(--text-h);
+        font-weight: 800;
+      }
+
+      .inactive {
+        color: var(--dark-background);
+        font-weight: 300;
+      }
+
+      .active {
+        color: var(--border-color);
+        font-weight: 900;
+      }
+
+      .tagsingle {
+        font-size: 1.3rem;
+        color: var(--text-h);
+        font-weight: 500;
+      }
+
+      img {
+        max-width: 25rem;
+        width: 100%;
+        height: auto;
+        margin: 1.2em auto 1.2em auto;
+        display: block;
+      }
+
+      .logo {
+        width: 2.2em;
+        display: block;
+      }
+
+      /* Footer stuff */
+      .footer {
+        bottom: 0;
+        border-top: 1px solid var(--border-color);
+        background: var(--dark-background);
+        height: 3em;
+        width: 100%;
+        display: block;
+        padding: 1em 0 2em 0;
+        border: 0;
+        text-align: left;
+        font-size: 1rem;
+      }
+
+      .footercontents {
+        width: 95%;
+        margin: 0 auto;
+        border: 0;
+        padding: 0;
+      }
+
+      /* For mobile devices */
+      @media (min-width: 768px) {
+        .footercontents { width: 42em; }
+      }
+
+      .centerlinks {
+        margin: auto;
+        padding: 0;
+        border: 0;
+      }
+
+      .buttons {
+        color: var(--text-h);
+        font-family: "Space Mono", monospace;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+
+      .nostylelink {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a {
+	    color: var(--text-h);
+      text-decoration: underline;
+      }
+
+      .terms {
+        list-style: none;
+        font-size: 1.2em;
+      }
+
+      .error {
+        margin: 7em auto;
+        text-align: center;
+      }
+
+      .article-info {
+        border-top: 1px solid #3B4252;
+        margin-top: 0.3em;
+        padding-top: 1em;
+      }
+
+      .zola-anchor {
+        text-decoration: none;
+        margin-left: 0.3em;
+        color: var(--border-color);
+      }
+
+      /* code formatting stuff */
+      code {
+        border-radius: 3px;
+      }
+
+      pre {
+        width: 100%;
+        overflow:scroll;
+        overflow-x: auto;
+        background-color: var(--lighter-background);
+        border-radius: 0.3em;
+        border: 0.5em solid #2b303b;
+      }
+
+      :not(pre) > code {
+        background-color: var(--lighter-background);
+        border-radius: 0.3em;
+        border: 0.1em solid var(--lighter-background);
+      }
+    </style>
+    
+<style>
+    a {
+	    color: var(--text-h);
+      text-decoration: underline;
+    }
+</style>
+
+  </head>
+
+  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <div id="site">
+      <div class="main">
+        <div class="header">
+          <div class="intro">
+            <a
+              class="nostylelink"
+              href="https://ucu-computer-science.github.io/UCU_Linux_Club"
+            >
+              <h1 class="name"><span class="red"></span>LinuxClub@UCU</h1>
+            </a>
+          </div>
+          <nav class="nav">
+            <ul class="nostyle headernav">
+              <li class="navbutton">
+                <a
+                  class="nostylelink"
+                  href="https://ucu-computer-science.github.io/UCU_Linux_Club/articles/"
+                  title="Articles"
+                  class="buttons"
+                  >Docs</a
+                >
+              </li>
+              <li class="navbutton">
+                <a
+                  class="nostylelink"
+                  href="https://ucu-computer-science.github.io/UCU_Linux_Club/archive/readme/"
+                  title="Archive"
+                  class="buttons"
+                  >Archive</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        
+<h1 class="title">Useful programs list</h1>
+<p><strong>Almost every program you'll ever need is available in AUR (using <code>yay</code>)</strong></p>
+<h4 id="aur-package-manager">AUR package manager<a class="zola-anchor" href="#aur-package-manager" aria-label="Anchor link for: aur-package-manager">🔗</a></h4>
+<ul>
+<li><a href="https://github.com/Jguer/yay">yay</a></li>
+</ul>
+<h5 id="how-to-install-yay">How to install Yay<a class="zola-anchor" href="#how-to-install-yay" aria-label="Anchor link for: how-to-install-yay">🔗</a></h5>
+<p>In the terminal emulator</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>sudo pacman -S git
+</span><span>cd ~/Downloads
+</span><span>git clone https://aur.archlinux.org/yay-bin.git
+</span><span>cd yay-bin
+</span><span>makepkg -si
+</span></code></pre>
+<p>Also, you need to add this to the end of <code>pacman.conf</code> file</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>sudo nvim /etc/pacman.conf
+</span></code></pre>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>[archlinuxfr] &lt;/br&gt;
+</span><span>SigLevel = Never &lt;/br&gt;
+</span><span>Server = http://repo.archlinux.fr/$arch &lt;/br&gt;
+</span></code></pre>
+<h5 id="install-programs-using-yay">Install programs using yay<a class="zola-anchor" href="#install-programs-using-yay" aria-label="Anchor link for: install-programs-using-yay">🔗</a></h5>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>yay &#39;program_name&#39;
+</span></code></pre>
+<h4 id="install-zsh-instead-of-bash-and-make-it-default">Install zsh instead of bash and make it default<a class="zola-anchor" href="#install-zsh-instead-of-bash-and-make-it-default" aria-label="Anchor link for: install-zsh-instead-of-bash-and-make-it-default">🔗</a></h4>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>yay zsh
+</span><span>chsh -s $(which zsh)
+</span></code></pre>
+<h2 id="cli-programs-command-line-interface">CLI programs (Command Line Interface)<a class="zola-anchor" href="#cli-programs-command-line-interface" aria-label="Anchor link for: cli-programs-command-line-interface">🔗</a></h2>
+<h4 id="for-zsh">For zsh<a class="zola-anchor" href="#for-zsh" aria-label="Anchor link for: for-zsh">🔗</a></h4>
+<ul>
+<li><a href="https://github.com/ohmyzsh/ohmyzsh">oh-my-zsh</a></li>
+</ul>
+<h4 id="terminal-multiplexor">Terminal multiplexor<a class="zola-anchor" href="#terminal-multiplexor" aria-label="Anchor link for: terminal-multiplexor">🔗</a></h4>
+<ul>
+<li><a href="https://github.com/tmux/tmux/wiki">tmux</a></li>
+</ul>
+<h4 id="text-editor">Text editor<a class="zola-anchor" href="#text-editor" aria-label="Anchor link for: text-editor">🔗</a></h4>
+<ul>
+<li>vi (present on every linux/unix machine)</li>
+<li><a href="https://neovim.io/">neovim</a> (new)</li>
+<li>nano (present on most linux/unix machines)</li>
+<li><a href="https://micro-editor.github.io/">micro</a></li>
+</ul>
+<h4 id="file-manager">File manager<a class="zola-anchor" href="#file-manager" aria-label="Anchor link for: file-manager">🔗</a></h4>
+<ul>
+<li><a href="https://github.com/ranger/ranger">ranger</a></li>
+<li><a href="https://midnight-commander.org/">mc</a></li>
+<li><a href="https://github.com/jarun/nnn">nnn</a></li>
+</ul>
+<h4 id="video-editors">Video editors<a class="zola-anchor" href="#video-editors" aria-label="Anchor link for: video-editors">🔗</a></h4>
+<ul>
+<li><a href="https://gstreamer.freedesktop.org/">GStreamer</a></li>
+<li><a href="https://ffmpeg.org/">ffmpeg</a></li>
+</ul>
+<h4 id="browser">Browser<a class="zola-anchor" href="#browser" aria-label="Anchor link for: browser">🔗</a></h4>
+<ul>
+<li><a href="http://w3m.sourceforge.net/">w3m</a></li>
+</ul>
+<h4 id="file-listers">File listers<a class="zola-anchor" href="#file-listers" aria-label="Anchor link for: file-listers">🔗</a></h4>
+<ul>
+<li>ls (present on every linux/unix machine)</li>
+<li><a href="https://github.com/supercrabtree/k">k</a></li>
+<li><a href="https://github.com/ogham/exa">exa</a></li>
+<li>colorls (in yay - ruby-colorls)</li>
+</ul>
+<h4 id="changing-directory">Changing directory<a class="zola-anchor" href="#changing-directory" aria-label="Anchor link for: changing-directory">🔗</a></h4>
+<ul>
+<li>cd (present on every linux/unix machine)</li>
+<li><a href="https://github.com/agkozak/zsh-z">z</a></li>
+</ul>
+<h4 id="system-monitoring">System monitoring<a class="zola-anchor" href="#system-monitoring" aria-label="Anchor link for: system-monitoring">🔗</a></h4>
+<ul>
+<li>top (by default)</li>
+<li><a href="https://github.com/cjbassi/gotop">gotop</a> (my favorite)</li>
+<li><a href="https://github.com/aksakalli/gtop">gtop</a></li>
+<li><a href="https://github.com/aristocratos/bpytop">bashtop</a></li>
+<li>htop</li>
+</ul>
+<h4 id="image-viewer">Image viewer<a class="zola-anchor" href="#image-viewer" aria-label="Anchor link for: image-viewer">🔗</a></h4>
+<ul>
+<li><a href="https://github.com/stefanhaustein/TerminalImageViewer">tiv</a></li>
+</ul>
+<h4 id="python-interpreter">Python interpreter<a class="zola-anchor" href="#python-interpreter" aria-label="Anchor link for: python-interpreter">🔗</a></h4>
+<p>Basic Python interpreter, called Cython (<code>python3</code> in the terminal), 
+is good enough, but it is not very fast and does not have a lot of features</p>
+<ul>
+<li>IPython - have a beautiful interface with autocomplete</li>
+<li>PyPy - in average 4.2 times faster than Cython</li>
+</ul>
+<h4 id="for-git-management">For git management<a class="zola-anchor" href="#for-git-management" aria-label="Anchor link for: for-git-management">🔗</a></h4>
+<ul>
+<li><a href="https://github.com/jesseduffield/lazygit">lazygit</a></li>
+</ul>
+<h4 id="for-fun">For fun<a class="zola-anchor" href="#for-fun" aria-label="Anchor link for: for-fun">🔗</a></h4>
+<ul>
+<li><a href="https://github.com/abishekvashok/cmatrix">cmatrix</a></li>
+<li>sl</li>
+<li>cowsay</li>
+<li>espeak</li>
+<li>hollywood</li>
+<li><a href="https://github.com/stark/Color-Scripts">Color-Scripts</a></li>
+<li><a href="https://github.com/brndnmtthws/conky">conky</a></li>
+</ul>
+<h3 id="recommended-gui-programs">Recommended GUI programs<a class="zola-anchor" href="#recommended-gui-programs" aria-label="Anchor link for: recommended-gui-programs">🔗</a></h3>
+<h4 id="gnome-extensions"><a href="https://extensions.gnome.org/">Gnome Extensions</a><a class="zola-anchor" href="#gnome-extensions" aria-label="Anchor link for: gnome-extensions">🔗</a></h4>
+<h4 id="bluetoorh-manager">Bluetoorh manager<a class="zola-anchor" href="#bluetoorh-manager" aria-label="Anchor link for: bluetoorh-manager">🔗</a></h4>
+<ul>
+<li>blueberry</li>
+</ul>
+<h4 id="for-photos-view">For photos view<a class="zola-anchor" href="#for-photos-view" aria-label="Anchor link for: for-photos-view">🔗</a></h4>
+<ul>
+<li>PhotoQT</li>
+<li>Gnome eye</li>
+<li>gThumb</li>
+</ul>
+<h4 id="video-player">Video player<a class="zola-anchor" href="#video-player" aria-label="Anchor link for: video-player">🔗</a></h4>
+<ul>
+<li>VLC</li>
+<li>Mplayer</li>
+</ul>
+<h4 id="terminal-emulator">Terminal emulator<a class="zola-anchor" href="#terminal-emulator" aria-label="Anchor link for: terminal-emulator">🔗</a></h4>
+<ul>
+<li>terminology</li>
+<li>termite</li>
+<li><a href="http://guake-project.org/">guake</a></li>
+</ul>
+<h4 id="browsers">Browsers<a class="zola-anchor" href="#browsers" aria-label="Anchor link for: browsers">🔗</a></h4>
+<ul>
+<li>Chromium</li>
+<li>Google chrome</li>
+<li>Firefox</li>
+</ul>
+<h4 id="torrent">Torrent<a class="zola-anchor" href="#torrent" aria-label="Anchor link for: torrent">🔗</a></h4>
+<ul>
+<li>QBitTorrent</li>
+<li>Transmission</li>
+</ul>
+<h4 id="notepad">Notepad<a class="zola-anchor" href="#notepad" aria-label="Anchor link for: notepad">🔗</a></h4>
+<ul>
+<li>leafpad</li>
+<li>gedit</li>
+<li>neovim-qt</li>
+</ul>
+<h4 id="markdown-editor">Markdown editor<a class="zola-anchor" href="#markdown-editor" aria-label="Anchor link for: markdown-editor">🔗</a></h4>
+<ul>
+<li>Boostnote</li>
+</ul>
+<h4 id="document-viewer">Document viewer<a class="zola-anchor" href="#document-viewer" aria-label="Anchor link for: document-viewer">🔗</a></h4>
+<ul>
+<li>zathura</li>
+</ul>
+<h4 id="screenshot-utility">Screenshot utility<a class="zola-anchor" href="#screenshot-utility" aria-label="Anchor link for: screenshot-utility">🔗</a></h4>
+<ul>
+<li>flameshot</li>
+</ul>
+<h4 id="graphical-yay-alternative">Graphical yay alternative<a class="zola-anchor" href="#graphical-yay-alternative" aria-label="Anchor link for: graphical-yay-alternative">🔗</a></h4>
+<ul>
+<li>pamac-aur</li>
+</ul>
+<h4 id="3d-modeler">3d modeler<a class="zola-anchor" href="#3d-modeler" aria-label="Anchor link for: 3d-modeler">🔗</a></h4>
+<ul>
+<li>Blender</li>
+</ul>
+<h4 id="photo-editors">Photo editors<a class="zola-anchor" href="#photo-editors" aria-label="Anchor link for: photo-editors">🔗</a></h4>
+<ul>
+<li>Darktable</li>
+<li>GIMP</li>
+</ul>
+<h4 id="file-manager-1">File manager<a class="zola-anchor" href="#file-manager-1" aria-label="Anchor link for: file-manager-1">🔗</a></h4>
+<ul>
+<li>nautilus (default in Gnome3)</li>
+<li>total commander</li>
+<li>double commander</li>
+</ul>
+<h4 id="system-monitoring-1">System monitoring<a class="zola-anchor" href="#system-monitoring-1" aria-label="Anchor link for: system-monitoring-1">🔗</a></h4>
+<ul>
+<li><a href="https://github.com/netdata/netdata">netdata</a></li>
+<li>cpu-x (IMHO, the best one)</li>
+</ul>
+<h4 id="instead-of-microsoft-word-packet">Instead of Microsoft Word packet<a class="zola-anchor" href="#instead-of-microsoft-word-packet" aria-label="Anchor link for: instead-of-microsoft-word-packet">🔗</a></h4>
+<ul>
+<li>Google docs, sheets, impress. Available online on every PC.</li>
+<li>LibreOffice</li>
+</ul>
+<h4 id="ftp-cliente">FTP cliente<a class="zola-anchor" href="#ftp-cliente" aria-label="Anchor link for: ftp-cliente">🔗</a></h4>
+<ul>
+<li>Filezilla</li>
+</ul>
+<h4 id="for-astronomy">For astronomy<a class="zola-anchor" href="#for-astronomy" aria-label="Anchor link for: for-astronomy">🔗</a></h4>
+<ul>
+<li>Kstars</li>
+</ul>
+<h4 id="for-disks-management">For disks management<a class="zola-anchor" href="#for-disks-management" aria-label="Anchor link for: for-disks-management">🔗</a></h4>
+<ul>
+<li>GParted</li>
+</ul>
+ 
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footercontents">
+        <ul style="margin-block-start: 0; padding-inline-start: 0;" class="nostyle">
+          <li class="centerlinks name">
+            <img class="logo" src="https://ucu-computer-science.github.io/UCU_Linux_Club/icon.png" alt="LinuxClub@UCU logo">
+          </li>
+          <li class="centerlinksname">
+            <a class="nostylelink" href="https://apps.ucu.edu.ua/" title="APPS@UCU">
+            <img class="logo" src="https://ucu-computer-science.github.io/UCU_Linux_Club/apps.png" alt="APPS@UCU logo">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
